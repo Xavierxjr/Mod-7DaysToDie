@@ -1,0 +1,9 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+vehicleBathTubBoatPropellerAssy,items,Part,EnChanged,Small Propeller Assembly.,,,,,
+vehicleBathTubBoatPropellerAssyDesc,vehicles,item,EnChanged, Propeller for a Boat ? ,,,,,
+vehicleBathTubBoat,vehicles,vehicle,new,Bathtub Boat,,,,,
+vehicleBathTubBoatPlaceable,vehicles,item,EnChanged,Bathtub Boat Placeable,,,,,
+vehicleBathTubBoatPlaceableDesc,vehicles,item,EnChanged, Keep your eye on that Duck :) Travelling in Style or not? ,,,,,
+
+

@@ -1,0 +1,372 @@
+<configs>
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+			
+		<item_property_overrides name="手枪强化版">
+			<property name="Sound_start" value="pistol_s_fire"/>
+			<property name="BarrelOffset" value="0,-.006,.127"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="单发猎枪强化版">
+			<property name="Sound_start" value="hunting_rifle_s_fire"/>
+			<property name="BarrelOffset" value="0,-.009,.551"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="自动霰弹枪强化版">
+			<property name="Sound_start" value="pump_shotgun_s_fire"/>
+			<property name="Sound_loop" value="pump_shotgun_s_fire"/>
+			<property name="BarrelOffset" value="0,-.0322,.4516"/>
+			<property name="BarrelScale" value="1.1,1.1,1.5"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动射手步枪强化版">
+			<property name="Sound_start" value="sniperrifle_s_fire"/>
+			<property name="Sound_loop" value="sniperrifle_s_fire"/>
+			<property name="BarrelOffset" value="0,-.02,.2182"/>
+			<property name="BarrelScale" value=".88,.88,.88"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="AK47强化版">
+			<property name="Sound_start" value="ak47_s_fire"/>
+			<property name="Sound_end" value="silencefiller"/>
+			<property name="Sound_loop" value="ak47_s_fire"/>
+			<property name="BarrelOffset" value="-.001,-.0197,.3197"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="M60强化版">
+			<property name="Sound_start" value="m60_s_fire"/>
+			<property name="Sound_end" value="silencefiller"/>
+			<property name="Sound_loop" value="m60_s_fire"/>
+			<property name="BarrelOffset" value="0,-.005,.31"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="马格南强化版">
+			<property name="Sound_start" value="pistol_s_fire"/>
+			<property name="BarrelOffset" value="0,-.006,.127"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="SMG5强化版">
+			<property name="Sound_start" value="mp5_s_fire"/>
+			<property name="Sound_end" value="silencefiller"/>
+			<property name="Sound_loop" value="mp5_s_fire"/>
+			<property name="BarrelOffset" value="0,0,0"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name=".44沙漠秃鹰强化版">
+			<property name="Sound_start" value="pump_shotgun_s_fire"/>
+			<property name="Sound_loop" value="pump_shotgun_s_fire"/>
+			<property name="BarrelOffset" value="0,0,0"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+		
+		<item_property_overrides name="泵动式霰弹枪强化版">
+			<property name="Sound_start" value="pump_shotgun_s_fire"/>
+			<property name="BarrelOffset" value="0,-.0322,.4516"/>
+			<property name="BarrelScale" value="1.1,1.1,1.5"/>
+		</item_property_overrides>
+		
+		
+     <item_property_overrides name=".44沙漠秃鹰强化版*">
+			<property name="Sound_start" value="pump_shotgun_s_fire"/>
+			<property name="Sound_loop" value="pump_shotgun_s_fire"/>
+			<property name="BarrelOffset" value="0,-.0322,.4516"/>
+			<property name="BarrelScale" value="1.1,1.1,1.5"/>
+		</item_property_overrides>
+		
+		 <item_property_overrides name="弹射器">
+			<property name="Sound_start" value="pump_shotgun_s_fire"/>
+			<property name="Sound_loop" value="pump_shotgun_s_fire"/>
+			<property name="BarrelOffset" value="0,-.0322,.4516"/>
+			<property name="BarrelScale" value="1.1,1.1,1.5"/>
+		</item_property_overrides>
+		
+	</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
+
+		<item_property_overrides name="手枪强化版">
+			<property name="SideOffset" value="0,.0148,.0479"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+			
+				<item_property_overrides name="马格南强化版">
+			<property name="SideOffset" value="0,.065,.14"/>
+			<property name="SideScale" value=".75,.75,.75"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动射手步枪强化版">
+			<property name="SideOffset" value="0,.003,.1674"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="AK47强化版">
+			<property name="SideOffset" value="0,0,.31"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="M60强化版">
+			<property name="SideOffset" value="-.0386,.0382,.3735"/>
+			<property name="SideRotation" value="0,0,-90"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="SMG5强化版">
+			<property name="SideOffset" value="0,.0108,.0148"/>
+			<property name="SideScale" value="1.25,1.25,1.25"/>
+		</item_property_overrides>
+		<item_property_overrides name="泵动式霰弹枪强化版">
+			<property name="SideOffset" value="0,0,.41"/>
+			<property name="SideScale" value="1.12,1.12,1.12"/>
+		</item_property_overrides>
+		
+		
+		<item_property_overrides name="自动机器人炮塔强化版">
+			<property name="SideOffset" value="0,.065,.14"/>
+			<property name="SideScale" value=".75,.75,.75"/>
+		</item_property_overrides>
+		
+	</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunFlashlight']">
+		<item_property_overrides name=".44沙漠秃鹰强化版">
+			<property name="SideOffset" value="0,.0198,.0475"/>
+			<property name="SideScale" value=".75,.75,.75"/>
+		</item_property_overrides>
+		<item_property_overrides name="泵动式霰弹枪强化版">
+			<property name="SideOffset" value="0,0,.41"/>
+			<property name="SideScale" value="1.12,1.12,1.12"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="马格南强化版">
+			<property name="SideOffset" value="0,.0621,.095"/>
+			<property name="SideScale" value=".75,.75,.75"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="AK47强化版">
+			<property name="SideOffset" value="0,0,.28"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动射手步枪强化版">
+			<property name="SideOffset" value="0,-.0025,.175"/>
+			<property name="SideScale" value="1.12,1.12,1.12"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="单发猎枪强化版">
+			<property name="SideOffset" value="0,.0061,.2455"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="M60强化版">
+			<property name="SideOffset" value="-.0386,.0382,.3519"/>
+			<property name="SideRotation" value="0,0,-90"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="SMG5强化版">
+			<property name="SideOffset" value="0,.0065,0"/>
+			<property name="SideScale" value="1.5,1.5,1.5"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="自动机器人炮塔强化版">
+			<property name="SideOffset" value="0,.0621,.095"/>
+			<property name="SideScale" value=".75,.75,.75"/>
+		</item_property_overrides>
+
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+
+		<item_property_overrides name="手枪强化版">
+			<property name="ScopeOffset" value="0,.072,.11"/>
+			<property name="ScopeScale" value=".7,.7,.7"/>
+			<property name="ScopeCameraOffset" value="0,-.037,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="单发猎枪强化版">
+			<property name="ScopeOffset" value="-.0006,.06,.08"/>
+			<property name="ScopeScale" value=".7,.7,.7"/>
+			<property name="ScopeCameraOffset" value=".0003,-.0185,.1"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="马格南强化版">
+			<property name="ScopeOffset" value="0,.11,.12"/>
+			<property name="ScopeScale" value=".5,.5,.5"/>
+			<property name="ScopeCameraOffset" value="0,-.04,.15"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动射手步枪强化版">
+			<property name="ScopeOffset" value="0,.073,-.13"/>
+			<property name="ScopeScale" value=".7,.7,.7"/>
+			<property name="ScopeCameraOffset" value="0,-.0147,.12"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="SMG5强化版">
+			<property name="ScopeOffset" value=".0001,.1,-.15"/>
+			<property name="ScopeScale" value=".55,.55,.55"/>
+			<property name="ScopeCameraOffset" value="-.00005,-.0214,.15"/>
+		</item_property_overrides>
+		<item_property_overrides name="泵动式霰弹枪强化版">
+			<property name="ScopeOffset" value="0,.056,.05"/>
+			<property name="ScopeScale" value=".7,.7,.7"/>
+			<property name="ScopeCameraOffset" value="0,-.0375,0"/>
+		</item_property_overrides>
+		<item_property_overrides name=".44沙漠秃鹰强化版">
+			<property name="ScopeCameraOffset" value="0,-.0145,0"/>
+		</item_property_overrides>
+		
+		
+		<item_property_overrides name="自动霰弹枪强化版">
+			<property name="ScopeCameraOffset" value="0.00135,.0245,0.05"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="AK47强化版">
+			<property name="ScopeOffset" value="0,.08,-.2035"/>
+			<property name="ScopeScale" value=".63,.63,.63"/>
+			<property name="ScopeCameraOffset" value="0,-.009,.35"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="弹射器">
+			<property name="ScopeCameraOffset" value="0.00135,.0245,0.05"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动机器人炮塔强化版">
+			<property name="ScopeOffset" value="0,.11,.12"/>
+			<property name="ScopeScale" value=".5,.5,.5"/>
+			<property name="ScopeCameraOffset" value="0,-.04,.15"/>
+		</item_property_overrides>
+		
+		</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">
+		<item_property_overrides name="手枪强化版">
+			<property name="ScopeOffset" value="0,.074,.078"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.0225,0"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="马格南强化版">
+			<property name="ScopeOffset" value="0,.1037,.0689"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动射手步枪强化版">
+			<property name="ScopeOffset" value="0,.0736,-.1497"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="AK47强化版">
+			<property name="ScopeOffset" value="0,.088,-.2"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.04,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="单发猎枪强化版">
+			<property name="ScopeOffset" value="-.0006,.081,.005"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.01,0"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="泵动式霰弹枪强化版">
+			<property name="ScopeOffset" value="0,.056,.013"/>
+		</item_property_overrides>
+		<item_property_overrides name="SMG5强化版">
+			<property name="ScopeOffset" value="0,.0999,-.2534"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		<item_property_overrides name=".44沙漠秃鹰强化版">
+			<property name="ScopeCameraOffset" value="0,-.03,-.2"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动机器人炮塔强化版">
+			<property name="ScopeOffset" value="0,.1037,.0689"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		
+	</append>
+
+
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']">
+		<item_property_overrides name="SMG5强化版">
+			<property name="ScopeOffset" value="-.0012,.098,-.2405"/>
+			<property name="ScopeScale" value=".8,.8,.8"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动射手步枪强化版">
+			<property name="ScopeOffset" value="-.0018,.07,-.10"/>
+			<property name="ScopeScale" value="1.6,1.6,1.6"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="单发猎枪强化版">
+			<property name="ScopeOffset" value="-.0018,.075,.015"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.0238,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="AK47强化版">
+			<property name="ScopeOffset" value="0,.085,-.14"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.022,0"/>
+		</item_property_overrides>
+		
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']">
+		<item_property_overrides name="SMG5强化版">
+			<property name="ScopeOffset" value="0,-.1029,-.1373"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="自动射手步枪强化版">
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="AK47强化版">
+			<property name="ScopeOffset" value="0,-.0523,.1686"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		
+				<item_property_overrides name="单发猎枪强化版">
+			<property name="ScopeOffset" value="-.0006,0,.14"/>
+			<property name="ScopeScale" value="1.2,1.2,1.2"/>
+			<property name="ScopeCameraOffset" value="0,-.022,0"/>
+		</item_property_overrides>
+	</append>
+
+			
+    <append xpath="/item_modifiers/item_modifier[@name='modShotgunSawedOffBarrel']">
+		<item_property_overrides name="泵动式霰弹枪强化版">
+			<property name="HandMeshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/SawedOffPumpShotgunPrefab.prefab"/>
+		</item_property_overrides>	
+	</append>
+
+
+</configs>
+
+
+

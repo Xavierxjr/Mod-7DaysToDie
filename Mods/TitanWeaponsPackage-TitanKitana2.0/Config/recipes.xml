@@ -1,0 +1,29 @@
+<configs>
+
+	    <append xpath="/recipes">
+		
+		
+		
+			<recipe name="TitanKitana" count="1" craft_area="workbench"  craft_time="60" tags="learnable,workbenchCrafting,perkAdvancedEngineering,perkPummelPete,perkDeepCuts">
+		
+								<ingredient name="meleeWpnBatonT2StunBatonParts" count="3"/>
+							<ingredient name="resourceScrapIron" count="30"/>
+						<ingredient name="meleeWpnBatonT2StunBaton" count="1"/>
+					<ingredient name="meleeWpnBladeT1HuntingKnife" count="4"/>
+				<ingredient name="resourceElectricParts" count="5"/>
+				
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="6,10" tags="meleeWpnBatonT2StunBatonParts,resourceElectricParts"/>
+				</effect_group>
+			
+			</recipe>
+			
+			
+			
+			
+		</append>
+		
+</configs>
+		
+		
+		

@@ -1,0 +1,131 @@
+<configs>
+
+	   <insertBefore xpath="/lootcontainers/lootgroup[@name='groupTreasureMaps']">
+	   <lootgroup name="DragonsRareBooks" count="all">
+			  <item name="drinkDragonsBottledSuperPumpkinAwesomeSauceSchematic"/>
+		          <item name="drinkDragonsBottledSuperPumpkinMoonshineSchematic"/>
+		          <item name="drinkSuperNitroPumpkinSpiceLatteSchematic"/>
+		          <item name="drinkNitroPumpkinSpiceLatteSchematic"/>
+		          <item name="drinkDragonsBottledSuperPumpkinBeerSchematic"/>
+		          <item name="foodSuperPumpkinVegetableStewSchematic"/>
+		          <item name="foodSuperPumpkinMeatStewSchematic"/>
+		          <item name="foodSuperPumpkinPieSchematic"/>
+		          <item name="foodSuperPumpkinCheesecakeSchematic"/>
+		          <item name="foodSuperPumpkinChickenStewSchematic"/>
+		          <item name="foodSuperPumpkinLambStewSchematic"/>
+		          <item name="foodSuperPumpkinBeefStewSchematic"/>
+		          <item name="foodSuperPumpkinChiliSchematic"/>
+	   </lootgroup>
+	   </insertBefore>
+
+	   <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT0']">			
+			<item name="drinkCupPumpkinCoffeeSchematic"/>
+			<item name="drinkCupPumpkinRedTeaSchematic"/>
+			<item name="drinkCupPumpkinGoldenRodTeaSchematic"/>			
+			<item name="drinkGlassBlueberryJuiceSchematic"/>			
+			<item name="foodPumpkinSpiceSchematic"/>			
+	   </append>
+
+	   <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT1']">			
+			<item name="drinkNitroPumpkinSpiceLatteSchematic"/>			
+			<item name="drinkBottledPumpkinJuiceSchematic"/>			
+			<item name="foodPumpkinMeatStewSchematic"/>			
+			<item name="foodSuperPumpkinBreadSchematic"/>			
+			<item name="foodPumpkinVegetableStewSchematic"/>			
+			<item name="foodPumpkinChickenStewSchematic"/>			
+			<item name="foodPumpkinLambStewSchematic"/>			
+			<item name="foodPumpkinBeefStewSchematic"/>			
+			<item name="foodPumpkinChiliSchematic"/>			
+	   </append>
+
+	   <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT2']">
+			<item name="drinkDragonsBottledSuperPumpkinAwesomeSauceSchematic"/>
+			<item name="drinkDragonsBottledSuperPumpkinMoonshineSchematic"/>
+			<item name="drinkSuperNitroPumpkinSpiceLatteSchematic"/>			
+			<item name="drinkDragonsBottledSuperPumpkinBeerSchematic"/>			
+			<item name="drinkGlassPumpkinJuiceSmoothieSchematic"/>
+			<item name="drinkGlassBlueberryJuiceSmoothieSchematic"/>
+			<item name="drinkJarSuperGrainAlcoholSchematic"/>			
+			<item name="foodSuperCornMealSchematic"/>
+			<item name="foodSuperCornOnTheCobSchematic"/>
+			<item name="foodSuperCornBreadSchematic"/>			
+			<item name="foodSuperPumpkinMeatStewSchematic"/>
+			<item name="foodSuperMeatStewSchematic"/>
+			<item name="foodSuperShamChowderSchematic"/>
+			<item name="foodSuperHoboStewSchematic"/>
+			<item name="foodSuperFishTacosSchematic"/>
+			<item name="foodSuperChiliDogSchematic"/>
+			<item name="foodSuperBlueberryPieSchematic"/>
+			<item name="foodSuperPumpkinPieSchematic"/>
+			<item name="foodSuperPumpkinCheesecakeSchematic"/>			
+			<item name="foodSuperVegetableStewSchematic"/>			
+			<item name="foodSuperPumpkinVegetableStewSchematic"/>			
+			<item name="foodSuperPumpkinChickenStewSchematic"/>			
+			<item name="foodSuperPumpkinLambStewSchematic"/>			
+			<item name="foodSuperPumpkinBeefStewSchematic"/>			
+			<item name="foodSuperPumpkinChiliSchematic"/>
+	   </append>
+
+	   <append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
+			<item name="drinkDragonsBottledSuperPumpkinAwesomeSauce"/>
+			<item name="drinkDragonsBottledSuperPumpkinMoonshine"/>
+			<item name="drinkSuperNitroPumpkinSpiceLatte"/>
+			<item name="drinkNitroPumpkinSpiceLatte"/>
+			<item name="drinkDragonsBottledSuperPumpkinBeer"/>
+			<item name="drinkCupPumpkinSpiceLatte"/>
+			<item name="drinkCupBlackStrapPumpkinCoffee"/>
+			<item name="drinkGlassPumpkinJuiceSmoothie"/>
+			<item name="drinkGlassBlueberryJuiceSmoothie"/>
+			<item name="drinkJarSuperGrainAlcohol"/>
+			<item name="foodSuperPumpkinMeatStew"/>
+			<item name="foodSuperPumpkinPie"/>
+			<item name="foodSuperPumpkinCheesecake"/>
+			<item name="foodSuperPumpkinVegetableStew"/>
+			<item name="foodSuperPumpkinChickenStew"/>
+			<item name="foodSuperPumpkinLambStew"/>
+			<item name="foodSuperPumpkinBeefStew"/>
+			<item name="foodSuperPumpkinChili"/>
+	   </append>
+
+	   <append xpath="/lootcontainers/lootgroup[@name='coldfood']">
+			<item name="foodPumpkinMeatStew" count="1,2"/>
+			<item name="foodPumpkinVegetableStew" count="1,2"/>
+			<item name="foodPumpkinChickenStew" count="1,2"/>
+			<item name="foodPumpkinLambStew" count="1,2"/>
+			<item name="foodPumpkinBeefStew" count="1,2"/>
+			<item name="foodPumpkinChili" count="1,2"/>
+	   </append>
+
+	   <append xpath="/lootcontainers/lootgroup[@name='drinks']">
+			<item name="drinkCupPumpkinCoffee" count="1,3"/>
+			<item name="drinkCupPumpkinRedTea" count="1,3"/>
+			<item name="drinkCupPumpkinGoldenRodTea" count="1,3"/>
+			<item name="drinkBottledPumpkinJuice" count="1,2"/>
+			<item name="drinkGlassBlueberryJuice" count="1,3"/>
+	   </append>
+
+	   <append xpath="/lootcontainers/lootgroup[@name='beverages']">
+			<item name="drinkCupPumpkinRedTea" count="1,2"/>
+			<item name="drinkCupPumpkinGoldenRodTea" count="1,2"/>
+			<item name="drinkBottledPumpkinJuice" count="1" prob="0.5"/>
+			<item name="drinkGlassBlueberryJuice" count="1,2"/>
+	   </append>
+
+	   <append xpath="/lootcontainers/lootcontainer[@id='34']">
+			<item group="rareFoodDrink" prob="0.20"/>
+	   </append>
+
+	   <append xpath="/lootcontainers/lootcontainer[@id='102']">
+			<item group="rareFoodDrink" prob="0.10"/>
+	   </append>
+
+	   <append xpath="/lootcontainers/lootcontainer[@id='118']">
+			<item name="drinkCupPumpkinCoffee" count="1,3" prob="0.5"/>
+			<item name="drinkNitroPumpkinSpiceLatte" count="1,2" prob="0.2"/>
+	   </append>
+	   
+	   <append xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']">
+			<item group="DragonsRareBooks" prob="14"/>
+	   </append>
+	 
+</configs>	

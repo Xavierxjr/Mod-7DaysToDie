@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+ 
+
+   
+   <append xpath="/items">	
+		
+		<item name="无限弹药的垃圾炮台">
+		<property name="CustomIcon" value="gunBotT2JunkTurret"/>///自定义图标
+	    <property name="CustomIconTint" value="FF0099"/>///自定义图标颜色
+		<property name="Extends" value="gunBotT2JunkTurret"/>
+		<property name="Infinite_ammo" value="true"/>
+		</item>
+		
+		
+	</append>
+	
+	
+</configs>

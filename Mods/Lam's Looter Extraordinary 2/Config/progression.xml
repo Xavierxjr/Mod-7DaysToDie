@@ -1,0 +1,31 @@
+<configs>
+
+	<append xpath="/progression/perks">
+
+<perk name="LootBag" parent="LamsBonus" name_key="Looter Extraordinary" desc_key="After killing countless of Zombies you have found a way to loot there most prized possessions." icon="ui_game_symbol_lootbag">
+
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="2" desc_key="Perception lvl 2"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="Perception lvl 4"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="Perception lvl 6"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="8" desc_key="Perception lvl 8"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="Perception lvl 10"/></level_requirements>
+
+	<effect_group>
+		<passive_effect name="LootDropProb" operation="perc_add" level="1" value="1.75"/>
+		<passive_effect name="LootDropProb" operation="perc_add" level="2" value="3.5"/>
+		<passive_effect name="LootDropProb" operation="perc_add" level="3" value="5.25"/>
+		<passive_effect name="LootDropProb" operation="perc_add" level="4" value="7"/>
+		<passive_effect name="LootDropProb" operation="perc_add" level="5" value="8.75"/>
+
+		<effect_description level="1" desc_base="5% chance" long_desc_key="you now have a 5% change of getting a loot bag."/>
+		<effect_description level="2" desc_base="10% chance" long_desc_key="you now have a 10% change of getting a loot bag."/>
+		<effect_description level="3" desc_base="15% chance" long_desc_key="you now have a 15% change of getting a loot bag."/>
+		<effect_description level="4" desc_base="20% chance" long_desc_key="you now have a 20% change of getting a loot bag."/>
+		<effect_description level="5" desc_base="25% chance" long_desc_key="you now have a 25% change of getting a loot bag."/>
+	</effect_group>
+
+</perk>
+
+</append>
+	
+</configs>

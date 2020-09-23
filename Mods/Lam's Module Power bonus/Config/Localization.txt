@@ -1,0 +1,12 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+LamModDMG1,,items,Item,New,20% Damage Mod,,,,,
+LamModDMG1Desc,,items,Item,New,Install this module in to your tools,weapons to increase it's damage by 20%.,,,,,
+LamModDMG2,,items,Item,New,30% Damage Mod,,,,,
+LamModDMG2Desc,,items,Item,New,Install this module in to your tools,weapons to increase it's damage by 30%.,,,,,
+LamModDMG3,,items,Item,New,40% Damage Mod,,,,,
+LamModDMG3Desc,,items,Item,New,Install this module in to your tools,weapons to increase it's damage by 40%.,,,,,
+LamModDMG4,,items,Item,New,50% Damage Mod,,,,,
+LamModDMG4Desc,,items,Item,New,Install this module in to your tools,weapons to increase it's damage by 50%.,,,,,
+LamModDMG5,,items,Item,New,60% Damage Mod,,,,,
+LamModDMG5Desc,,items,Item,New,Install this module in to your tools,weapons to increase it's damage by 60%.,,,,,

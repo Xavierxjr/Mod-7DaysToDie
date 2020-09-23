@@ -1,0 +1,18 @@
+<anan>
+
+  <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeDesertShrub']/@prob">0.008</set>
+  <set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeDesertShrub']/@prob">0.008</set> 
+   
+  <!--以下是snow生态刷新-->
+  <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeSnowyGrassDiagonal']/@prob">0.005</set>
+  <set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeSnowyGrassDiagonal']/@prob">0.005</set>
+
+  <!--以下是pine_forest生态刷新-->
+  <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeTallGrassDiagonal']/@prob">0.008</set>
+  <set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeTallGrassDiagonal']/@prob">0.008</set>
+ 
+  <!--以下是desert生态刷新-->
+  <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeBrownGrassDiagonal']/@prob">0.008</set>
+   <set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeBrownGrassDiagonal']/@prob">0.0008</set>
+  
+</anan>

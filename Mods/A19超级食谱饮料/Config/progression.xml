@@ -1,0 +1,17 @@
+<configs>
+		<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group" >
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1"
+				tags="foodBaconAndEggs,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
+				tags="foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew,foodPumpkinSpice,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"
+				tags="drinkCupPumpkinCoffee,drinkCupPumpkinRedTea,drinkCupPumpkinGoldenRodTea,drinkBottledPumpkinJuice,drinkGlassBlueberryJuice,foodPumpkinMeatStew,foodPumpkinVegetableStew,foodShamChowder,foodHoboStew,foodFishTacos"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1"
+				tags="foodSuperCornMeal,foodSuperCornOnTheCob,foodSuperCornBread,foodSuperBlueberryPie,foodSuperPumpkinBread,foodSuperFishTacos,foodSuperMeatStew,foodSuperPumpkinPie,foodPumpkinChickenStew,foodPumpkinLambStew,foodPumpkinBeefStew,foodPumpkinChili,drinkNitroPumpkinSpiceLatte,drinkGlassPumpkinJuiceSmoothie,drinkGlassBlueberryJuiceSmoothie,drinkYuccaJuiceSmoothie,foodChiliDog,drinkJarBeer"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1"
+				tags="drinkDragonsBottledSuperPumpkinMoonshine,drinkJarGrandpasMoonshine,drinkDragonsBottledSuperPumpkinAwesomeSauce,drinkJarGrandpasAwesomeSauce,drinkDragonsBottledSuperPumpkinBeer,drinkSuperNitroPumpkinSpiceLatte,drinkJarSuperGrainAlcohol,drinkJarGrandpasLearningElixir,foodSuperChiliDog,foodSuperShamChowder,foodSuperHoboStew,foodSuperPumpkinMeatStew,foodSuperPumpkinVegetableStew,foodSuperPumpkinChickenStew,foodSuperPumpkinLambStew,foodSuperPumpkinBeefStew,foodSuperPumpkinChili,foodSuperPumpkinCheesecake"/>
+		</append>
+		<append xpath="/progression/perks/perk[@name='perkArtOfMiningBlackStrap']/effect_group" >
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="drinkjarBlackStrapCoffee,drinkCupBlackStrapPumpkinCoffee,drinkCupPumpkinSpiceLatte"/>
+		</append>
+</configs>

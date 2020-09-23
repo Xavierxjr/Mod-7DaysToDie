@@ -1,0 +1,30 @@
+<configs>
+
+<append xpath="/entity_classes">
+
+<entity_class name="vehicleBathTubBoat">
+	<property name="Tags" value="vehicle,pedals,Boat"/>
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#@modfolder:Resources/BathTubBoat.unity3d?vehicleBathTubBoat"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="76"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="3"/>
+	<property name="Explosion.RadiusEntities" value="3"/>
+	<property name="Explosion.BlockDamage" value="5"/>
+	<property name="Explosion.EntityDamage" value="5"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="RotateToGround" value="false"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="MotorBoat"/>
+	<property name="NavObject" value="MotorBoat"/>
+	
+</entity_class>
+</append>
+</configs>
+
+

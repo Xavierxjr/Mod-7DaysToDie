@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+mod_ChipAI,mod,Clothes,,Smart AI Chip
+mod_ChipAIDesc,mod,Clothes,,"This Smart AI chip can be added as a dye in your gun to let the AI do all the calculations and improve your gun."

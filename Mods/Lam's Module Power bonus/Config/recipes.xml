@@ -1,0 +1,46 @@
+
+<configs>
+    <append xpath="/recipes">
+
+<recipe name="LamModDMG1" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceMetalPipe" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="LamModDMG2" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceMetalPipe" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="75"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="LamModDMG3" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+</recipe>
+
+<recipe name="LamModDMG4" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceMetalPipe" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="125"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+</recipe>
+
+<recipe name="LamModDMG5" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceMetalPipe" count="6"/>
+	<ingredient name="resourceScrapPolymers" count="150"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<ingredient name="resourceMechanicalParts" count="12"/>
+</recipe>
+
+    </append>
+</configs>

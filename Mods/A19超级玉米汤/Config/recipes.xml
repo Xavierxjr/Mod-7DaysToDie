@@ -1,0 +1,14 @@
+<configs>
+	
+	 <append xpath="/recipes">
+		 
+<recipe name="超级玉米汤" count="1" craft_area="campfire" craft_time="60" craft_tool="toolCookingPot">
+	<ingredient name="foodCropGraceCorn" count="1"/>
+	<ingredient name="resourceBone" count="3"/>
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="drinkJarBoiledWater" count="5"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	
+</recipe>
+</append>
+</configs>

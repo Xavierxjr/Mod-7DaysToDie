@@ -1,0 +1,133 @@
+Key,UsedInMainMenu,Source,Context,Changes,English, French,German,Klingon,Spanish,Polish,schinese
+foodScrambledEggs,,item,Food,newKey,Scrambled Eggs [ff0000](MOD)[-],,,,,,炒鸡蛋[ff0000](MOD)[-]
+foodScrambledEggsDesc,,item,Food,newKey,Tasty. Fills you up a tiny bit.,,,,,,美味.一点点地填满你.
+foodBaconEggsHashbrownsToast,,item,Food,newKey,Bacon Eggs Hashbrowns and Toast [ff0000](MOD)[-],,,,,,培根鸡蛋土豆饼和吐司[ff0000]（MOD）[-]
+foodBaconEggsHashbrownsToastDesc,,item,Food,newKey,Usually eaten for breakfast - this dish fills you up fairly well.,,,,,,通常作为早餐吃-这道菜会让你吃得饱饱的.
+foodChickenNuggets,,item,Food,newKey,Chicken Nuggets [ff0000](MOD)[-],,,,,,鸡块[ff0000](MOD)[-]
+foodChickenNuggetsDesc,,item,Food,newKey,Made with Chickens. Tasty. Fills you up a tiny bit.,,,,,,用鸡肉制成.可口.一点点地填满你.
+foodSlicesOfBacon,,item,Food,newKey,Cooked Bacon [ff0000](MOD)[-],,,,,,熏肉[ff0000]（MOD）[-]
+foodSlicesOfBaconDesc,,item,Food,newKey,Made with Pigs/Boars. Tasty. Fills you up a tiny bit.,,,,,,用猪/野猪肉制成.可口.一点点地填满你.
+foodRoast,,item,Food,newKey,Roast [ff0000](MOD)[-],,,,,,烤肉[ff0000]（MOD）[-]
+foodRoastDesc,,item,Food,newKey,It's what's for dinner!,,,,,,这是晚餐吃的！
+foodCrumbs,,item,Food,newKey,Crumbs [ff0000](MOD)[-],,,,,,面包屑[ff0000]（MOD）[-]
+foodCrumbsDesc,,item,Food,newKey,Usually found after a messy person ate something. You can eat em' but they won't fill you up much.,,,,,,通常是在一个杂乱的人吃了东西之后发现的.你可以吃掉，但这玩意不会使你吃饱.
+foodSalad,,item,Food,newKey,Salad [ff0000](MOD)[-],,,,,,沙拉[ff0000]（MOD）[-]
+foodSaladDesc,,item,Food,newKey,Tasty... Made from a plant called Lettuce.,,,,,,鲜美...由一种叫做生菜的植物制成.
+foodLettuce,,item,Food,newKey,Lettuce [ff0000](MOD)[-],,,,,,生菜[ff0000]（MOD）[-]
+foodLettuceDesc,,item,Food,newKey,Tasty... But has that weird hint of Plant Fibers... You can eat it by it's self or make a Salad with it.,,,,,,好吃...但是有植物纤维的怪味...您可以直接食用，也可以用它做沙拉.
+foodGrits,,item,Food,newKey,Grits [ff0000](MOD)[-],,,,,,玉米粉[ff0000]（MOD）[-]
+foodGritsDesc,,item,Food,newKey,Tasty... Usually eaten for Breakfast.,,,,,,美味...通常在早餐时食用.
+foodBratwurst,,item,Food,newKey,Bratwurst [ff0000](MOD)[-],,,,,,腊肠[ff0000]（MOD）[-]
+foodBratwurstDesc,,item,Food,newKey,A tasty German food that fills you up a tiny bit.,,,,,,可口的德国美食，可以让你吃饱.
+foodHamburger,,item,Food,newKey,Hamburger [ff0000](MOD)[-],,,,,,汉堡包[ff0000]（MOD）[-]
+foodHamburgerDesc,,item,Food,newKey,A tasty Hamburger.,,,,,,一个美味的汉堡.
+foodRotisserieChicken,,item,Food,newKey,Rotisserie Chicken [ff0000](MOD)[-],,,,,,烤肉鸡[ff0000]（MOD）[-]
+foodRotisserieChickenDesc,,item,Food,newKey,A tasty Chicken... Made with... well.. Chickens of course!.,,,,,,美味的鸡肉...材料...是...当然是鸡肉！
+foodTaterTots,,item,Food,newKey,Tater Tots [ff0000](MOD)[-],,,,,,炸土豆块 [ff0000]（MOD）[-]
+foodTaterTotsDesc,,item,Food,newKey,A tasty but very small dish of Tater Tots. Won't fill you up much but it helps!,,,,,,美味但很小一份的土豆块.不会让你饱很多，但还是有帮助的！
+foodChickenFriedSteak,,item,Food,newKey,Chicken Fried Steak Meal [ff0000](MOD)[-],,,,,,鸡肉牛排餐[ff0000]（MOD）[-]
+foodChickenFriedSteakDesc,,item,Food,newKey,A tasty meal that will fill you up a fair amount.,,,,,,美味的一餐，将使您吃饱.
+foodBroccoli,,item,Food,newKey,Broccoli [ff0000](MOD)[-],,,,,,西兰花[ff0000]（MOD）[-]
+foodBroccoliDesc,,item,Food,newKey,A tasty vegetable that can either be eaten by it's self or used in a wide variety of dishes.,,,,,,一种美味的蔬菜，既可以自己食用，也可以用于各种菜肴.
+foodMashedPotatos,,item,Food,newKey,Mashed Potatos [ff0000](MOD)[-],,,,,,土豆泥[ff0000]（MOD）[-]
+foodMashedPotatosDesc,,item,Food,newKey,A tasty dish that can either be eaten by it's self or used in a wide variety of other dishes.,,,,,,可以自己食用或在其他各种菜肴中使用的美味菜肴.
+foodBhamSandwichMeal,,item,Food,newKey,Bham Sandwich and Chips [ff0000](MOD)[-],,,,,,汉堡三明治和薯条[ff0000]（MOD）[-]
+foodBhamSandwichMealDesc,,item,Food,newKey,A tasty dish that can either be eaten by it's self or used in a wide variety of other dishes. Also gives you a small stamina boost after you eat it.,,,,,,可以自己食用或在其他各种菜肴中使用的美味菜肴.食用后还能使您的耐力提高一点.
+foodBhamSandwich,,item,Food,newKey,Bham Sandwich [ff0000](MOD)[-],,,,,,夹心三明治 [ff0000]（MOD）[-]
+foodBhamSandwichDesc,,item,Food,newKey,A tasty food that can either be eaten by it's self or used in a wide variety of dishes. Also gives you a small stamina boost after you eat it.,,,,,,一种可以自己食用或用于各种菜肴的美味食品.食用后还能使您的耐力提高一点.
+foodPotatoChips,,item,Food,newKey,Potato Chips [ff0000](MOD)[-],,,,,,土豆片[ff0000]（MOD）[-]
+foodPotatoChipsDesc,,item,Food,newKey,A tasty snack that can either be eaten by it's self or used in a wide variety of dishes.,,,,,,一种可以自己食用或用于各种菜肴的美味小吃.
+foodMooseTard,,item,Food,newKey,Moosetard [ff0000](MOD)[-],,,,,,“咩”末酱 [ff0000]（MOD）[-]
+foodMooseTardDesc,,item,Food,newKey,It's like Mustard - but it's the next best thing! You can eat it but it won't help you out much or you can use it in a wide variety of dishes.,,,,,,就像芥末酱-但这是下一个最好的东西！您可以吃掉，但它不会帮您太多，或者您可以在各种菜肴中使用它.
+foodOmelette,,item,Food,newKey,Omelette [ff0000](MOD)[-],,,,,,煎蛋[ff0000]（MOD）[-]
+foodOmeletteDesc,,item,Food,newKey,Tasty. Usually eaten for breakfast.,,,,,,美味.通常在早餐时吃.
+foodSesameChicken,,item,Food,newKey,Sesame Chicken [ff0000](MOD)[-],,,,,,芝麻鸡[ff0000]（MOD）[-]
+foodSesameChickenDesc,,item,Food,newKey,A tasty chinese dish..,,,,,,美味的中国菜..
+foodMongolianBeef,,item,Food,newKey,Mongolian Beef [ff0000](MOD)[-],,,,,,蒙古牛肉[ff0000]（MOD）[-]
+foodMongolianBeefDesc,,item,Food,newKey,A tasty chinese dish........ BEWARE IT'S SPICY!,,,,,,美味的中国菜........当心辣！
+foodSpringRoll,,item,Food,newKey,Spring Roll [ff0000](MOD)[-],,,,,,春卷[ff0000]（MOD）[-]
+foodSpringRollDesc,,item,Food,newKey,A tasty chinese food. It can either be eaten by it's self or used in a wide variety of dishes. ,,,,,,美味的中国菜.它既可以自己食用，也可以用于多种菜肴.
+foodCheeseWonton,,item,Food,newKey,Cheese Wonton [ff0000](MOD)[-],,,,,,奶酪馄饨[ff0000]（MOD）[-]
+foodCheeseWontonDesc,,item,Food,newKey,A tasty chinese food. It can either be eaten by it's self or used in a wide variety of dishes.,,,,,,美味的中国菜.它既可以自己食用，也可以用于多种菜肴.
+foodWontonSoup,,item,Food,newKey,Wonton Soup [ff0000](MOD)[-],,,,,,馄饨汤[ff0000]（MOD）[-]
+foodWontonSoupDesc,,item,Food,newKey,A tasty chinese soup. It can either be eaten by it's self or used in a wide variety of dishes.,,,,,,美味的中国汤.它既可以自己食用，也可以用于多种菜肴.
+foodHotSourSoup,,item,Food,newKey,Hot-Sour Soup [ff0000](MOD)[-],,,,,,酸辣汤[ff0000]（MOD）[-]
+foodHotSourSoupDesc,,item,Food,newKey,A tasty chinese soup...... SPICY STUFF! It can either be eaten by it's self or used in a wide variety of dishes.,,,,,,美味的中国汤……香辣馅料！它既可以自己食用，也可以用于多种菜肴.
+foodFrenchFries,,item,Food,newKey,French Fries [ff0000](MOD)[-],,,,,,炸薯条[ff0000]（MOD）[-]
+foodFrenchFriesDesc,,item,Food,newKey,A tasty food. It can either be eaten by it's self or used in a wide variety of dishes.,,,,,,美味的食物.它既可以自己食用，也可以用于多种菜肴.
+foodHamburgerAndFries,,item,Food,newKey,Hamburger and Fries Meal [ff0000](MOD)[-],,,,,,汉堡和薯条套餐[ff0000]（MOD）[-]
+foodHamburgerAndFriesDesc,,item,Food,newKey,It's either stolen from Kurger Bing. Or a local Diner. Or you actually just made it yourself.,,,,,,它是从Kurger Bing或当地的晚餐店偷来的.要么实际上是你自己做成的.
+foodHushPuppies,,item,Food,newKey,Hush Puppies [ff0000](MOD)[-],,,,,,油炸玉米[ff0000]（MOD）[-]
+foodHushPuppiesDesc,,item,Food,newKey,Tasty food. Can either be eaten by it's self or used in a wide variety of dishes.,,,,,,美味的食物.可以自己食用，也可以用于多种菜肴.
+foodChickenBones,,item,Food,newKey,Chicken Bones [ff0000](MOD)[-],,,,,,鸡骨头[ff0000]（MOD）[-]
+foodChickenBonesDesc,,item,Food,newKey,Eat them clean and you might get something useful.,,,,,,将它们吃干净，您可能会得到一些有用的东西.
+foodMilk,,item,Food,newKey,Milk [ff0000](MOD)[-],,,,,,牛奶 [ff0000]（MOD）[-]
+foodMilkDesc,,item,Food,newKey,You can drink it or use it in a wide variety of dishes.,,,,,,您可以喝它或在各种菜肴中使用它.
+foodEmptyMilkJug,,item,Food,newKey,Empty Milk Jug [ff0000](MOD)[-],,,,,,空牛奶罐[ff0000]（MOD）[-]
+foodEmptyMilkJugDesc,,item,Food,newKey,It's plastic.,,,,,,是塑料的.
+foodGlassOfMilk,,item,Food,newKey,Glass of Milk [ff0000](MOD)[-],,,,,,一杯牛奶[ff0000]（MOD）[-]
+foodGlassOfMilkDesc,,item,Food,newKey,You can drink it.,,,,,,你可以喝它.
+foodMongolianInferno,,item,Food,newKey,Heartburn 5000 [ff0000](MOD)[-],,,,,,胃疼 5000 [ff0000]（MOD）[-]
+foodMongolianInfernoDesc,,item,Food,newKey,It went down down down in to the burning ring of fire and it burns burns burns... in the ring of fire-the ring of fire.\nIt's a testing item only obtainable through the Creative Menu.\nUsed to test the [ff0000]Heartburn[-] buff.,,,,,,它掉到了燃烧的火环中，在火的环中燃烧着……燃烧的环.\n这是一个只能通过Creative菜单获得的测试项目.\n测试[ff0000] Heartburn [-]增益.
+foodMongolianInferno2,,item,Food,newKey,Heartburn 150 000 [ff0000](MOD)[-],,,,,,胃疼 150 000 [ff0000]（MOD）[-]
+foodMongolianInferno2Desc,,item,Food,newKey,YEEEEEEEAAAAAAAAAW\nIt's a testing item only obtainable through the Creative Menu.\nUsed to test the [ff0000]Heartburn[-] buff.,,,,,, YEEEEEEEAAAAAAAAAAAA\n这是一个只能通过Creative菜单获得的测试项目.\n用于测试[ff0000] Heartburn [-]增益.
+foodWatermelon,,item,Food,newKey,Watermelon [ff0000](MOD)[-],,,,,,西瓜[ff0000]（MOD）[-]
+foodWatermelonDesc,,item,Food,newKey,Picked up from the ground or found somewhere. One big Watermelon all to yourself.,,,,,,从地面捡起或在某处发现.你的一个大西瓜.
+foodThumbs,,item,Food,newKey,Thumbs Antacid [ff0000](MOD)[-],,,,,,大拇指抗酸剂[ff0000]（MOD）[-]
+foodThumbsDesc,,item,Food,newKey,Usually eaten to help ease Heartburn.,,,,,,通常吃帮助缓解胃灼热.
+foodCarrot,,item,Food,newKey,Carrot [ff0000](MOD)[-],,,,,,胡萝卜[ff0000]（MOD）[-]
+foodCarrotDesc,,item,Food,newKey,Tasty. Can either be eaten by it's self or used in a wide variety of dishes.,,,,,,美味.可以自己食用，也可以用于多种菜肴.
+foodCaseOfCola,,item,Food,newKey,Case of Cola [ff0000](MOD)[-],,,,,,一箱可乐[ff0000]（MOD）[-]
+foodCaseOfColaDesc,,item,Food,newKey,This is a 12 pack of Cans of Cola. ,,,,,,这是一箱12罐的可乐.
+foodCanOfCola,,item,Food,newKey,Can of Cola [ff0000](MOD)[-],,,,,,一罐可乐[ff0000]（MOD）[-]
+foodCanOfColaDesc,,item,Food,newKey,You can drink it.\nIt also fizzes.,,,,,,您可以喝它.他会气泡
+foodCheese,,item,Food,newKey,Cheese [ff0000](MOD)[-],,,,,,奶酪[ff0000]（MOD）[-]
+foodCheeseDesc,,item,Food,newKey,It's cheese.\nWhat more do you need to know?,,,,,,是奶酪.\n你还需要知道什么？
+foodButter,,item,Food,newKey,Butter [ff0000](MOD)[-],,,,,,黄油[ff0000]（MOD）[-]
+foodCheeseDesc,,item,Food,newKey,It's butter.\nWhat more do you need to know?,,,,,,是黄油.\n你还需要知道什么？
+foodPopcorn,,item,Food,newKey,Popcorn [ff0000](MOD)[-],,,,,,爆米花[ff0000]（MOD）[-]
+foodPopcornDesc,,item,Food,newKey,Tasty.,,,,,,美味.
+foodPopcornKernels,,item,Food,newKey,Popcorn Kernels [ff0000](MOD)[-],,,,,,爆米花粒[ff0000]（MOD）[-]
+foodPopcornKernelsDesc,,item,Food,newKey,Used to make Popcorn.,,,,,,用于制作爆米花.
+foodRawBacon,,item,Food,newKey,Raw Bacon [ff0000](MOD)[-],,,,,,原始培根[ff0000]（MOD）[-]
+foodRawBaconDesc,,item,Food,newKey,It's bacon.,,,,,,培根.
+foodRawRibs,,item,Food,newKey,Raw Ribs [ff0000](MOD)[-],,,,,,生排骨[ff0000]（MOD）[-]
+foodRawRibsDesc,,item,Food,newKey,It's ribs.,,,,,,肋骨.
+foodCookedRibs,,item,Food,newKey,Cooked Ribs [ff0000](MOD)[-],,,,,,排骨[ff0000]（MOD）[-]
+foodCookedRibsDesc,,item,Food,newKey,Tasty.,,,,,,好吃.
+foodStrawberry,,item,Food,newKey,Strawberry [ff0000](MOD)[-],,,,,,草莓[ff0000]（MOD）[-]
+foodStrawberryDesc,,item,Food,newKey,Tasty. Found on the ground.,,,,,,美味.发现在地面上.
+foodHeavyWhippingCream,,item,Food,newKey,Heavy Whipping Cream [ff0000](MOD)[-],,,,,,重奶油[ff0000]（MOD）[-]
+foodHeavyWhippingCreamDesc,,item,Food,newKey,Tasty. Used in a wide variety of dishes.,,,,,,美味.用于各种菜肴.
+foodPowderedSugar,,item,Food,newKey,Powdered Sugar [ff0000](MOD)[-],,,,,,粉状糖[ff0000]（MOD）[-]
+foodPowderedSugarDesc,,item,Food,newKey,Tasty. Used in a wide variety of dishes.,,,,,,美味.用于各种菜肴.
+foodApple,,item,Food,newKey,Apple [ff0000](MOD)[-],,,,,,苹果[ff0000]（MOD）[-]
+foodAppleDesc,,item,Food,newKey,Tasty. Can be used in a wide variety of dishes. Keeps the Zomdoctor away.,,,,,,美味.可用于多种菜肴.远离僵尸医生.
+foodCatchUp,,item,Food,newKey,Cat-chup [ff0000](MOD)[-],,,,,,番茄沙司[ff0000]（MOD）[-]
+foodCatchUpDesc,,item,Food,newKey,Can be used in a wide variety of dishes - do not mix this and [ff0000]Moosetard[-]!,,,,,,可用于多种菜肴-请勿将其与[ff0000]“咩”末酱混合使用！[-]
+foodDough,,item,Food,newKey,Dough [ff0000](MOD)[-],,,,,,面团 [ff0000]（MOD）[-]
+foodDoughDesc,,item,Food,newKey,Can be used in a wide variety of dishes.,,,,,,可以用于各种各样的菜肴.
+foodBread,,item,Food,newKey,Loaf of Bread [ff0000](MOD)[-],,,,,,一条面包 [ff0000]（MOD）[-]
+foodBreadDesc,,item,Food,newKey,Eat it like it is or you can use it in a wide variety of dishes.,,,,,,可以自己食用，也可以用于多种菜肴.
+foodSliceOfBread,,item,Food,newKey,Slice of Bread [ff0000](MOD)[-],,,,,,面包片 [ff0000]（MOD）[-]
+foodSliceOfBreadDesc,,item,Food,newKey,Eat it like it is or you can use it in a wide variety of dishes.,,,,,,可以自己食用，也可以用于多种菜肴.
+foodKillbasa,,item,Food,newKey,Killbasa [ff0000](MOD)[-],,,,,,火山石烤肠 [ff0000]（MOD）[-]
+foodKillbasaDesc,,item,Food,newKey,Eat it like it is or you can use it in a wide variety of dishes.,,,,,,可以自己食用，也可以用于多种菜肴.
+foodTheFlash,,item,Food,newKey,Ventaflashin [ff0000](MOD)[-],,,,,,网络闪电 [ff0000]（MOD）[-]
+foodTheFlashDesc,,item,Food,newKey,Ventaflashin. Take as needed. GOTTA GO ... FAAAAAAAAAAAAAAAAAAAAAAAST!,,,,,,网络闪电出品，根据需要服用.服用后你会...加速速速速速速速速速！
+foodRawChicken,,item,Food,newKey,Raw Chicken [ff0000](MOD)[-],,,,,,生鸡 [ff0000]（MOD）[-]
+foodRawChickenDesc,,item,Food,newKey,It's chicken. Its whats for dinner.,,,,,,这个是鸡肉，一般晚餐吃
+foodRawChickenPieces,,item,Food,newKey,Raw Chicken Pieces [ff0000](MOD)[-],,,,,,生鸡片 [ff0000]（MOD）[-]
+foodRawChickenPiecesDesc,,item,Food,newKey,It's chicken. Its whats for dinner.,,,,,,这个是鸡肉，一般晚餐吃
+buffSpicyDesc,buffs,Buff,,,You ate some spicy food! Good thing is this little bit shouldn't give you heartburn.,,,,,,你吃了一些辛辣的食物！ 好在这一点点不应该让你胃疼.
+buffSpicyName,buffs,Buff,,,Ate Spicy Food,,,,,,吃辣的食物
+buffSpicyTooltip,buffs,Buff,,,Your stomach feels... warm. ,,,,,,你的胃感觉……温暖.
+buffHeartburnDesc,buffs,Buff,,,Probably ate some spicy food.,,,,,,可能吃了一些辛辣的食物.
+buffHeartburnName,buffs,Buff,,,Heartburn,,,,,,胃疼
+buffHeartburnTooltip,buffs,Buff,,,You have Heartburn. ,,,,,,你感到胃一阵灼热.
+buffAppleDesc,buffs,Buff,,,Apple a day keeps the doctor away!.... well maybe not. They're all zombies.,,,,,,一天苹果医生远离我! ....也许不是.他们都成僵尸了.
+buffAppleName,buffs,Buff,,,Ate an Apple,,,,,,吃了一个苹果
+buffAppleTooltip,buffs,Buff,,,Apple a day keeps the doctor away!.... well maybe not. They're all zombies. ,,,,,,一天苹果医生远离我! ....也许不是.他们都成僵尸了.
+buffTheFlashDesc,buffs,Buff,,,Gotta go FAAAAAAAAAAAAAAAAAAAAAAAAAAST!,,,,,,必须得跑了！快快快快快快快快快快快 !
+buffTheFlashName,buffs,Buff,,,GOTTA GO... FAAAAAAAAAAAAAAAAST!,,,,,,必须得跑了……快快快快快快快快快快快 !
+buffTheFlashTooltip,buffs,Buff,,,Gotta go FAAAAAAAAAAAAAAAAAAAAAAST! ,,,,,,必须得跑了！快快快快快快快快快快快快快快快 !

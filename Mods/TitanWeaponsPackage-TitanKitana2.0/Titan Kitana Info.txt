@@ -1,0 +1,22 @@
+*** Titan Kitana (Elite) ***
+
+Crafting Level Based - Max Level crafting is 5 
+Craftable only in a WorkBench - Listed under Ammo/Weapons
+Electrical Sword - Melee Class Weapon 
+Perks needed - PummelPete's ( Needed For Higher Level Creation )
+	       DeepCuts ( Needed For Higher Level Creation )
+               AdvanceEngineering ( to unlock the creation )
+Titan Kitana Schematic - in order to unlock the recipe to craft it.
+Quality Loot Locations: 
+Titan Kitana:
+	level 2 - 3 In most containers with a 8% chance
+	level 6 ( lootable only ): All Safes - less then 1% chance.
+Titan Kitana Schematic:
+ 	All loations you would find a book: 8%
+	Misc: 2%
+All Other info is found in the game.
+
+Download Locations:
+
+https://asgardiangaming.zyrosite.com
+https://www.nexusmods.com/7daystodie/mods/1009?tab=description

@@ -1,0 +1,82 @@
+<configs>
+
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='coldfood']/item[@name='foodCropBlueberries']">
+  <item name="foodKFC"/>
+  <item name="foodPotatosalad"/>
+  <item name="drinkBlueberrySmoothie"/>
+  <item name="foodSandwich"/>
+  <item name="foodTunalarge"/>
+  <item name="foodFries"/>
+  <item name="foodItalianricotta"/>
+  <item name="foodGum"/>
+  <item name="foodHamburger"/>
+  <item name="foodCroissant"/>
+  <item name="foodNuggets"/>
+  <item name="foodCookie"/>
+  <item name="foodCupcake"/>
+  <item name="drinkCoke"/>
+
+
+
+
+
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='cannedfood']/item[@name='foodCornMeal']">
+  <item name="foodKFC"/>
+  <item name="foodPotatosalad"/>
+  <item name="drinkBlueberrySmoothie"/>
+  <item name="foodSandwich"/>
+  <item name="foodTunalarge"/>
+  <item name="foodFries"/>
+  <item name="foodItalianricotta"/>
+  <item name="foodGum"/>
+  <item name="foodHamburger"/>
+  <item name="foodCroissant"/>
+  <item name="foodNuggets"/>
+  <item name="foodCookie"/>
+  <item name="foodCupcake"/>
+  <item name="drinkCoke"/>
+
+
+
+
+</insertAfter>
+
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='airdropfood']/item[@name='foodCanLamb']">
+  <item name="foodKFC"/>
+  <item name="foodPotatosalad"/>
+  <item name="drinkBlueberrySmoothie"/>
+  <item name="foodSandwich"/>
+  <item name="foodTunalarge"/>
+  <item name="foodFries"/>
+  <item name="foodItalianricotta"/>
+  <item name="foodGum"/>
+  <item name="foodHamburger"/>
+  <item name="foodCroissant"/>
+  <item name="foodNuggets"/>
+  <item name="foodCookie"/>
+  <item name="foodCupcake"/>
+  <item name="drinkCoke"/>
+
+
+
+
+
+</insertAfter>
+
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='drinks']/item[@name='drinkJarYuccaJuice']">
+  <item name="drinkBlueberrySmoothie"/>
+  <item name="drinkCoke"/>
+</insertAfter>
+
+
+
+
+
+
+
+</configs>

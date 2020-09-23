@@ -1,0 +1,113 @@
+<FRK>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='stashOnlyItemsLow']">
+		<item name="drinkDragonsBottledSuperPumpkinAwesomeSauce" count="1,2" prob="0.05"/>
+		<item name="drinkDragonsBottledSuperPumpkinMoonshine" count="1,2" prob="0.1"/>
+		<item name="drinkSuperNitroPumpkinSpiceLatte" count="1,2" prob="0.1"/>
+		<item name="drinkNitroPumpkinSpiceLatte" count="1,2" prob="0.1"/>
+		<item name="drinkDragonsBottledSuperPumpkinBeer" count="1,2" prob="0.1"/>
+		<item name="drinkCupPumpkinSpiceLatte" count="1,2" prob="0.1"/>
+		<item name="drinkCupBlackStrapPumpkinCoffee" count="1,2" prob="0.1"/>
+		<item name="drinkBottledPumpkinJuice" count="1,2" prob="0.2"/>
+		<item name="drinkGlassPumpkinJuiceSmoothie" count="1,2" prob="0.1"/>
+		<item name="drinkGlassBlueberryJuiceSmoothie" count="1,2" prob="0.1"/>
+		<item name="drinkJarSuperGrainAlcohol" count="1,2" prob="0.1"/>
+		<item name="foodSuperPumpkinMeatStew" count="1,2" prob="0.1"/>
+		<item name="foodSuperPumpkinPie" count="1,2" prob="0.1"/>
+		<item name="foodSuperPumpkinCheesecake" count="1,2" prob="0.05"/>
+		<item name="foodSuperPumpkinVegetableStew" count="1,2" prob="0.1"/>
+		<item name="foodSuperShamChowder" count="1,2" prob="0.15"/>
+		<item name="foodSuperHoboStew" count="1,2" prob="0.15"/>
+		<item name="foodSuperPumpkinChickenStew" count="1,2" prob="0.1"/>
+		<item name="foodSuperPumpkinLambStew" count="1,2" prob="0.1"/>
+		<item name="foodSuperPumpkinBeefStew" count="1,2" prob="0.1"/>
+		<item name="foodSuperPumpkinChili" count="1,2" prob="0.1"/>
+	</append>	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='stashOnlyItemsHigh']">
+		<item name="drinkDragonsBottledSuperPumpkinAwesomeSauce" count="1,2" prob="0.15"/>
+		<item name="drinkDragonsBottledSuperPumpkinMoonshine" count="1,2" prob="0.2"/>
+		<item name="drinkSuperNitroPumpkinSpiceLatte" count="1,2" prob="0.15"/>
+		<item name="drinkNitroPumpkinSpiceLatte" count="1,2" prob="0.2"/>
+		<item name="drinkDragonsBottledSuperPumpkinBeer" count="1,2" prob="0.2"/>
+		<item name="drinkCupPumpkinSpiceLatte" count="1,2" prob="0.20"/>
+		<item name="drinkCupBlackStrapPumpkinCoffee" count="1,2" prob="0.25"/>
+		<item name="drinkBottledPumpkinJuice" count="1,5" prob="0.3"/>
+		<item name="drinkGlassPumpkinJuiceSmoothie" count="1,2" prob="0.25"/>
+		<item name="drinkGlassBlueberryJuiceSmoothie" count="1,2" prob="0.25"/>
+		<item name="drinkJarSuperGrainAlcohol" count="1,4" prob="0.20"/>
+		<item name="foodSuperPumpkinMeatStew" count="1,2" prob="0.25"/>
+		<item name="foodSuperPumpkinPie" count="1,2" prob="0.25"/>
+		<item name="foodSuperPumpkinCheesecake" count="1,2" prob="0.15"/>
+		<item name="foodSuperPumpkinVegetableStew" count="1,2" prob="0.25"/>
+		<item name="foodSuperShamChowder" count="1,2" prob="0.3"/>
+		<item name="foodSuperHoboStew" count="1,2" prob="0.3"/>
+		<item name="foodSuperPumpkinChickenStew" count="1,2" prob="0.25"/>
+		<item name="foodSuperPumpkinLambStew" count="1,2" prob="0.25"/>
+		<item name="foodSuperPumpkinBeefStew" count="1,2" prob="0.25"/>
+		<item name="foodSuperPumpkinChili" count="1,2" prob="0.25"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='medicine']">
+		<item name="drinkJarSuperGrainAlcohol" count="1,2" prob="0.15"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
+		<item name="foodSuperCornMeal" count="1,5" prob="0.15"/>
+		<item name="foodPumpkinSpice" count="1,10" prob="0.35"/>
+	</append>
+        <append xpath="/traders/trader_item_groups/trader_item_group[@name='preparedFood']">
+		<item name="foodPumpkinMeatStew" count="1,2" prob="0.4"/>
+		<item name="foodPumpkinVegetableStew" count="1,2" prob="0.4"/>
+		<item name="foodPumpkinChickenStew" count="1,2" prob="0.4"/>
+		<item name="foodPumpkinLambStew" count="1,2" prob="0.4"/>
+		<item name="foodPumpkinBeefStew" count="1,2" prob="0.4"/>
+		<item name="foodPumpkinChili" count="1,2" prob="0.4"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='preparedDrink']">
+		<item name="drinkCupPumpkinCoffee" count="1,5" prob="0.4"/>
+		<item name="drinkCupPumpkinRedTea" count="1,5" prob="0.4"/>
+		<item name="drinkCupPumpkinGoldenRodTea" count="1,5" prob="0.4"/>
+		<item name="drinkBottledPumpkinJuice" count="1,2" prob="0.15"/>
+		<item name="drinkGlassBlueberryJuice" count="1,5" prob="0.4"/>
+		<item name="drinkJarSuperGrainAlcohol" count="1,2" prob="0.15"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='farmingCookingRecipes']">
+		<item name="drinkDragonsBottledSuperPumpkinAwesomeSauceSchematic" count="1" prob="0.1"/>
+		<item name="drinkDragonsBottledSuperPumpkinMoonshineSchematic" count="1" prob="0.1"/>
+		<item name="drinkSuperNitroPumpkinSpiceLatteSchematic" count="1" prob="0.1"/>
+		<item name="drinkNitroPumpkinSpiceLatteSchematic" count="1" prob="0.15"/>
+		<item name="drinkDragonsBottledSuperPumpkinBeerSchematic" count="1" prob="0.15"/>
+		<item name="drinkCupPumpkinCoffeeSchematic" count="1" prob="0.2"/>
+		<item name="drinkCupPumpkinRedTeaSchematic" count="1" prob="0.2"/>
+		<item name="drinkCupPumpkinGoldenRodTeaSchematic" count="1" prob="0.2"/>
+		<item name="drinkBottledPumpkinJuiceSchematic" count="1" prob="0.2"/>
+		<item name="drinkGlassBlueberryJuiceSchematic" count="1" prob="0.2"/>
+		<item name="drinkGlassPumpkinJuiceSmoothieSchematic" count="1" prob="0.15"/>
+		<item name="drinkGlassBlueberryJuiceSmoothieSchematic" count="1" prob="0.15"/>
+		<item name="drinkJarSuperGrainAlcoholSchematic" count="1" prob="0.1"/>
+		<item name="foodPumpkinSpiceSchematic" count="1" prob="0.25"/>
+		<item name="foodSuperCornMealSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperCornOnTheCobSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperCornBreadSchematic" count="1" prob="0.1"/>
+		<item name="foodPumpkinMeatStewSchematic" count="1" prob="0.2"/>
+		<item name="foodSuperPumpkinMeatStewSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperMeatStewSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperShamChowderSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperHoboStewSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperFishTacosSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperChiliDogSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperBlueberryPieSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperPumpkinPieSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperPumpkinCheesecakeSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperPumpkinBreadSchematic" count="1" prob="0.1"/>
+		<item name="foodSuperVegetableStewSchematic" count="1" prob="0.1"/>
+		<item name="foodPumpkinVegetableStewSchematic" count="1" prob="0.2"/>
+		<item name="foodSuperPumpkinVegetableStewSchematic" count="1" prob="0.1"/>
+		<item name="foodPumpkinChickenStewSchematic" count="1" prob="0.2"/>
+		<item name="foodSuperPumpkinChickenStewSchematic" count="1" prob="0.1"/>
+		<item name="foodPumpkinLambStewSchematic" count="1" prob="0.2"/>
+		<item name="foodSuperPumpkinLambStewSchematic" count="1" prob="0.1"/>
+		<item name="foodPumpkinBeefStewSchematic" count="1" prob="0.2"/>
+		<item name="foodSuperPumpkinBeefStewSchematic" count="1" prob="0.1"/>
+		<item name="foodPumpkinChiliSchematic" count="1" prob="0.2"/>
+		<item name="foodSuperPumpkinChiliSchematic" count="1" prob="0.1"/>
+	</append>
+
+</FRK>

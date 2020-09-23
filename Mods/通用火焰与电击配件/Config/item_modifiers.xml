@@ -1,0 +1,29 @@
+<Mc_fans>
+
+	
+	<append xpath="/item_modifiers">
+		<item_modifier name="modFlame" installable_tags="gun,bow,crossbow" modifier_tags="justone" type="attachment">
+			<property name="UnlockedBy" value="perkAdvancedEngineering,modFlameSchematic"/>
+			<property name="CustomIcon" value="modFlameIcon"/>
+			<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="4.5"/>
+			</effect_group>
+		</item_modifier>
+		
+		<item_modifier name="modShock" installable_tags="gun,bow,crossbow" modifier_tags="justone" type="attachment">
+			<property name="UnlockedBy" value="perkAdvancedEngineering,modShockSchematic"/>
+			<property name="CustomIcon" value="modShockIcon"/>
+			<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked"/>
+			</effect_group>
+		</item_modifier>
+	</append>
+	
+	
+
+</Mc_fans>

@@ -1,0 +1,27 @@
+<config>	
+	<append xpath="/progression/perks">
+
+<perk name="MaxHitPoints" parent="LamsBonus" name_key="Maximum Hit Points" desc_key="Increase your maximum hit points." icon="ui_game_symbol_maxhp">
+
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="2" desc_key="Fortitude lvl 2"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="4" desc_key="Fortitude lvl 4"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="6" desc_key="Fortitude lvl 6"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="8" desc_key="Fortitude lvl 8"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="Fortitude lvl 10"/></level_requirements>
+	
+	<effect_group>
+		<passive_effect name="HealthMax" operation="base_add" value="30,150" level="1,5"/>
+
+		<effect_description level="1" desc_base="+ 30 Maximum Hit Points" long_desc_key="Increase your Maximum Hit Points by 30"/>
+		<effect_description level="2" desc_base="+ 60 Maximum Hit Points" long_desc_key="Increase your Maximum Hit Points by 60"/>
+		<effect_description level="3" desc_base="+ 90 Maximum Hit Points" long_desc_key="Increase your Maximum Hit Points by 90"/>
+		<effect_description level="4" desc_base="+ 120 Maximum Hit Points" long_desc_key="Increase your Maximum Hit Points by 120"/>
+		<effect_description level="5" desc_base="+ 150 Maximum Hit Points" long_desc_key="Increase your Maximum Hit Points by 150"/>
+
+</effect_group>
+
+</perk>
+	
+</append>
+	
+</config>

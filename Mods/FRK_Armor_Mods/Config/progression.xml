@@ -1,0 +1,7 @@
+<FRK>
+<append xpath="/progression/perks/perk[@name='perkNeedleAndThreadComplete']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,apparelUltimateGoggles,modArmorBackPack</append>
+<append xpath="/progression/perks/perk[@name='perkParkour']/effect_group">
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,4" value="1" tags="modArmorSprungBoots"/>
+</append>
+
+</FRK>

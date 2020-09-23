@@ -1,0 +1,30 @@
+<config>	
+	<append xpath="/progression/perks">
+	
+<perk name="Speedy Harvest" parent="LamsBonus" name_key="Speedy Harvest" desc_key="Tired of slowly farming your resources ?\nDump some skill points into this tree.\nTo speed along the process." icon="ui_game_symbol_speedyharvest">
+
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="2" desc_key="Perception lvl 2"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="Perception lvl 4"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="Perception lvl 6"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="8" desc_key="Perception lvl 8"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="Perception lvl 10"/></level_requirements>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="tool"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" level="1,5" value="0.1,0.5"/>
+
+			<passive_effect name="StaminaLoss" operation="perc_add" level="1,2,3,4,5" value="-.025,-.05,-.075,-.1,-.125"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="1,2,3,4,5" value="-.025,-.05,-.075,-.1,-.125" tags="secondary"/>
+
+		<effect_description level="1" desc_base="Sloth" long_desc_key="harvest resources 10% faster."/>
+		<effect_description level="2" desc_base="Turtle" long_desc_key="harvest resources 20% faster."/>
+		<effect_description level="3" desc_base="Rabbit" long_desc_key="harvest resources 30% faster."/>
+		<effect_description level="4" desc_base="Greyhound" long_desc_key="harvest resources 40% faster."/>
+		<effect_description level="5" desc_base="Cheetah" long_desc_key="harvest resources 50% faster."/>
+	</effect_group>
+	
+</perk>
+		
+</append>
+	
+</config>

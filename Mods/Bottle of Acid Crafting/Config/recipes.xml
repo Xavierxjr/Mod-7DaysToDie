@@ -1,0 +1,11 @@
+<configs>
+	<append xpath="/recipes">
+	
+		<recipe name="resourceAcid" count="1" craft_area="chemistryStation"  craft_time="60" tags="chemStationCrafting">
+			<ingredient name="resourcePotassiumNitratePowder" count="100"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+								
+	</append>
+ </configs>

@@ -1,0 +1,8 @@
+Key,Source,Context,Changes,English
+vehicleJurassicParkJeep,vehicles,vehicle,new,JurassicParkJeep Jeep,,,,,
+vehicleJurassicParkJeepplaceable,vehicles,item,EnChanged,JurassicParkJeep Jeep,,,,,
+vehicleJurassicParkJeepplaceableDesc,vehicles,item,EnChanged,An JurassicParkJeep YJ Jeep.,,,,,
+
+vehicleJurassicParkJeep2,vehicles,vehicle,new,JurassicParkJeep Jeep,,,,,
+vehicleJurassicParkJeep2placeable,vehicles,item,EnChanged,JurassicParkJeep Jeep,,,,,
+vehicleJurassicParkJeep2placeableDesc,vehicles,item,EnChanged,An JurassicParkJeep YJ Jeep.,,,,,

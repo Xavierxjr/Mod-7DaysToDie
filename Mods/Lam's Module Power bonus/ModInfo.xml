@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lam's Module Power bonus." />
+		<Description value="craft powerfull modules to install in to your tools and weapons."/>
+		<Author value="lam" />
+		<Version value="19.0" />
+	</ModInfo>
+</xml>

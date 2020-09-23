@@ -1,0 +1,57 @@
+<configs>
+
+		<append xpath="/buffs">
+		
+				<buff name="KitanaShock" hidden="true">
+					<duration value=".1"/>
+					<effect_group>
+						<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$kitanapowercharge" operation="set" value="0"/>
+						<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="selfAOE" range="2.0" target_tags="zombie,animal,enemy" buff="buffShocked"/>
+						<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="selfAOE" range="2.0" target_tags="zombie,animal,enemy" buff="buffInjuryKnockdown01"/>
+						<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="KitActive"/>
+						<triggered_effect trigger="onSelfBuffStart" action="StopSound" sound="Kitana_idle" />
+					</effect_group>
+				</buff>
+				<buff name="KitanaChargeB" icon="ui_game_symbol_electric_power" icon_color="125,249,255" icon_blink="true" >
+					<stack_type value="ignore"/>
+					<display_value value="$kitanapowercharge"/>
+					<effect_group>
+						<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="KitanaCharges"/>
+						<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="Kitana_idle" />
+						<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked"/>
+					</effect_group>
+				</buff>
+				<buff name="KitanaCharges" icon="ui_game_symbol_electric_power" icon_color="100,100,100" icon_blink="false" >
+					<stack_type value="ignore"/>
+					<display_value value="$kitanapowercharge"/>
+					<effect_group>
+						<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="KitanaChargeB"/>
+						 
+					</effect_group>
+				</buff>
+				<buff name="kitanapower" hidden="true">
+					<stack_type value="ignore"/>
+					<update_rate value=".1"/>
+					<effect_group>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$kitanapowercharge" operation="set" value="10">
+							<requirement name="CVarCompare" cvar="$kitanapowercharge" operation="GT" value="10"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="$kitanapowercharge" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="$kitanapowercharge" operation="LT" value="10"/>
+						</triggered_effect>
+						
+						<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="KitanaCharges">
+							<requirement name="CVarCompare" cvar="$kitanapowercharge" operation="LT" value="10"/>
+							
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="KitanaChargeB">
+							<requirement name="CVarCompare" cvar="$kitanapowercharge" operation="Equals" value="10"/>
+					       
+						</triggered_effect>
+						
+						<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="KitanaCharges"/>
+						<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="KitanaChargeB"/>
+					</effect_group>
+				</buff>
+		</append>
+</configs>

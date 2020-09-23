@@ -1,0 +1,99 @@
+<configs>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupModAllT1']">
+	<item name="17modGunHeadShot" prob=".03"/>
+	<item name="17modShotgunAddRange" prob=".06"/>
+	<item name="17modWeaponDecapitizer" prob=".06"/>
+	<item name="17modGunMeleeBlessed" prob=".03"/>
+	<item name="17modBowFast" prob=".06"/>
+	<item name="17modBowArmor" prob=".03"/>
+	<item name="17modRecoryHPneck" prob=".03"/>
+	<item name="17modLuckyneck" prob=".03"/>
+	<item name="17modExpneck" prob=".1"/>
+	<item name="17modNight" prob=".06"/>
+	<item name="17modAttribute11" prob=".1"/>
+	<item name="17modAttribute12" prob=".1"/>
+	<item name="17modAttribute13" prob=".1"/>
+	<item name="17modAttribute14" prob=".1"/>
+	<item name="17modAttribute15" prob=".1"/>
+	<item name="17modAttribute21" prob=".03"/>
+	<item name="17modAttribute22" prob=".03"/>
+	<item name="17modAttribute23" prob=".03"/>
+	<item name="17modAttribute24" prob=".03"/>
+	<item name="17modAttribute25" prob=".03"/>
+	<item name="17modLockhand" prob=".03"/>
+	<item name="17modBrasshand" prob=".06"/>
+	<item name="17modRichring" prob=".03"/>
+	<item name="17modSneakring" prob=".03"/>
+	<item name="17modToolBlockDam" prob=".1"/>
+	<item name="17modBear" prob=".06"/>
+	<item name="17modBag" prob=".1"/>
+	<item name="17modRunfoot" prob=".06"/>
+	<item name="17modJumpfoot" prob=".1"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupModAllT2']">
+	<item name="17modGunHeadShot" prob=".07"/>
+	<item name="17modShotgunAddRange" prob=".1"/>
+	<item name="17modWeaponDecapitizer" prob=".1"/>
+	<item name="17modGunMeleeBlessed" prob=".07"/>
+	<item name="17modBowFast" prob=".1"/>
+	<item name="17modBowArmor" prob=".07"/>
+	<item name="17modRecoryHPneck" prob=".07"/>
+	<item name="17modLuckyneck" prob=".07"/>
+	<item name="17modExpneck" prob=".15"/>
+	<item name="17modNight" prob=".1"/>
+	<item name="17modAttribute11" prob=".15"/>
+	<item name="17modAttribute12" prob=".15"/>
+	<item name="17modAttribute13" prob=".15"/>
+	<item name="17modAttribute14" prob=".15"/>
+	<item name="17modAttribute15" prob=".15"/>
+	<item name="17modAttribute21" prob=".07"/>
+	<item name="17modAttribute22" prob=".07"/>
+	<item name="17modAttribute23" prob=".07"/>
+	<item name="17modAttribute24" prob=".07"/>
+	<item name="17modAttribute25" prob=".07"/>
+	<item name="17modLockhand" prob=".07"/>
+	<item name="17modBrasshand" prob=".1"/>
+	<item name="17modRichring" prob=".07"/>
+	<item name="17modSneakring" prob=".07"/>
+	<item name="17modToolBlockDam" prob=".15"/>
+	<item name="17modBear" prob=".1"/>
+	<item name="17modBag" prob=".15"/>
+	<item name="17modRunfoot" prob=".1"/>
+	<item name="17modJumpfoot" prob=".15"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupModAllT3']">
+	<item name="17modGunHeadShot" prob=".1"/>
+	<item name="17modShotgunAddRange" prob=".12"/>
+	<item name="17modWeaponDecapitizer" prob=".12"/>
+	<item name="17modGunMeleeBlessed" prob=".1"/>
+	<item name="17modBowFast" prob=".12"/>
+	<item name="17modBowArmor" prob=".1"/>
+	<item name="17modRecoryHPneck" prob=".1"/>
+	<item name="17modLuckyneck" prob=".1"/>
+	<item name="17modExpneck" prob=".16"/>
+	<item name="17modNight" prob=".12"/>
+	<item name="17modAttribute11" prob=".16"/>
+	<item name="17modAttribute12" prob=".16"/>
+	<item name="17modAttribute13" prob=".16"/>
+	<item name="17modAttribute14" prob=".16"/>
+	<item name="17modAttribute15" prob=".16"/>
+	<item name="17modAttribute21" prob=".1"/>
+	<item name="17modAttribute22" prob=".1"/>
+	<item name="17modAttribute23" prob=".1"/>
+	<item name="17modAttribute24" prob=".1"/>
+	<item name="17modAttribute25" prob=".1"/>
+	<item name="17modLockhand" prob=".1"/>
+	<item name="17modBrasshand" prob=".12"/>
+	<item name="17modRichring" prob=".1"/>
+	<item name="17modSneakring" prob=".1"/>
+	<item name="17modToolBlockDam" prob=".16"/>
+	<item name="17modBear" prob=".12"/>
+	<item name="17modBag" prob=".16"/>
+	<item name="17modRunfoot" prob=".12"/>
+	<item name="17modJumpfoot" prob=".16"/>
+</append>
+
+</configs>

@@ -1,0 +1,29 @@
+<config>
+
+<append xpath="/progression/skills">
+
+	<skill name="LamsAll" parent="LamsBonus" name_key="[FFFFFF]All attributes" icon="ui_game_symbol_adventure"><effect_group/></skill>
+	<skill name="LamsPerception" parent="LamsBonus" name_key="[00EBFF]Perception" icon="ui_game_symbol_stealth"><effect_group/></skill>
+	<skill name="LamsStrength" parent="LamsBonus" name_key="[F8FD43]Strength" icon="ui_game_symbol_muscle"><effect_group/></skill>
+	<skill name="LamsFortitude" parent="LamsBonus" name_key="[FF0000]Fortitude" icon="ui_game_symbol_add"><effect_group/></skill>
+	<skill name="LamsAgilty" parent="LamsBonus" name_key="[21C700]Agility" icon="ui_game_symbol_agility"><effect_group/></skill>
+	<skill name="LamsIntellect" parent="LamsBonus" name_key="[FF00E7]Intellect" icon="ui_game_symbol_intellect"><effect_group/></skill>
+
+</append>
+
+	<set xpath="/progression/perks/perk[@name='Smelter']/@parent">LamsStrength</set>
+	<set xpath="/progression/perks/perk[@name='CraftSpeed']/@parent">LamsPerception</set>
+	<set xpath="/progression/perks/perk[@name='CraftingTier']/@parent">LamsIntellect</set>
+	<set xpath="/progression/perks/perk[@name='ExpBoost']/@parent">LamsAll</set>
+	<set xpath="/progression/perks/perk[@name='GoldDigger']/@parent">LamsStrength</set>
+	<set xpath="/progression/perks/perk[@name='MaxHitPoints']/@parent">LamsFortitude</set>
+	<set xpath="/progression/perks/perk[@name='LootBag']/@parent">LamsPerception</set>
+	<set xpath="/progression/perks/perk[@name='LamModPowerBonus']/@parent">LamsIntellect</set>
+	<set xpath="/progression/perks/perk[@name='PowerToolExpert']/@parent">LamsStrength</set>
+	<set xpath="/progression/perks/perk[@name='Run forest run']/@parent">LamsAgilty</set>
+	<set xpath="/progression/perks/perk[@name='Speedy Harvest']/@parent">LamsPerception</set>
+	<set xpath="/progression/perks/perk[@name='MaxStamina']/@parent">LamsAgilty</set>
+	<set xpath="/progression/perks/perk[@name='ZombieHarvest']/@parent">LamsFortitude</set>
+	<set xpath="/progression/perks/perk[@name='Increasedclipsize']/@parent">LamsIntellect</set>
+
+</config>

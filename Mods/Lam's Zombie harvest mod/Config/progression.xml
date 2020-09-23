@@ -1,0 +1,33 @@
+<config>	
+	<append xpath="/progression/perks">
+	
+<perk name="ZombieHarvest" parent="LamsBonus" name_key="Zombie Harvest" desc_key="Specialize in skinning zombie's to harvest bones, fat, rotting flesh, raw meat, leather and occasionally money." icon="ui_game_symbol_zombieloot">
+
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="2" desc_key="Fortitude lvl 2"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="4" desc_key="Fortitude lvl 4"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="6" desc_key="Fortitude lvl 6"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="8" desc_key="Fortitude lvl 8"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="Fortitude lvl 10"/></level_requirements>
+
+	<effect_group>
+		<passive_effect name="HarvestCount" operation="base_set" level="1" value="1" tags="ZombieHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="2" value="2" tags="ZombieHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="3" value="3" tags="ZombieHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="3" value="1" tags="HarvestZombie"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="4" value="3" tags="ZombieHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="4" value="2" tags="HarvestZombie"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="5" value="5" tags="ZombieHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="5" value="3" tags="HarvestZombie"/>
+
+		<effect_description level="1" desc_base="Jack the Ripper" long_desc_key="gives you 2 bones, fat and rotting flesh."/>
+		<effect_description level="2" desc_base="Michael Myers" long_desc_key="gives you 4 bones, fat and rotting flesh."/>
+		<effect_description level="3" desc_base="Leatherface" long_desc_key="gives you 6 bones, fat and rotting flesh.\n3 raw meat and leather.\nAnd a 10% chance of finding money."/>
+		<effect_description level="4" desc_base="Freddy Krueger" long_desc_key="gives you 8 bones, fat and rotting flesh.\n6 raw meat and leather.\nAnd a 20% chance of finding money."/>
+		<effect_description level="5" desc_base="Hannibal Lecter" long_desc_key="gives you 10 bones, fat and rotting flesh.\n9 raw meat and leather.\nAnd a 30% chance of finding money."/>
+	</effect_group>
+	
+</perk>
+		
+</append>
+	
+</config>

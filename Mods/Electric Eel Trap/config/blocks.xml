@@ -1,0 +1,26 @@
+<config>
+    <append xpath="/blocks">
+                
+        <block name="Electric Eel Trap">
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="Electric Eel Trap"/>
+            <property name="Class" value="Liquidv2"/>
+            <property name="Material" value="Mwater"/>
+            <property name="Shape" value="Water"/>
+            <property name="Mesh" value="water"/>
+			<property name="DescriptionKey" value="ElectricEelTrapDesc"/>
+            <property name="Model" value="water_full"/>
+            <property name="Texture" value="223"/>
+            <property name="Map.Color" value="0,0,0"/>
+            <property name="Map.Color" value="0,0,0"/>
+            <property name="BuffsWhenWalkedOn" value="buffShocked"/>
+			<property name="BuffChance" value="1"/>
+            <property name="Path" value="solid"/>
+            <property name="Group" value="Tools/Traps,Science,Chemicals,CFChemicals"/>
+			<property name="EconomicValue" value="150"/>
+            <property name="SortOrder1" value="70g0"/>
+            <property name="FilterTags" value="fdecor,felectrical,ftraps"/>
+        </block>
+        
+    </append>
+</config>

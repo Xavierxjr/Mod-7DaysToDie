@@ -1,0 +1,405 @@
+<configs>
+
+	<append xpath="/item_modifiers">
+
+<!--Weeeeeeaaaapons-->		
+<!--17HeadShotMod-->
+
+		<item_modifier name="17modGunHeadShot" installable_tags="weapon" modifier_tags="specialDamage2" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="staff_t_01"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="0.5" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_subtract" value="0.25" tags="lowerbody,upperbody"/>
+		</effect_group>
+	</item_modifier>
+
+<!--17ShotgunLongRange-->
+
+	<item_modifier name="17modShotgunAddRange" installable_tags="shotgun,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="gun_t_03"/>		
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".35"/>		
+			<passive_effect name="MaxRange" operation="perc_add" value=".35"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".2"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+<!--17WeaponDecapitizer-->
+
+	<item_modifier name="17modWeaponDecapitizer" installable_tags="weapon,tool"  modifier_tags="178" blocked_tags="noMods" type="attachment">
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="tiger_statuette_t"/>	
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="-0.1"/>
+			<passive_effect name="DismemberChance" operation="perc_add" value="0.3"/>
+		</effect_group>
+	</item_modifier>	
+
+<!--17modGunMeleeBlessed-->
+
+	<item_modifier name="17modGunMeleeBlessed" installable_tags="weapon,tool" modifier_tags="specialDamage" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="tail_t_03"/>		
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<!--Do double damage to evil / undead-->
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.5"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+<!--17modBowFast-->	
+
+	<item_modifier name="17modBowFast" installable_tags="bow,crossbow,perkArchery" modifier_tags="171" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="arr_t_02"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.30"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+<!--17modBowArmor-->	
+
+	<item_modifier name="17modBowArmor" installable_tags="bow,crossbow,perkArchery" modifier_tags="172" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="a_t_04"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="TargetArmor" operation="perc_add" value="-.3"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+
+<!--Heeeeeeeeeeeeaaaaaaaaaaaaaddddddddddd-->	
+<!--17modRecoryHPneck-->	
+
+	<item_modifier name="17modRecoryHPneck" installable_tags="armorHead" modifier_tags="neck" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="necklace_4"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<!-- Gain HP/sec when under 50% HP -->
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="LTE" value=".50"/>
+			<passive_effect name="HealthChangeOT" operation="base_add" value=".1"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+
+<!--17modLuckyneck-->	
+
+	<item_modifier name="17modLuckyneck" installable_tags="armorHead" modifier_tags="neck" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="necklace_1"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+	  	    <passive_effect name="LootGamestage" operation="base_add" value="7"/>
+		    <passive_effect name="TreasureBlocksPerReduction" operation="base_add" value="-1"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+
+<!--17modExpneck-->	
+
+	<item_modifier name="17modExpneck" installable_tags="armorHead" modifier_tags="neck" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="artifact_08_t"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+		    <passive_effect name="PlayerExpGain" operation="perc_add" value=".18"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+
+<!--17modNight-->	
+
+	<item_modifier name="17modNight" installable_tags="armorHead" modifier_tags="headnv" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="helmets_15"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	    <property name="ActivateObject" value="NightVision"/>
+	    <property name="ImageEffectOnActive" value="NightVision"/>
+	    <property name="PlaySoundOnActive" value="nightvision_toggle"/>	
+		<property name="EconomicValue" value="1000"/>		
+	    <property name="Active" value="false"/>			
+	    <effect_group tiered="false">
+		    <requirement name="IsLocalPlayer"/>
+		    <triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="NightVision" intensity="1" fade="0"/>
+		    <triggered_effect trigger="onSelfItemDeactivate" action="ModifyScreenEffect" effect_name="NightVision" intensity="0" fade="0"/>
+		    <triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" effect_name="NightVision" intensity="0" fade="0"/>
+
+		    <triggered_effect trigger="onSelfEquipStart" action="AddPart" part="HeadLightTPV" prefab="ScreenEffects/DeferredNV/NVGLight" parentTransform="Spotlight" localPos="0,0,0" localRot="90,0,0"/>
+		    <triggered_effect trigger="onSelfEquipStart" action="AddPart" part="HeadLightFPV" prefab="ScreenEffects/DeferredNV/NVGLight" parentTransform="CameraNode" localPos="0,0,.1" localRot="-90,0,0"/>
+		    <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="HeadLightTPV"/>
+		    <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="HeadLightFPV"/>
+		    <triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="HeadLightTPV" active="@!.IsFPV"/>
+		    <triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="HeadLightFPV" active="@.IsFPV"/>
+	    	<triggered_effect trigger="onSelfItemDeactivate" action="SetPartActive" part="HeadLightTPV" active="false"/>
+	    	<triggered_effect trigger="onSelfItemDeactivate" action="SetPartActive" part="HeadLightFPV" active="false"/>
+	    	<triggered_effect trigger="onSelfChangedView" action="SetPartActive" part="HeadLightTPV" active="@!.IsFPV"/>
+	    	<triggered_effect trigger="onSelfChangedView" action="SetPartActive" part="HeadLightFPV" active="@.IsFPV"/>
+    	</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+
+<!--17modAttribute1 感知 力量 强健 敏捷 智慧-->	
+
+	<item_modifier name="17modAttribute11" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="06"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+	<item_modifier name="17modAttribute12" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="02"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="1"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+	<item_modifier name="17modAttribute13" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="11"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="1"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+	<item_modifier name="17modAttribute14" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="01"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="1"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+	<item_modifier name="17modAttribute15" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="05"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attIntellect" operation="base_add" value="1"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>						
+
+<!--17modAttribute2 感知 力量 强健 敏捷 智慧-->	
+
+	<item_modifier name="17modAttribute21" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="55"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+	<item_modifier name="17modAttribute22" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="04"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="2"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+	<item_modifier name="17modAttribute23" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="12"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="2"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+	<item_modifier name="17modAttribute24" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="08"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="2"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+	<item_modifier name="17modAttribute25" installable_tags="armorHead" modifier_tags="att1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="87"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+        	<passive_effect name="AttributeLevel" tags="attIntellect" operation="base_add" value="2"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+<!--Haaaannnnnddddddddddd-->	
+<!--17modLockhand-->	
+
+	<item_modifier name="17modLockhand" installable_tags="armorHands" modifier_tags="hand01" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="gloves_15"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="LockPickTime" operation="perc_subtract" value=".3"/>
+			<passive_effect name="LockPickBreakChance" operation="perc_subtract" value=".3"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+
+<!--17modBrasshand-->	
+
+	<item_modifier name="17modBrasshand" installable_tags="armorHands" modifier_tags="hand01" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="136_t"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="LootQuantity" operation="perc_add" value=".5" tags="brass"/>
+			<passive_effect name="LootQuantity" operation="perc_add" value=".15" tags="dukes"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+
+<!--17modRichring-->	
+
+	<item_modifier name="17modRichring" installable_tags="armorHands" modifier_tags="hand02" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="rings_7"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>		
+	    <effect_group tiered="false">
+	    	<passive_effect name="BarteringBuying" operation="base_add" value=".15"/>
+	    	<passive_effect name="BarteringSelling" operation="base_add" value=".15"/>
+	    </effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+<!--17modSneakring-->	
+
+	<item_modifier name="17modSneakring" installable_tags="armorHands" modifier_tags="hand03" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="rings_8"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>		
+	    <effect_group name="sneak damage bonus">
+		    <requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+	    	<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+		    	<passive_effect name="DamageBonus" operation="base_add" value="0.5"/>
+		    	<passive_effect name="EntityDamage" operation="perc_add" value="0.5"/>
+		    	<display_value name="dEntityDamageSneak" value="0.5"/>
+    	</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--Toooooooooool-->	
+<!--17modToolBlockDam-->	
+
+	<item_modifier name="17modToolBlockDam" installable_tags="tool" modifier_tags="damageWood,damageDirt,damageStone,damageIron" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="bl_t_05"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="-.50"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value=".25"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+<!--Boooooddddddy-->
+<!--17modBear-->
+
+	<item_modifier name="17modBear" installable_tags="armorChest" modifier_tags="seed" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="lz_t_03"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="5"/>		
+	    	<passive_effect name="HypothermalResist" operation="base_add" value="10"/>
+	    	<passive_effect name="HyperthermalResist" operation="base_add" value="10"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+
+<!--17modBag-->
+
+	<item_modifier name="17modBag" installable_tags="armorLegs" modifier_tags="bag8" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="belts_16"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>		
+			<passive_effect name="CarryCapacity" operation="base_add" value="8"/>
+			<display_value name="dCarryCapacity" value="8"/>		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>		
+
+<!--Fooooot-->
+<!--17modRunfoot-->
+
+	<item_modifier name="17modRunfoot" installable_tags="armorFeet" modifier_tags="fff1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="boots_6"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="WalkSpeed" operation="perc_add" value=".15"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".15"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+
+<!--17modJumpfoot-->
+
+	<item_modifier name="17modJumpfoot" installable_tags="armorFeet" modifier_tags="fff1" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="boots_12"/>	
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="1000"/>
+		<effect_group tiered="false">
+			<passive_effect name="JumpStrength" operation="perc_add" value="0.2"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+		
+	</append>
+
+</configs>

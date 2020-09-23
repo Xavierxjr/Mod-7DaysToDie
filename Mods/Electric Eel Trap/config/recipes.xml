@@ -1,0 +1,11 @@
+<config>
+    <append xpath="/recipes">
+        
+        <recipe name="Electric Eel Trap" count="5" craft_area="chemistryStation" craft_time="25" tags="learnable,chemStationCrafting,perkAdvancedEngineering">
+            <ingredient name="drinkJarRiverWater" count="1"/>
+            <ingredient name="resourceScrapLead" count="2"/>
+            <ingredient name="resourceAcid" count="1"/>
+        </recipe>
+        
+    </append>
+</config>

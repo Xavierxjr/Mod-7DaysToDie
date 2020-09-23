@@ -1,0 +1,28 @@
+<config>
+
+	<append xpath="/lootcontainers/lootgroup[@name='airdropMedicine']">
+		<item name="toolBeaker" prob="1.2"/>
+	</append>
+ 
+	<append xpath="/lootcontainers/lootgroup[@name='automotive']">
+		<item name="resourceAcid" count="3,6"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='labEquipment']">
+		<item name="toolBeaker" prob="2.2"/>
+		<item name="resourceAcid" count="3,6" prob="2.5"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='8']">
+		<item name="resourceAcid" count="3,6" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='22']">
+		<item name="resourceAcid" count="3,6" prob="0.4"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='117']">
+		<item name="resourceAcid" count="3,6" prob=".4"/>
+	</append>
+	
+</config>

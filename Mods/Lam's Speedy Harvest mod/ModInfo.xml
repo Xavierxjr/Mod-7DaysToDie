@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Speedy harvest." />
+		<Description value="adding a perk that will increase the attack speed of medium tools up to 50%."/>
+		<Author value="lam" />
+		<Version value="19.0" />
+	</ModInfo>
+</xml>

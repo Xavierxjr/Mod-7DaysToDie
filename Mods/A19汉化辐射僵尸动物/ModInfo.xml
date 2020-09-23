@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="一些翻译" />
+		<Description value="翻译一些原版未汉化的名字" />
+		<Author value="Gaasn" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

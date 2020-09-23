@@ -1,0 +1,189 @@
+<anan>
+
+	<remove xpath="/windows/window[@name='HUDLeftStatBars']" />
+	<set xpath="/windows/window[@name='windowTargetBar']/@visibility">always</set>
+	<append xpath="/windows">
+		<window name="HUDLeftStatBars">
+			<rect name="hud" pos="9,388" rows="2" cols="1" width="336" side="right">
+				<rect width="171" height="46" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}">
+					<sprite depth="1" name="border" color="0,0,0,150" height="46" type="sliced" />
+					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+					<filledsprite depth="3" name="background" color="110,110,110,128" type="filled" fill="1" />
+					<filledsprite depth="4" name="BarContent" color="{stealthcolor}" type="filled" fill="0" />
+					<sprite depth="5" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="35,35" pos="8,-6" foregroundlayer="true"/>
+					<label depth="6" name="TextContent" pos="6,-8" font_size="32" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="35"/>
+					<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+					<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="1" />
+					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="1" />
+				</rect>
+				<!-- 温度 -->
+				<rect width="171" height="43" pos="0,-47" controller="MapStats">
+					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
+					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+					<filledsprite depth="3" name="background" color="110,110,110,128" width="169" type="filled" fill="{statmodifiedmax}" />
+					<sprite depth="6" name="tempIcon" width="32" height="32" pos="4,-6" sprite="ui_game_symbol_temperature" color="[iconColor]" foregroundlayer="true"/>
+					<label depth="5" name="tempLabel" pos="46,-11" width="172" height="28" text="{playercoretemp}[-]" font_size="26"/>
+					<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+					<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+				</rect>
+				<!-- 海拔 -->
+				<rect width="171" height="43" pos="0,-94" controller="MapStats">
+					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
+					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+					<filledsprite depth="3" name="background" color="110,110,110,128" width="169" type="filled" fill="{statmodifiedmax}" />
+					<sprite depth="6" name="elevIcon" width="32" height="32" pos="4,-6" sprite="ui_game_symbol_climb" color="[iconColor]" foregroundlayer="true"/>
+					<label depth="5" name="elevLabel" pos="46,-11" width="172" height="28" text="{mapelevation} M[-]" font_size="26"/>
+					<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+					<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+				</rect>
+				<rect controller="CharacterFrameWindow">
+					<panel name="header" height="15" depth="1" pos="9999,9999" backgroundspritename="ui_game_panel_header">
+						<label depth="2" name="characterName" pos="42,-6" width="150" height="32" text="" font_size="32"/>
+						<label depth="2" name="levelNumber" pos="240,-10" width="80" height="28" text="" color="[transparent]"/>
+					</panel>
+					<rect visible="{showcharacter}" pos="9999,9999">
+						<panel name="previewFrame" depth="0" pos="0,0" width="10" on_press="true" on_hover="true" disableautobackground="true" snap="false">
+							<rect>
+								<texture depth="2" name="playerPreview" material="Materials/Transparent Colored" size="8,8" globalopacity="true" globalopacitymod="0.1"/>
+							</rect>
+						</panel>
+					</rect>
+					<!-- 等级 -->
+					<rect width="171" height="43" pos="0,-141" controller="ToolbeltWindow" visible="{statvisible}">
+						<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
+						<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+						<filledsprite depth="3" name="background" color="110,110,110,128" width="169" type="filled" fill="{statmodifiedmax}" />
+						<sprite depth="5" name="BarContent" color="49,91,203,128" width="169" foregroundlayer="true" type="filled" fill="{xp}" />
+						<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_trophy" size="32,32" pos="4,-6" foregroundlayer="true"/>
+						<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+						<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+						<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+						<label depth="7" name="TextContent" pos="18,-8" font_size="24" color="[white]" justify="center" pivot="topleft" text="{playerlevel} |→{playerxptonextlevel}" height="30" controller="PlayerStatsWindow"/>
+					</rect>
+					<!-- 食物 -->
+					<rect width="171" height="43" pos="0,-188" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
+						<sprite depth="1" name="border" color="0,0,0,255" type="sliced"/>
+						<sprite depth="2" name="background" color="0,0,0,255" type="sliced" />
+						<filledsprite depth="3" name="background" color="110,110,110,255" width="169" type="filled" fill="{statmodifiedmax}" />
+						<filledsprite depth="5" name="BarContent" color="53,178,0,128" width="169" type="filled" fill="0"  />
+						<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+						<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+						<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+						<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_fork" size="32,32" pos="4,-6" foregroundlayer="true"/>
+						<label depth="7" name="TextContent" pos="8,-6" font_size="28" color="[white]" justify="center" pivot="topleft" text="{playerfood}/{playerfoodmax}" height="30" controller="PlayerStatsWindow"/>
+					</rect>
+					<!-- 水分 -->
+					<rect width="171" height="43" pos="0,-235" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
+						<sprite depth="1" name="border" color="0,0,0,255" type="sliced"/>
+						<sprite depth="2" name="background" color="0,0,0,255" type="sliced" />
+						<filledsprite depth="3" name="background" color="110,110,110,255" width="169" type="filled" fill="{statmodifiedmax}" />
+						<filledsprite depth="5" name="BarContent" color="52,137,167,128" width="169" type="filled" fill="0"  />
+						<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+						<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+						<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+						<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_water" size="32,32" pos="4,-6" foregroundlayer="true"/>
+						<label depth="7" name="TextContent" pos="8,-6" font_size="28" color="[white]" justify="center" pivot="topleft" text="{playerwater}/{playerwatermax}" height="30" controller="PlayerStatsWindow"/>
+					</rect>
+				</rect>
+				<!-- 体力 -->
+				<rect width="171" height="46" pos="0,-282" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
+					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+					<filledsprite depth="3" name="background" color="110,110,110,128" width="169" type="filled" fill="{statmodifiedmax}" />
+					<filledsprite depth="5" name="BarContent" color="0,54,255,128" width="169" type="filled" fill="0"  />
+					<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_agility" size="35,35" pos="4,-6" foregroundlayer="true"/>
+					<label depth="7" name="TextContent" pos="6,-8" font_size="32" color="[white]" justify="center" pivot="topleft" text="{statcurrentwithmax}" height="35"/>
+					<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+					<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+				</rect>
+				<!-- 血量 -->
+				<rect width="171" height="46" pos="0,-329" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
+					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
+					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+					<filledsprite depth="3" name="background" color="110,110,110,128" width="169" type="filled" fill="{statmodifiedmax}" />
+					<filledsprite depth="5" name="BarContent" color="255,0,0,128" width="169" type="filled" fill="0" />
+					<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="35,35" pos="4,-6" foregroundlayer="true"/>
+					<label depth="7" name="TextContent" pos="6,-8" font_size="32" color="[white]" justify="center" pivot="topleft" text="{statcurrentwithmax}" height="35"/>
+					<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+					<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+				</rect>
+			</rect>
+
+			<rect name="hud" pos="9999,9999" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
+				<panel width="168" height="46" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0" style="press" sound="[recipe_click]" on_hover="true" >
+					<sprite depth="3" pos="0,0"  name="Background" sprite="ui_game_popup" height="46" width="162" pivot="center" flip="Horizontally" color="[transparent]" />
+					<sprite depth="4" name="Icon" size="40,40" pos="-54,0" pivot="center" color="[transparent]"/>
+					<label depth="6" name="TextContent" pos="0,0" font_size="28" color="[white]" justify="center" height="40" pivot="center"/>
+				</panel>
+			</rect>
+		</window>
+		<window name="AnAnBuffLeft" pos="6,420" Controller="ActiveBuffWindow" width="460" >
+			<button name="pageDown" size="1,1" pos="9999,9999" />
+			<label name="pageNumber" pos="9999,9999" width="1" height="1" />
+			<button name="pageUp" size="1,1" pos="9999,9999" />
+
+			<rect name="buffs" controller="ActiveBuffList">
+				<panel height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,32" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,64" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,96" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,128" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,160" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,192" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,224" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,256" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,288" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+				<panel pos="0,320" height="30" controller="ActiveBuffEntry" width="450" disableautobackground="true" >	
+					<sprite depth="0" name="background" color="[transparent]" />
+					<sprite depth="2" name="Icon" sprite="{bufficon|once}" color="{buffcolor}" style="icon22px" pos="9,-5"/>
+					<label depth="2" pos="49,-8" width="450" height="26" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" />
+				</panel>
+			</rect>
+		</window>
+	</append>
+
+</anan>

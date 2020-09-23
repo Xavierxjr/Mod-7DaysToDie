@@ -1,0 +1,218 @@
+<configs>
+	
+	<!-- 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									        AC'S VEHICLES                                                                                              
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
+		<item group="AC'SVEHICLE#1" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLE#2" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLE#3" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLE#4" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLE#5" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLE#6" loot_prob_template="probTemplate0.65"/>
+	    <item group="AC'SVEHICLE#7" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLE#8" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLE#9" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLE#10" loot_prob_template="probTemplate0.65"/>
+		<item group="AC'SVEHICLES" loot_prob_template="probTemplate0.10"/>
+    </append>	
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">
+		<!-- ###### AC'SVEHICLE#1 ###### -->
+		<lootgroup name="AC'SVEHICLE#1">
+			<item name="AC'SVEHICLE#1Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#2 ###### -->
+		<lootgroup name="AC'SVEHICLE#2">
+			<item name="AC'SVEHICLE#2Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#3 ###### -->
+		<lootgroup name="AC'SVEHICLE#3">
+			<item name="AC'SVEHICLE#3Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#4 ###### -->
+		<lootgroup name="AC'SVEHICLE#4">
+			<item name="AC'SVEHICLE#4Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#5 ###### -->
+		<lootgroup name="AC'SVEHICLE#5">
+			<item name="AC'SVEHICLE#5Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#6 ###### -->
+		<lootgroup name="AC'SVEHICLE#6">
+			<item name="AC'SVEHICLE#6Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#7 ###### -->
+		<lootgroup name="AC'SVEHICLE#7">
+			<item name="AC'SVEHICLE#7Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#8 ###### -->
+		<lootgroup name="AC'SVEHICLE#8">
+			<item name="AC'SVEHICLE#8Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#9 ###### -->
+		<lootgroup name="AC'SVEHICLE#9">
+			<item name="AC'SVEHICLE#9Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLE#10 ###### -->
+		<lootgroup name="AC'SVEHICLE#10">
+			<item name="AC'SVEHICLE#10Chassis"/>
+			<item name="AC'SVEHICLEEngineBlock"/>
+			<item name="AC'SVEHICLECrankShaft"/>
+			<item name="AC'SVEHICLECylinderHead"/>
+			<item name="AC'SVEHICLECamShaft"/>
+			<item name="AC'SVEHICLEEnginePiston"/>
+			<item name="AC'SVEHICLEToolSockets"/>
+			<item name="AC'SVEHICLECarburetor"/>
+			<item name="AC'SVEHICLEFuelPump"/>
+			<item name="AC'SVEHICLESparkPlugs"/>
+			<item name="AC'SVEHICLETimingBelt"/>
+			<item name="AC'SVEHICLEPistonRings"/>
+			<item name="AC'SVEHICLEOldParts"/>
+			<item name="AC'SVEHICLEBatteryplugs"/>
+		</lootgroup>	
+		
+		<!-- ###### AC'SVEHICLES ###### -->
+		<lootgroup name="AC'SVEHICLES">
+			<item name="AC'SVEHICLE#1Placeable"/>
+			<item name="AC'SVEHICLE#2Placeable"/>
+			<item name="AC'SVEHICLE#3Placeable"/>
+			<item name="AC'SVEHICLE#4Placeable"/>
+			<item name="AC'SVEHICLE#5Placeable"/>
+			<item name="AC'SVEHICLE#6Placeable"/>
+			<item name="AC'SVEHICLE#7Placeable"/>
+			<item name="AC'SVEHICLE#8Placeable"/>
+			<item name="AC'SVEHICLE#9Placeable"/>
+			<item name="AC'SVEHICLE#10Placeable"/>
+		</lootgroup>	
+	</insertBefore>	
+</configs>

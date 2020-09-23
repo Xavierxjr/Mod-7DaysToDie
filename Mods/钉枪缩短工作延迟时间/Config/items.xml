@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	
+	<!--  你是否有过在升级物块时，嫌弃钉枪工作太慢，老是升级一下顿一下，很不流畅，这个简单修改值得拥有 -->
+	
+	<!-- T3射钉枪 ,钉枪的工作间隙延迟，单位秒，之前是0.73，改成了0.2-->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.2</set>
+	
+</configs>

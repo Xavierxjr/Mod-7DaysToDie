@@ -1,0 +1,8 @@
+Key,Source,Context,Changes,English
+modFlame,item_modifiers,mod,New,火焰配件
+modFlameDesc,item_modifiers,mod,New,可安装在枪械或者弓弩上，安装后武器攻击敌人会造成燃烧效果，每次燃烧效果持续4.5秒。
+modFlameSchematic,item_modifiers,Mod,New,火焰配件图纸
+modShock,item_modifiers,mod,New,电击配件
+modShockDesc,item_modifiers,mod,New,可安装在枪械或者弓弩上，安装后武器攻击敌人会造成电击效果，每次电击效果持续4.5秒。
+modShockSchematic,item_modifiers,Mod,New,电击配件图纸
+perkAdvancedEngineeringRank5LongDesc,progression,Perk,New,可以制造冲锋枪自动炮塔，坩埚，火焰配件，电击配件。从电力陷阱杀戮中获得50%的经验值。\n所有在熔炉中制作的物品成本降低20%。制作钢铁和电子设备的成本降低35%。

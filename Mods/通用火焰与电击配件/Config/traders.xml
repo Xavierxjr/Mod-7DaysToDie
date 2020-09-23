@@ -1,0 +1,16 @@
+<Mc_fans>
+
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT1']">
+		<item name="modFlame"/>
+		<item name="modShock"/>
+	</append>
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modFlameSchematic"/>
+		<item name="modShockSchematic"/>
+	</append>
+
+
+
+</Mc_fans>

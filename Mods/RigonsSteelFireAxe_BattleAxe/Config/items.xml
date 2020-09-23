@@ -1,0 +1,83 @@
+<configs>
+
+	<!-- STEEL AXE (FOR HARVESTING) -->
+
+	<set xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='Meshfile']/@value">#Other/Items?Weapons/Melee/Axe/fireaxe_ironPrefab.prefab</set>
+	<append xpath="/items/item[@name='meleeToolAxeT2SteelAxe']">
+		<property name="CustomIcon" value="meleeToolAxeT1IronFireaxe"/> <property name="CustomIconTint" value="a0a0ff"/>
+		<property name="TintColor" value="150,160,240"/>
+	</append>
+
+	<!-- BATTLEAXE (FOR FIGHTING) -->
+
+	<append xpath="/items">
+		<item name="meleeBattlelAxe"> <!-- meleeWpnSledgeT3SteelSledgehammer -->
+			<property name="Extends" value="meleeToolAxeT1IronFireaxe"/>
+			<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab"/>
+			<property name="EconomicValue" value="1500"/>
+			<property name="UnlockedBy" value="perkSkullCrusher,meleeBattlelAxeSchematic"/>
+			<property name="Material" value="MmeleeToolAllSteel"/> <property name="Weight" value="6"/>
+			<property name="DescriptionKey" value="meleeBattlelAxeDesc"/>
+			<property name="CustomIcon" value="meleeToolAxeT2SteelAxe"/>
+			<property name="Group" value="Ammo/Weapons"/>
+
+			<property class="Action0">
+				<property name="Sound_start" value="axe_swinglight"/>
+			</property>
+			<property class="Action1">
+				<property name="Sound_start" value="axe_swingheavy"/>
+			</property>
+
+			<effect_group name="meleeBattlelAxe">
+				<passive_effect name="EntityDamage" operation="base_set" value="57.8" tags="perkSkullCrusher"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="76.2" tags="perkSkullCrusher"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="57" tags="perkSkullCrusher,axe"/> <!-- 47 -->
+				<passive_effect name="StaminaLoss" operation="base_set" value="28" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="300,1100" tier="1,6" tags="perkSkullCrusher"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSkullCrusher"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.8" tags="perkSkullCrusher"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSkullCrusher"/>
+				<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="perkSkullCrusher,primary"/>
+
+				<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".35" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.1,.5" tags="perkSkullCrusher"/> <!-- random EntityDmg -->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.8" tier="2,6" tags="perkSkullCrusher"/> <!-- tier bonus -->
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/> <!-- random BlockDmg -->
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSkullCrusher"/> <!-- tier bonus -->
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/> <!-- random DegMax -->
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.01,.1" tags="perkSkullCrusher"/> <!-- random APM -->
+
+				<passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="metal"/>
+			</effect_group>
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="perc_add" value="1.5" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.2" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="58" tags="secondary"/>
+				<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
+			</effect_group>
+
+		</item>
+
+		<!-- BATTLEAXE SCHEMATIC -->
+
+		<item name="meleeBattlelAxeSchematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="meleeToolAxeT2SteelAxe"/>
+			<property name="Unlocks" value="meleeBattlelAxe"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeBattlelAxe" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	</append>
+
+</configs>

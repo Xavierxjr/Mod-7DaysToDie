@@ -1,0 +1,690 @@
+<configs>
+  <append xpath="/items">
+    <!-- 
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									        AC'S VEHICLES                                                                                              
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+    <!-- ###### AC'S VEHICLE#1 ###### -->
+    <item name="AC'SVEHICLE#1Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#1Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#1ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#1Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#1Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#1" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#1.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#1.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#1" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#1Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#1Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#2 ###### -->
+    <item name="AC'SVEHICLE#2Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#2Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#2ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#2Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#2Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#2" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#2.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#2.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#2" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#2Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#2Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#3 ###### -->
+    <item name="AC'SVEHICLE#3Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#3Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#3ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#3Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#3Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#3" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#3.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#3.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#3" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#3Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#3Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#4 ###### -->
+    <item name="AC'SVEHICLE#4Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#4Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#4ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#4Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#4Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#4" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#4.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#4.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#4" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#4Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#4Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#5 ###### -->
+    <item name="AC'SVEHICLE#5Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#5Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#5ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#5Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#5Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#5" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#5.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#5.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#5" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#5Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#5Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#6 ###### -->
+    <item name="AC'SVEHICLE#6Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#6Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#6ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#6Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#6Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#6" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#6.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#6.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#6" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#6Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#6Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#7 ###### -->
+    <item name="AC'SVEHICLE#7Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#7Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#7ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#7Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#7Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#7" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#7.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#7.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#7" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#7Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#7Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#8 ###### -->
+    <item name="AC'SVEHICLE#8Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#8Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#8ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#8Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#8Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#8" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#8.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#8.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#8" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#8Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#8Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#9 ###### -->
+    <item name="AC'SVEHICLE#9Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#9Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#9ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#9Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#9Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#9" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#9.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#9.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#9" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#9Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#9Placeable Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#10 ###### -->
+    <item name="AC'SVEHICLE#10Chassis">
+      <property name="CustomIcon" value="AC'SVEHICLE#10Chassis" />
+      <property name="Extends" value="vehicleWheels" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLE#10ChassisSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLE#10Chassis Description" />
+    </item>
+    <item name="AC'SVEHICLE#10Placeable">
+      <property name="CustomIcon" value="AC'sVehicle#10" />
+      <property name="Extends" value="vehicleMinibikePlaceable" />
+      <property name="Meshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#10.prefab" />
+      <property name="DropMeshfile" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#10.prefab" />
+      <property name="EconomicValue" value="30000" />
+      <property class="Action1">
+        <property name="Vehicle" value="AC'SVEHICLE#10" />
+        <property name="VehicleSize" value="2.5, 2.1, 5" />
+      </property>
+      <effect_group name="AC'SVEHICLE#10Placeable" tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="4" />
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+        <passive_effect name="DegradationMax" operation="base_set" value="7500" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#10Placeable Description" />
+    </item>
+    <!-- 
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									        AC'S VEHICLE PARTS                                                                                              
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+    <item name="AC'SVEHICLEEngineParts">
+      <property name="CustomIcon" value="AC'SVEHICLEEngineParts" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEEnginePartsSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEEngineParts Description" />
+    </item>
+    <item name="AC'SVEHICLEEngineBlock">
+      <property name="CustomIcon" value="AC'SVEHICLEEngineBlock" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEEngineBlockSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEEngineBlock Description" />
+    </item>
+    <item name="AC'SVEHICLECrankShaft">
+      <property name="CustomIcon" value="AC'SVEHICLECrankShaft" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLECrankShaftSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLECrankShaft Description" />
+    </item>
+    <item name="AC'SVEHICLECylinderHead">
+      <property name="CustomIcon" value="AC'SVEHICLECylinderHead" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLECylinderHeadSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLECylinderHead Description" />
+    </item>
+    <item name="AC'SVEHICLECamShaft">
+      <property name="CustomIcon" value="AC'SVEHICLECamShaft" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLECamShaftSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLECamShaft Description" />
+    </item>
+    <item name="AC'SVEHICLEEnginePiston">
+      <property name="CustomIcon" value="AC'SVEHICLEEnginePiston" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEEnginePistonSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEEnginePiston Description" />
+    </item>
+    <item name="AC'SVEHICLEToolSockets">
+      <property name="CustomIcon" value="AC'SVEHICLEToolSockets" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEToolSocketsSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEToolSockets Description" />
+    </item>
+    <item name="AC'SVEHICLEEngineAssembly">
+      <property name="CustomIcon" value="AC'SVEHICLEEngineAssembly" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEEngineAssemblySchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEEngineAssembly Description" />
+    </item>
+    <item name="AC'SVEHICLECarburetor">
+      <property name="CustomIcon" value="AC'SVEHICLECarburetor" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLECarburetorSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLECarburetor Description" />
+    </item>
+    <item name="AC'SVEHICLEFuelPump">
+      <property name="CustomIcon" value="AC'SVEHICLEFuelPump" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEFuelPumpSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEFuelPump Description" />
+    </item>
+    <item name="AC'SVEHICLESparkPlugs">
+      <property name="CustomIcon" value="AC'SVEHICLESparkPlugs" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLESparkPlugsSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLESparkPlugs Description" />
+    </item>
+    <item name="AC'SVEHICLETimingBelt">
+      <property name="CustomIcon" value="AC'SVEHICLETimingBelt" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLETimingBeltSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLETimingBelt Description" />
+    </item>
+    <item name="AC'SVEHICLEPistonRings">
+      <property name="CustomIcon" value="AC'SVEHICLEPistonRings" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEPistonRingsSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEPistonRings Description" />
+    </item>
+    <item name="AC'SVEHICLEOldParts">
+      <property name="CustomIcon" value="AC'SVEHICLEOldParts" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEOldPartsSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEOldParts Description" />
+    </item>
+    <item name="AC'SVEHICLEBatteryplugs">
+      <property name="CustomIcon" value="AC'SVEHICLEBatteryplugs" />
+      <property name="Extends" value="vehicleBicycleHandlebars" />
+      <property name="EconomicValue" value="9000" />
+      <property name="UnlockedBy" value="perkGreaseMonkey,AC'SVEHICLEBatteryplugsSchematic" />
+      <property name="DescriptionKey" value="AC'SVEHICLEBatteryplugs Description" />
+    </item>
+    <!-- 
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									        AC'S VEHICLE PART SCHEMATICS                                                                                             
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+    <!-- ###### AC'S VEHICLE#1 ###### -->
+    <item name="AC'SVEHICLE#1ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#1Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#1Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#1Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#1ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#2 ###### -->
+    <item name="AC'SVEHICLE#2ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#2Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#2Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#2Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#2ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#3 ###### -->
+    <item name="AC'SVEHICLE#3ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#3Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#3Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#3Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#3ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#4 ###### -->
+    <item name="AC'SVEHICLE#4ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#4Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#4Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#4Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#4ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#5 ###### -->
+    <item name="AC'SVEHICLE#5ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#5Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#5Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#5Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#5ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#6 ###### -->
+    <item name="AC'SVEHICLE#6ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#6Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#6Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#6Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#6ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#7 ###### -->
+    <item name="AC'SVEHICLE#7ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#7Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#7Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#7Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#7ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#8 ###### -->
+    <item name="AC'SVEHICLE#8ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#8Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#8Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#8Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#8ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#9 ###### -->
+    <item name="AC'SVEHICLE#9ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#9Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#9Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#9Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#9ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE#10 ###### -->
+    <item name="AC'SVEHICLE#10ChassisSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLE#10Chassis" />
+      <property name="Unlocks" value="AC'SVEHICLE#10Chassis" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLE#10Chassis" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLE#10ChassisSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE ENGINE PARTS ###### -->
+    <item name="AC'SVEHICLEEnginePartsSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEEngineParts" />
+      <property name="Unlocks" value="AC'SVEHICLEEngineParts" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEEngineParts" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEEnginePartsSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE ENGINE BLOCK ###### -->
+    <item name="AC'SVEHICLEEngineBlockSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEEngineBlock" />
+      <property name="Unlocks" value="AC'SVEHICLEEngineBlock" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEEngineBlock" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEEngineBlockSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE CRANK SHAFT ###### -->
+    <item name="AC'SVEHICLECrankShaftSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLECrankShaft" />
+      <property name="Unlocks" value="AC'SVEHICLECrankShaft" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLECrankShaft" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLECrankShaftSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE CYLINDER HEAD ###### -->
+    <item name="AC'SVEHICLECylinderHeadSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLECylinderHead" />
+      <property name="Unlocks" value="AC'SVEHICLECylinderHead" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLECylinderHead" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLECylinderHeadSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE CAM SHAFT ###### -->
+    <item name="AC'SVEHICLECamShaftSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLECamShaft" />
+      <property name="Unlocks" value="AC'SVEHICLECamShaft" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLECamShaft" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLECamShaftSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE ENGINE PISTONS ###### -->
+    <item name="AC'SVEHICLEEnginePistonSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEEnginePiston" />
+      <property name="Unlocks" value="AC'SVEHICLEEnginePiston" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEEnginePiston" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEEnginePistonSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE TOOL SOCKETS ###### -->
+    <item name="AC'SVEHICLEToolSocketsSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEToolSockets" />
+      <property name="Unlocks" value="AC'SVEHICLEToolSockets" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEToolSockets" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEToolSocketsSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE ENGINE ASSEMBLY ###### -->
+    <item name="AC'SVEHICLEEngineAssemblySchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEEngineAssembly" />
+      <property name="Unlocks" value="AC'SVEHICLEEngineAssembly" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEEngineAssembly" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEEngineAssemblySchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE CARBURETOR ###### -->
+    <item name="AC'SVEHICLECarburetorSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLECarburetor" />
+      <property name="Unlocks" value="AC'SVEHICLECarburetor" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLECarburetor" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLECarburetorSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE FUEL PUMP ###### -->
+    <item name="AC'SVEHICLEFuelPumpSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEFuelPump" />
+      <property name="Unlocks" value="AC'SVEHICLEFuelPump" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEFuelPump" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEFuelPumpSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE SPARK PLUGS ###### -->
+    <item name="AC'SVEHICLESparkPlugsSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLESparkPlugs" />
+      <property name="Unlocks" value="AC'SVEHICLESparkPlugs" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLESparkPlugs" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLESparkPlugsSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE TIMING BELT ###### -->
+    <item name="AC'SVEHICLETimingBeltSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLETimingBelt" />
+      <property name="Unlocks" value="AC'SVEHICLETimingBelt" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLETimingBelt" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLETimingBeltSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE PISTON RINGS ###### -->
+    <item name="AC'SVEHICLEPistonRingsSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEPistonRings" />
+      <property name="Unlocks" value="AC'SVEHICLEPistonRings" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEPistonRings" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEPistonRingsSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE OLD PARTS ###### -->
+    <item name="AC'SVEHICLEOldPartsSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEOldParts" />
+      <property name="Unlocks" value="AC'SVEHICLEOldParts" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEOldParts" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEOldPartsSchematic Description" />
+    </item>
+    <!-- ###### AC'S VEHICLE BATTERY PLUGS ###### -->
+    <item name="AC'SVEHICLEBatteryplugsSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="AC'SVEHICLEBatteryplugs" />
+      <property name="Unlocks" value="AC'SVEHICLEBatteryplugs" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AC'SVEHICLEBatteryplugs" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="AC'SVEHICLEBatteryplugsSchematic Description" />
+    </item>
+    <!-- 
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									        AC'S WORKBENCHS                                                                                              
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+    <item name="ACGarageWorkBenchSchematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="ACGarageWorkBench" />
+      <property name="Unlocks" value="ACGarageWorkBench" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ACGarageWorkBench" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+      </effect_group>
+      <property name="DescriptionKey" value="ACGarageWorkBenchSchematic Description" />
+    </item>
+  </append>
+</configs>

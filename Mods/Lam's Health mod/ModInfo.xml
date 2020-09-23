@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lam's Health mod." />
+		<Description value="adding a perk that will increase your max HP up to 100."/>
+		<Author value="lam" />
+		<Version value="19.0" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,551 @@
+<configs>
+<append xpath="recipes">
+
+
+<recipe name="手枪强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="手枪强化版零件" count="5"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="手枪强化零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+
+	<recipe name="手枪强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="40"/>
+	<ingredient name="resourcePaper" count="100"/>
+	<ingredient name="resourcePaint" count="400"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="手枪强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="200"/>
+	<ingredient name="resourcePaper" count="2000"/>
+	<ingredient name="gunHandgunT1PistolSchematic" count="1"/>
+	<ingredient name="resourcePaint" count="7000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="9毫米合金子弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="9毫米合金空心弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="9毫米合金穿甲弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="合金弹头" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+	<ingredient name="unit_lead" count="4"/>
+	<ingredient name="unit_clay" count="1"/>
+	<ingredient name="unit_brass" count="4"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_lead,unit_brass"/>
+	</effect_group>
+</recipe>
+
+
+
+
+
+<recipe name="手枪强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="2"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+<recipe name="SMG5强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="SMG5强化版零件" count="7"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="SMG5强化零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="SMG5强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="2"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+	<recipe name="SMG5强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="40"/>
+	<ingredient name="resourcePaper" count="200"/>
+	<ingredient name="resourcePaint" count="800"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="SMG5强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="200"/>
+	<ingredient name="resourcePaper" count="4000"/>
+	<ingredient name="gunHandgunT3SMG5Schematic" count="1"/>
+	<ingredient name="resourcePaint" count="7000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+
+<recipe name=".44马格南合金弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="15"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name=".44马格南合金空心弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="15"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name=".44马格南合金穿甲弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="15"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="马格南强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="马格南强化版零件" count="10"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="马格南强化版,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="马格南强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="2"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+
+	<recipe name="马格南强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="40"/>
+	<ingredient name="resourcePaper" count="200"/>
+	<ingredient name="resourcePaint" count="1000"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="马格南强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="200"/>
+	<ingredient name="resourcePaper" count="6000"/>
+	<ingredient name="gunHandgunT2Magnum44Schematic" count="1"/>
+	<ingredient name="resourcePaint" count="7000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+
+
+<recipe name="沙漠秃鹰强化版" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<ingredient name="沙漠秃鹰强化版零件" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="沙漠秃鹰强化版零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="沙漠秃鹰强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="2"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+	<recipe name="沙漠秃鹰强化版零件设计图" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceGlue" count="40"/>
+	<ingredient name="resourcePaper" count="200"/>
+	<ingredient name="resourcePaint" count="1000"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="沙漠秃鹰强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="200"/>
+	<ingredient name="resourcePaper" count="5000"/>
+	<ingredient name="gunHandgunT3DesertVultureSchematic" count="1"/>
+	<ingredient name="resourcePaint" count="7000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+
+<recipe name="合金霰弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="合金鹿弹" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+	<ingredient name="resourceGunPowder" count="12"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourcePaper,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="合金穿甲霰弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="合金鹿弹" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+	<ingredient name="resourceGunPowder" count="15"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourcePaper,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="合金鹿弹" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+	<ingredient name="unit_lead" count="4"/>
+	<ingredient name="unit_clay" count="1"/>
+	<ingredient name="unit_brass" count="4"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_lead,unit_brass"/>
+	</effect_group>
+</recipe>
+
+<recipe name="自动霰弹枪强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="2"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+	<recipe name="自动霰弹枪强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="40"/>
+	<ingredient name="resourcePaper" count="200"/>
+	<ingredient name="resourcePaint" count="1000"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="自动霰弹枪强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="220"/>
+	<ingredient name="resourcePaper" count="6000"/>
+	<ingredient name="gunShotgunT3AutoShotgunSchematic" count="1"/>
+	<ingredient name="resourcePaint" count="7000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+
+<recipe name="自动霰弹枪强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="自动霰弹枪强化版零件" count="10"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="自动霰弹枪强化版零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="7.62合金子弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="13"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="7.62合金空心弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="13"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="7.62合金穿甲弹" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="合金弹头" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceGunPowder" count="13"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="合金弹头,resourceBulletCasing,resourceGunPowder"/>
+	</effect_group>
+</recipe>
+
+<recipe name="单发猎枪强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="2"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+	<recipe name="单发猎枪强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="40"/>
+	<ingredient name="resourcePaper" count="100"/>
+	<ingredient name="resourcePaint" count="1000"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="单发猎枪强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="100"/>
+	<ingredient name="resourcePaper" count="6000"/>
+	<ingredient name="gunRifleT1HuntingRifleSchematic" count="1"/>
+	<ingredient name="resourcePaint" count="6000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+
+
+
+<recipe name="单发猎枪强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="单发猎枪强化版零件" count="10"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="单发猎枪强化版零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="自动射手步枪强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="3"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+	<recipe name="自动射手步枪强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="40"/>
+	<ingredient name="resourcePaper" count="200"/>
+	<ingredient name="resourcePaint" count="1000"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="自动射手步枪强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="250"/>
+	<ingredient name="resourcePaper" count="6000"/>
+	<ingredient name="gunRifleT2MarksmanRifleSchematic" count="1"/>
+	<ingredient name="resourcePaint" count="10000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+
+<recipe name="自动射手步枪强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="自动射手步枪强化版零件" count="10"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="自动射手步枪强化版零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="M60强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="4"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+	
+	<recipe name="M60强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="70"/>
+	<ingredient name="resourcePaper" count="200"/>
+	<ingredient name="resourcePaint" count="1000"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="M60强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="400"/>
+	<ingredient name="resourcePaper" count="7000"/>
+	<ingredient name="gunMGT3M60Schematic" count="1"/>
+	<ingredient name="resourcePaint" count="10000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+	
+</recipe>
+
+<recipe name="M60强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="M60强化版零件" count="10"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="M60强化版零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+
+<recipe name="AK47强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunHandgunT1PistolParts" count="3"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+<recipe name="AK47强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="60"/>
+	<ingredient name="resourcePaper" count="200"/>
+	<ingredient name="resourcePaint" count="1000"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+
+<recipe name="AK47强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="AK47强化版零件" count="10"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="AK47强化版零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="AK47强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="300"/>
+	<ingredient name="resourcePaper" count="6000"/>
+	<ingredient name="gunMGT1AK47Schematic" count="1"/>
+	<ingredient name="resourcePaint" count="10000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="自动机器人炮塔强化版" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<ingredient name="自动机器人炮塔强化版零件" count="20"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="AK47强化版零件,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="自动机器人炮塔强化版零件" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="gunBotRoboticsParts" count="3"/>
+	<ingredient name="resourceCoal" count="30"/>
+	<ingredient name="ammoGasCan" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHandgunT1PistolParts,resourceCoal,ammoGasCan"/>
+	</effect_group>
+</recipe>
+
+<recipe name="自动机器人炮塔强化版零件设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="60"/>
+	<ingredient name="resourcePaper" count="200"/>
+	<ingredient name="resourcePaint" count="1000"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+<recipe name="自动机器人炮塔强化版设计图" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceGlue" count="400"/>
+	<ingredient name="resourcePaper" count="10000"/>
+	<ingredient name="gunMGT1AK47Schematic" count="1"/>
+	<ingredient name="resourcePaint" count="10000"/>
+	<ingredient name="resourceFeather" count="100"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceGlue,resourcePaper,gunMGT1AK47Schematic,resourcePaint,resourceFeather"/>
+	</effect_group>
+</recipe>
+
+</append>
+</configs>

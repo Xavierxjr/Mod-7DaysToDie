@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+meleeBattlelAxe,items,Item,,,Battleaxe
+meleeBattlelAxeDesc,items,Item,,,A post apocalyptic steel battleaxe. Great for slaying hordes of zombies.\n\nRepair with a Repair Kit.\nScrap to Steel Tool parts.
+meleeBattlelAxeSchematic,items,Item,,,Battleaxe Schematic
+meleeToolAxeT2SteelAxe,items,Item,,,Steel Fireaxe
+meleeToolAxeT2SteelAxeDesc,items,Item,,,The steel fireaxe has a durable blade and is great for harvesting wood.\n\nRepair with a Repair Kit.\nScrap to Steel Tool parts.

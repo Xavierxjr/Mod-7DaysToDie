@@ -1,0 +1,317 @@
+<configs>
+	<append xpath="/recipes">
+	
+		<!-- 
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									        AC'S VEHICLES                                                                                              
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+	
+		<!-- ###### AC'S VEHICLE#1 ###### -->
+		<recipe name="AC'SVEHICLE#1Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#1Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+	
+		<!-- ###### AC'S VEHICLE#2 ###### -->
+		<recipe name="AC'SVEHICLE#2Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#2Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+		
+		<!-- ###### AC'S VEHICLE#3 ###### -->
+		<recipe name="AC'SVEHICLE#3Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#3Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+	
+		<!-- ###### AC'S VEHICLE#4 ###### -->
+		<recipe name="AC'SVEHICLE#4Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#4Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+		
+		<!-- ###### AC'S VEHICLE#5 ###### -->
+		<recipe name="AC'SVEHICLE#5Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#5Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+	
+		<!-- ###### AC'S VEHICLE#6 ###### -->
+		<recipe name="AC'SVEHICLE#6Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#6Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+		
+		<!-- ###### AC'S VEHICLE#7 ###### -->
+		<recipe name="AC'SVEHICLE#7Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#7Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+	
+		<!-- ###### AC'S VEHICLE#8 ###### -->
+		<recipe name="AC'SVEHICLE#8Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#8Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+		
+			<!-- ###### AC'S VEHICLE#9 ###### -->
+		<recipe name="AC'SVEHICLE#9Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#9Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+	
+		<!-- ###### AC'S VEHICLE#10 ###### -->
+		<recipe name="AC'SVEHICLE#10Chassis" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable,ACGarageWorkBench">
+            <ingredient name="carBattery" count="1"/>
+            <ingredient name="AC'SVEHICLEBatteryplugs" count="1"/>
+            <ingredient name="AC'SVEHICLEToolSockets" count="1"/>
+			<ingredient name="AC'SVEHICLEOldParts" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+        </recipe>
+		<recipe name="AC'SVEHICLE#10Placeable" count="1" craft_area="ACGarageWorkBench" tags="ACGarageWorkBench">
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="AC'SVEHICLE#2Chassis" count="1"/>
+            <ingredient name="AC'SVEHICLEEngineParts" count="1"/>
+			<ingredient name="AC'SVEHICLEEngineAssembly" count="1"/>
+			<ingredient name="vehicleWheels" count="4"/>
+        </recipe>
+		
+		<!-- 
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									        AC'S VEHICLE PARTS                                                                                              
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+		
+		<recipe name="AC'SVEHICLEEngineParts" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="AC'SVEHICLEEngineBlock" count="1"/>
+            <ingredient name="AC'SVEHICLECrankShaft" count="1"/>
+            <ingredient name="AC'SVEHICLECylinderHead" count="1"/>
+			<ingredient name="AC'SVEHICLECamShaft" count="1"/>
+			<ingredient name="AC'SVEHICLEEnginePiston" count="6"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLEEngineBlock" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLECrankShaft" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLECylinderHead" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLECamShaft" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLEEnginePiston" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLEToolSockets" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLEEngineAssembly" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="AC'SVEHICLECarburetor" count="1"/>
+            <ingredient name="AC'SVEHICLEFuelPump" count="1"/>
+            <ingredient name="AC'SVEHICLESparkPlugs" count="6"/>
+			<ingredient name="AC'SVEHICLETimingBelt" count="3"/>
+			<ingredient name="AC'SVEHICLEPistonRings" count="6"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLECarburetor" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLEFuelPump" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLESparkPlugs" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceCoal" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLETimingBelt" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+		
+			
+		<recipe name="AC'SVEHICLEPistonRings" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLEOldParts" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+        </recipe>
+		
+		<recipe name="AC'SVEHICLEBatteryplugs" count="1" craft_area="ACGarageWorkBench" tags="perkGreaseMonkey,learnable">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+		
+		<!-- 
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									        AC'S WORKBENCHS                                                                                              
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+	
+		<recipe name="ACGarageWorkBench" count="1" craft_area="workBench" tags="workbenchCrafting">
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+        </recipe>
+	
+		
+	
+	
+	
+	
+	
+	</append>
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Rigon's SteelFireAxe and BattleAxe" />
+		<Description value="Adds SteelFireAxe as a tool and a BattleAxe as a weapon for Alpha 19." />
+		<Author value="Rigon" />
+		<Version value="1.3" />
+	</ModInfo>
+</xml>

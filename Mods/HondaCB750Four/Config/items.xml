@@ -1,0 +1,33 @@
+<configs>
+	<append xpath="/items">
+		
+		<item name="vehicleHondaCB750chassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="HondaCB750chassis"/>
+			<property name="DescriptionKey" value="vehicleHondaCB750chassisDesc"/>
+			<property name="EconomicValue" value="10000"/>
+		</item>
+		
+		<item name="vehicleHondaCB750accessories">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="HondaCB750accessories"/>
+			<property name="DescriptionKey" value="vehicleHondaCB750accessoriesDesc"/>
+			<property name="EconomicValue" value="10000"/>
+		</item>
+		
+		<item name="vehicleHondaCB750placeable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="HondaCB750"/>
+			<property name="DescriptionKey" value="vehicleHondaCB750placeableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/HondaCB750Prefab.unity3d?HondaCB750Prefab.prefab"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleHondaCB750"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="15000"/>
+			</effect_group>
+		</item>		
+	 </append>
+ </configs>

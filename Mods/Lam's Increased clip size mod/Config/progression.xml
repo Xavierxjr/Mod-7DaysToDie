@@ -1,0 +1,59 @@
+<config>	
+	<append xpath="/progression/perks">
+	
+<perk name="Increasedclipsize" parent="LamsBonus" name_key="Increased clip size" desc_key="Tired of constantly reloading your weapons ?\nDump some skill points into this perk.\nTo increase your clip size." icon="ui_game_symbol_ammo">
+
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="2" desc_key="Intellect lvl 2"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="Intellect lvl 4"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="Intellect lvl 6"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="Intellect lvl 8"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="Intellect lvl 10"/></level_requirements>
+
+		<effect_group>
+			<requirement name="ItemHasTags" tags="LamAmmo"/>
+			<passive_effect name="MagazineSize" operation="base_add" level="1,2,3,4,5" value="1,1,2,2,3"/>
+		</effect_group>
+		
+		<effect_group>
+			<requirement name="ItemHasTags" tags="perkDeadEye"/>
+			<passive_effect name="MagazineSize" operation="base_add" level="1,2,3,4,5" value="1,1,2,2,3"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="ItemHasTags" tags="perkBoomstick"/>
+			<passive_effect name="MagazineSize" operation="perc_add" level="1,5" value=".1,.5"/>
+		</effect_group>
+		
+		<effect_group>
+			<requirement name="ItemHasTags" tags="perkMachineGunner"/>
+			<passive_effect name="MagazineSize" operation="perc_add" level="1,5" value=".1,.5"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="ItemHasTags" tags="perkArchery"/>
+			<passive_effect name="MagazineSize" operation="base_add" level="1,2,3,4,5" value="1,1,2,2,3"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="ItemHasTags" tags="perkGunslinger"/>
+			<passive_effect name="MagazineSize" operation="perc_add" level="1,5" value=".1,.5"/>
+		</effect_group>
+
+		<effect_group name="Holding a turret">
+			<requirement name="ItemHasTags" tags="perkTurrets"/>
+			<passive_effect name="MagazineSize" operation="perc_add" level="1,5" value=".1,.5"/>
+		</effect_group>
+
+		<effect_group>
+			<effect_description level="1" desc_base="10% extra ammo or +1" long_desc_key="blunderbus,double barrel shotgun,hunting rifle,sniper rifle,marksman rifle,bow and xbow + 1 ammo.\n all other weapons +10% ammo."/>
+			<effect_description level="2" desc_base="20% extra ammo" long_desc_key="all weapons +20% ammo.\nEXCEPT blunderbus,double barrel shotgun,hunting rifle,sniper rifle,marksman rifle,bow and xbow."/>
+			<effect_description level="3" desc_base="30% extra ammo or +2" long_desc_key="blunderbus,double barrel shotgun,hunting rifle,sniper rifle,marksman rifle,bow and xbow + 2 ammo.\n all other weapons +30% ammo."/>
+			<effect_description level="4" desc_base="40% extra ammo" long_desc_key="all weapons +40% ammo.\nEXCEPT blunderbus,double barrel shotgun,hunting rifle,sniper rifle,marksman rifle,bow and xbow."/>
+			<effect_description level="5" desc_base="50% extra ammo or +3" long_desc_key="blunderbus,double barrel shotgun,hunting rifle,sniper rifle,marksman rifle,bow and xbow + 3 ammo.\n all other weapons +50% ammo."/>
+		</effect_group>
+	
+</perk>
+		
+</append>
+	
+</config>

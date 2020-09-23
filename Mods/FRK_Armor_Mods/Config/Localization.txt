@@ -1,0 +1,41 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text
+modArmorBackPack,item_modifiers,mod,,,Backpack Mod,,
+modArmorBackPackDesc,item_modifiers,mod,,,Decrease encumbrance penalty by 15 by installing this modification into your armor.,,
+modArmorBackPackSchematic,items,Schematic,,,Backpack Mod Schematic,,
+apparelUltimateGoggles,items,Clothes,,,ULTIMATE Goggles,,
+apparelUltimateGogglesDesc,items,Clothes,,,"Combines the benefits from the Nerdy Glasses, the cigar, Night Vision Goggles, and the Lucky Looter Goggles.\n\nHelps you find better loot in containers and find buried treasure more easily.\nFaster crafting and gain extra XP.\nGet a better deal from traders. \nBoosts ALL attributes!",,
+apparelUltimateGogglesSchematic,items,Schematic,,, Ultimate Goggles Schematic,,
+modArmorSprungBoots,item_modifiers,mod,,,Sprung Boots Mod,,
+modArmorSprungBootsDesc,item_modifiers,mod,,,"Increase jump height, reduce fall damage, and reduce stamina usage while jumping.".,,
+modArmorSprungBootsSchematic,items,Schematic,,,Sprung Boots Mod Schematic,,
+modDyeRoyalPurple,item_modifiers,mod,,,Dye: Royal Purple
+modDyeTurquoise,item_modifiers,mod,,,Dye: Turquoise
+modDyeGold,item_modifiers,mod,,,Dye: Gold
+modDyeSilver,item_modifiers,mod,,,Dye: Silver
+modDyeBronze,item_modifiers,mod,,,Dye: Bronze
+modDyeLime,item_modifiers,mod,,,Dye: Lime
+modDyeCandyPink,item_modifiers,mod,,,Dye: Candy Pink
+modDyeOrange,item_modifiers,mod,,,Dye: Orange
+modDyeBeige,item_modifiers,mod,,,Dye: Beige
+modDyeTan,item_modifiers,mod,,,Dye: Tan
+modDyeGray,item_modifiers,mod,,,Dye: Gray
+modDyeCharcoal,item_modifiers,mod,,,Dye: Charcoal
+modDyeNavyBlue,item_modifiers,mod,,,Dye: Navy-Blue
+modDyeRoyalBlue,item_modifiers,mod,,,Dye: Royal-Blue
+modDyeAzure,item_modifiers,mod,,,Dye: Azure
+modDyeCyan,item_modifiers,mod,,,Dye: Cyan
+modDyeAquamarine,item_modifiers,mod,,,Dye: Aquamarine
+modDyeTeal,item_modifiers,mod,,,Dye: Teal
+modDyeForestGreen,item_modifiers,mod,,,Dye: Forest-Green
+modDyeOlive,item_modifiers,mod,,,Dye: Olive
+modDyeChartreuse,item_modifiers,mod,,,Dye: Chartreuse
+modDyeCoral,item_modifiers,mod,,,Dye: Coral
+modDyeSalmon,item_modifiers,mod,,,Dye: Salmon
+modDyeFuchsia,item_modifiers,mod,,,Dye: Fuchsia
+modDyePuce,item_modifiers,mod,,,Dye: Puce
+modDyeMauve,item_modifiers,mod,,,Dye: Mauve
+modDyeLavender,item_modifiers,mod,,,Dye: Lavender
+modDyePlum,item_modifiers,mod,,,Dye: Plum
+modDyeIndigo,item_modifiers,mod,,,Dye: Indigo
+modDyeMaroon,item_modifiers,mod,,,Dye: Maroon
+modDyeCrimson,item_modifiers,mod,,,Dye: Crimson

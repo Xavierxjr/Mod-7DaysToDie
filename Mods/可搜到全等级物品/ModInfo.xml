@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="FAWK-LOOT-ALL" />
+		<Description value="Change Loot probabilities so you can find anything at any level." />
+		<Author value="Fawk" />
+		<Version value="1.00" />
+	</ModInfo>
+</xml>

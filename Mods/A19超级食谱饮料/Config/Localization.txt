@@ -1,0 +1,175 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish,schinese
+drinkDragonsBottledSuperPumpkinAwesomeSauce,items,Food,New,"Dragon's Bottled Super Pumpkin Awesome Sauce",,,,,,“龙瓶超级南瓜棒酱”
+drinkDragonsBottledSuperPumpkinAwesomeSauceDesc,items,Food,New,"Are you still tired of getting bent by those pesky traders even with the other Awesome Sauce?\nTake a shot of Dragon's Super Pumpkin Awesome Sauce\nand get a much, better deal overall!",,,,,,“你还厌倦了被那些讨厌的商人，即使是和其他令人敬畏的酱吗？ \n拍一张龙的超级南瓜棒酱，得到一个更多，更好的整体交易！ “
+drinkDragonsBottledSuperPumpkinAwesomeSauceSchematic,items,Food,New,"Dragon's Bottled Super Pumpkin Awesome Sauce Recipe",,,,,,“龙瓶超级南瓜棒酱配方”
+drinkDragonsBottledSuperPumpkinMoonshine,items,Food,New,"Dragon's Bottled Super Pumpkin Moonshine",,,,,,“龙的瓶装超级南瓜月亮”
+drinkDragonsBottledSuperPumpkinMoonshineDesc,items,Food,New,"Nuthin' makes settling it the old way easier than drinking some of Dragon's Bottled Super Pumpkin Moonshine. \nGives all melee damage a punch that will makes the original Moonshine a joke. Also Increases fortitude, damage resistance and a bunch of other stuff.",,,,,,“Nuthin”使解决它的老方式比喝一些龙的瓶装超级南瓜月亮.\n给所有近战伤害一拳，这将使原来的蒙辛成为一个笑话.也增加坚韧，伤害抵抗和其他一些东西.“
+drinkDragonsBottledSuperPumpkinMoonshineSchematic,items,Food,New,"Dragon's Bottled Super Pumpkin Moonshine Recipe",,,,,,“龙的瓶装超级南瓜酒配方”
+drinkSuperNitroPumpkinSpiceLatte,items,Food,New,"Super Nitro Pumpkin Spice Latte",,,,,,“超级硝基南瓜拿铁”
+drinkSuperNitroPumpkinSpiceLatteDesc,items,Food,New,"Extremely one of the rarest drink you can find in the land. Has Coffee Beans, Blended Pumpkin, Pumpkin Spices, Super Pumpkin Beer, and a Mega Crush! This drink will blow your mind and make you super fast. WARNING! Drinking more than one at a time may cause immediate heart failure. DRINK AT YOUR OWN RISK. -Dragon",,,,,,“极其稀有的酒你可以找到.咖啡豆，混合南瓜，南瓜香料，超级南瓜啤酒，和一个大型粉碎!这种饮料会打击你的头脑，让你非常快.警告!喝超过一次可能会导致心脏衰竭.喝你的自己的风险.龙”
+drinkSuperNitroPumpkinSpiceLatteSchematic,items,Food,New,"Super Nitro Pumpkin Spice Latte Recipe",,,,,,“超级硝基南瓜拿铁配方”
+drinkNitroPumpkinSpiceLatte,items,Food,New,"Nitro Pumpkin Spice Latte",,,,,,“硝基南瓜拿铁”
+drinkNitroPumpkinSpiceLatteDesc,items,Food,New,"Not the rarest and easier on the heart this drink is. Has Coffee Beans, Blended Pumpkin, Pumpkin Spices, Beer, and a Mega Crush! This drink will make you super fast. WARNING! Drinking more than one a day may cause liver and kidney failure, eventually. I cannot promise you anything, good luck! -Dragon",,,,,,“不是最稀有和心脏这种饮料.咖啡豆，混合南瓜，南瓜香料，啤酒，和一个大型粉碎!这种饮料会使你非常快.警告!每天喝超过一个可能导致肝脏和肾脏衰竭，最终.我不能向你保证什么，祝你好运!龙”
+drinkNitroPumpkinSpiceLatteSchematic,items,Food,New,"Nitro Pumpkin Spice Latte Recipe",,,,,,“硝基南瓜拿铁配方”
+drinkDragonsBottledSuperPumpkinBeer,items,Food,New,"Dragon's Bottled Super Pumpkin Beer",,,,,,“龙超级南瓜瓶装的啤酒”
+drinkDragonsBottledSuperPumpkinBeerDesc,items,Food,New,"500% Fist Melee Damage\n50% Stamina Gain\n\nGain stamina, bravado and stun immunity all in one bottle of this tasty home brewed pumpkin beer just like before the zombie apocalypse.",,,,,,“500%的拳头近战伤害\n50%耐力获得\n\n获得耐力，虚张声势和眩晕免疫力都在家中自酿一瓶这美味的南瓜啤酒就像僵尸.”
+drinkDragonsBottledSuperPumpkinBeerSchematic,items,Food,New,"Dragon's Bottled Super Pumpkin Beer Recipe",,,,,,“龙超级南瓜瓶装的啤酒配方”
+drinkCupPumpkinCoffee,items,Food,New,"Pumpkin Coffee",,,,,,“南瓜咖啡”
+drinkCupPumpkinCoffeeDesc,items,Food,New,"Pumpkin Coffee keeps your stamina up and helps you stay warm for a limited time.\n\nFinally, Dragon found the recipe to make flavored tasting coffee than drinking it straight black.",,,,,,“南瓜咖啡使你的耐力，帮助你保持温暖在有限的时间内.\n\n最后，龙发现配方使口味品尝比连续喝黑咖啡.”
+drinkCupPumpkinCoffeeSchematic,items,Food,New,"Cup Pumpkin Coffee Recipe",,,,,,“南瓜咖啡食谱”
+drinkCupBlackStrapPumpkinCoffee,items,Food,New,"Blackstrap Pumpkin Coffee",,,,,,“普通红葡萄酒南瓜咖啡”
+drinkCupBlackStrapPumpkinCoffeeDesc,items,Food,New,"Blackstrap Pumpkin Coffee. I've mixed the 2 century old favorite coffee recipe from miners in the 1800's known as 'Muckmen Blackstrap'. This strong blended roast mixed with pumpkin flavoring has long lasting energy and keeps you warm for hours.",,,,,,“普通红葡萄酒南瓜咖啡.我混合2世纪老最喜欢的咖啡食谱从矿工在1800年代被称为“Muckmen普通红葡萄酒”.这个强大的混合烤南瓜调味拌有持久的能量，让你温暖的几个小时.”
+drinkCupPumpkinSpiceLatte,items,Food,New,"Cup Pumpkin Spice Latte.",,,,,,“杯南瓜拿铁.”
+drinkCupPumpkinSpiceLatteDesc,items,Food,New,"Nothing like a warm latte on, well any day in this kind of world. Pumpkin Spice Lattes is where it is at when mining for ore!",,,,,,“在这种世界上，没有什么比一杯热拿好的了.南瓜香料拿铁是它在那里开采矿石！ “
+drinkCupPumpkinSpiceLatteSchematic,items,Food,New,"Cup Pumpkin Spice Latte Recipe",,,,,,“杯南瓜拿铁配方”
+drinkCupPumpkinRedTea,items,Food,New,"Pumpkin Red Tea",,,,,,“南瓜红茶”
+drinkCupPumpkinRedTeaDesc,items,Food,New,"An ancient Chinese secret, red tea blended with some pumpkins and mixed with pumpkin spice. This is known for being an antioxidant, providing excellent rehydration and reducing max stamina drain so that exertion does not make you hungry and thirsty as quickly.",,,,,,”一种古老的中国秘密，红茶与南瓜混合在一起，混合南瓜香料.这是众所周知的抗氧化剂，提供良好的补液和减少最大的耐力消耗，以便用力不会使你饥饿和口渴的速度.“
+drinkCupPumpkinRedTeaSchematic,items,Food,New,"Cup Pumpkin Red Tea Recipe",,,,,,“杯南瓜红茶配方”
+drinkCupPumpkinGoldenRodTea,items,Food,New,"Pumpkin Goldenrod Tea",,,,,,“南瓜秋麒麟草茶”
+drinkCupPumpkinGoldenRodTeaDesc,items,Food,New,"Greatly speeds up recovering from dysentery and more so after discovering a brand new ingredient, PUMPKIN!",,,,,,“大大加速康复痢疾后发现一个全新的成分，南瓜!”
+drinkCupPumpkinGoldenRodTeaSchematic,items,Food,New,"Cup Pumpkin Goldenrod Tea Recipe",,,,,,“杯南瓜秋麒麟草茶配方”
+drinkBottledPumpkinJuice,items,Food,New,"Pumpkin Juice",,,,,,“南瓜汁”
+drinkBottledPumpkinJuiceDesc,items,Food,New,"Pumpkin juice provides the best and most excellent hydration drink out there.",,,,,,“南瓜汁提供最好的和最优秀的水化喝.”
+drinkBottledPumpkinJuiceSchematic,items,Food,New,"Bottled Pumpkin Juice Recipe",,,,,,“瓶装南瓜汁配方”
+drinkGlassBlueberryJuice,items,Food,New,"Blueberry Juice",,,,,,“蓝莓汁”
+drinkGlassBlueberryJuiceDesc,items,Food,New,"Blueberry juice provides the second best and a excellent hydration drink out there. All thanks to Dragon and his ingenious mind!",,,,,,“蓝莓果汁提供了第二个最好和出色的水喝.由于龙和他的巧妙的主意!”
+drinkGlassBlueberryJuiceSchematic,items,Food,New,"Glass Blueberry Juice Recipe",,,,,,“玻璃蓝莓汁配方”
+drinkGlassPumpkinJuiceSmoothie,items,Food,New,"Pumkin Juice Smoothie",,,,,,“普姆金果汁”
+drinkGlassPumpkinJuiceSmoothieDesc,items,Food,New,"This out of the world, brand new smoothie helps you survive the harsh and severely cold environments.",,,,,,”这是一个世界之外，全新的冰沙帮助你在严酷和严寒的环境中生存.“
+drinkGlassPumpkinJuiceSmoothieSchematic,items,Food,New,"Glass Pumpkin Juice Smoothie Recipe",,,,,,“玻璃南瓜汁奶昔配方”
+drinkGlassBlueberryJuiceSmoothie,items,Food,New,"Blueberry Juice Smoothie",,,,,,”“蓝莓果汁奶昔
+drinkGlassBlueberryJuiceSmoothieDesc,items,Food,New,"This brand new smoothie helps you survive longer in harsh cold environments.",,,,,,”这个全新的奶昔帮助你不再在寒冷严酷的环境中生存下来.”
+drinkGlassBlueberryJuiceSmoothieSchematic,items,Food,New,"Glass Blueberry Juice Smoothie Recipe",,,,,,“玻璃蓝莓果汁奶昔配方”
+drinkJarSuperGrainAlcohol,items,Food,New,"Super Grain Alcohol",,,,,,“超级谷物酒精”
+drinkJarSuperGrainAlcoholDesc,items,Food,New,"Super Grain alcohol is used to make certain brand new recipes and beefs up buffs and stats. It's been made with radiated, engineered corn.",,,,,,“超级乙醇被用于制造某些全新的食谱和屠宰爱好者和统计数据.这是由辐射、转基因玉米.”
+drinkJarSuperGrainAlcoholSchematic,items,Food,New,"Jar Super Grain Alcohol Recipe",,,,,,“Jar超级谷物酒精配方”
+foodCropGraceCorn,items,Food,New,"Ear of Super Corn",,,,,,“超级玉米的耳朵”
+foodCropGraceCornDesc,items,Food,New,"A mutated ear of corn that looks safe enough to eat. Probably.",,,,,,“突变玉米耳朵看起来安全的足够的食物.可能.”
+foodPumpkinSpice,items,Food,New,"Pumpkin Spice",,,,,,“南瓜”
+foodPumpkinSpiceDesc,items,Food,New,"Pumpkin Spice is used in every pumpkin recipe out there. Grow many pumpkins if I was you.",,,,,,“南瓜香料用于每一个南瓜食谱.种植许多南瓜如果我是你.”
+foodPumpkinSpiceSchematic,items,Food,New,"Pumpkin Spice Recipe",,,,,,“南瓜香料配方”
+foodSuperCornMeal,items,Food,New,"Super Cornmeal",,,,,,“超级麦片”
+foodSuperCornMealDesc,items,Food,New,"Super Cornmeal is used in most 'Super' recipes at the campfire. Safe to eat but I recommend using it for those 'Super' new meals.",,,,,,“超级玉米被用于大多数Super食谱篝火.可以安全食用，但我建议使用它的“超级”新餐.”
+foodSuperCornMealSchematic,items,Food,New,"Super Corn Meal Recipe",,,,,,“超级玉米粉食谱”
+foodSuperCornOnTheCob,items,Food,New,"Super Corn on the Cob",,,,,,“超级玉米棒子”
+foodSuperCornOnTheCobDesc,items,Food,New,"A steamed ear of Super Corn is more filling than the standard ear of corn. But it sure is satisfying on the gut if you're in a tight spot.",,,,,,“超级玉米蒸的耳朵比标准灌装玉米穗.但它肯定是令人满意的肠道如果你处于困境.”
+foodSuperCornOnTheCobSchematic,items,Food,New,"Super Corn On The Cob Recipe",,,,,,“超级玉米棒子食谱”
+foodSuperCornBread,items,Food,New,"Super Corn Bread",,,,,,“超级玉米面包”
+foodSuperCornBreadDesc,items,Food,New,"A tasty piece of Super Corn Bread tastes much better and makes great chilidogs.",,,,,,“一块美味的超级玉米面包的味道更好，使伟大的辣味热狗.”
+foodSuperCornBreadSchematic,items,Food,New,"Super Corn Bread Recipe",,,,,,“超级玉米面包食谱”
+foodPumpkinMeatStew,items,Food,New,"Pumpkin Meat Stew",,,,,,“南瓜肉炖肉”
+foodPumpkinMeatStewDesc,items,Food,New,"Once I discovered how to grow pumpkins, I just had to make some pumpkin meat stew".,,,,,,“一旦我发现如何种植南瓜，我只需要做一些南瓜肉炖”.
+foodPumpkinMeatStewSchematic,items,Food,New,"Pumpkin Meat Stew Recipe",,,,,,“南瓜肉炖食谱”
+foodSuperPumpkinMeatStew,items,Food,New,"Super Pumpkin Meat Stew",,,,,,“超级南瓜炖肉”
+foodSuperPumpkinMeatStewDesc,items,Food,New,"Super pumpkin meat stew is where it's at nowadays.",,,,,,“超级南瓜炖肉是在现在的地方.”
+foodSuperPumpkinMeatStewSchematic,items,Food,New,"Super Pumpkin Meat Stew Recipe",,,,,,“超级南瓜肉炖食谱”
+foodSuperMeatStew,items,Food,New,"Super Meat Stew",,,,,,“超级炖肉”
+foodSuperMeatStewDesc,items,Food,New,"Thank God for Dragon coming up ways to utilize super corn.",,,,,,“感谢上帝龙出现的方式利用超级玉米.”
+foodSuperMeatStewSchematic,items,Food,New,"Super Meat Stew Recipe",,,,,,“超级肉炖食谱”
+foodSuperShamChowder,items,Food,New,"Super Sham Chowder",,,,,,“超级假杂烩”
+foodSuperShamChowderDesc,items,Food,New,"Super Sham Chowder increases your Fortitude but it definitely helps improve your health and stamina compared to the original recipe!",,,,,,“超级假的杂烩增加你的坚韧，但显然可以帮助改善你的健康状况和耐力比原来的配方!”
+foodSuperShamChowderSchematic,items,Food,New,"Super Sham Chowder Recipe",,,,,,“超级假杂烩食谱”
+foodSuperHoboStew,items,Food,New,"Super Hobo Stew",,,,,,“超级流浪汉炖肉”
+foodSuperHoboStewDesc,items,Food,New,"Nutritious and deli... it's edible, okay? n\With Super Corn ingredients its now safe for sure.",,,,,,“营养和熟食…它是可食用的，对吧?n \现在超级玉米原料的安全.”
+foodSuperHoboStewSchematic,items,Food,New,"Super Hobo Stew Recipe",,,,,,“超级流浪汉炖食谱”
+foodSuperFishTacos,items,Food,New,"Super Fish Tacos",,,,,,“超级鱼炸玉米饼”
+foodSuperFishTacosDesc,items,Food,New,"Who wants to live off the land when it's taco Tuesday? Or is this Thursday? n\Whatever, with Super Corn in the mix, every day is taco day!",,,,,,“谁想靠土地taco周二的时候?或者这是周四吗?n \不管，超级玉米混杂在一起，每一天都是塔可一天!”
+foodSuperFishTacosSchematic,items,Food,New,"Super Fish Tacos Recipe",,,,,,“超级鱼炸玉米饼食谱”
+foodSuperChiliDog,items,Food,New,"Super Chili Dog",,,,,,“超级辣椒狗”
+foodSuperChiliDogDesc,items,Food,New,"Sooo, much better now!",,,,,,“太太，好多了!”
+foodSuperChiliDogSchematic,items,Food,New,"Super Chili Dog Recipe",,,,,,“超级辣椒狗食谱”
+foodSuperBlueberryPie,items,Food,New,"Super Blueberry Pie",,,,,,“超级蓝莓派”
+foodSuperBlueberryPieDesc,items,Food,New,"This homemade super blueberry pie is nutritious and raises your Max Stamina. Mmm...just like...well, Grandma didn't know about super corn.",,,,,,“这自制的超级蓝莓馅饼营养和提高你的马克斯耐力.嗯…就像……嗯，奶奶不知道超级玉米.”
+foodSuperBlueberryPieSchematic,items,Food,New,"Super Blueberry Pie Recipe",,,,,,“超级蓝莓馅饼食谱”
+foodSuperPumpkinPie,items,Food,New,"Super Pumpkin Pie",,,,,,“超级南瓜派”
+foodSuperPumpkinPieDesc,items,Food,New,"If there is one thing to be thankful for in the apocalypse, it's pumpkin pie and more so with super cornmeal.",,,,,,“如果有一件事要感谢天启，南瓜饼，更因此与超级麦片.”
+foodSuperPumpkinPieSchematic,items,Food,New,"Super Pumpkin Pie Recipe",,,,,,“超级南瓜馅饼食谱”
+foodSuperPumpkinCheesecake,items,Food,New,"Super Pumpkin Cheesecake",,,,,,“超级南瓜芝士蛋糕”
+foodSuperPumpkinCheesecakeDesc,items,Food,New,"This new and amazing super pumpkin cheesecake tastes delicious and grants you now 15% discount when bartering.",,,,,,“这令人惊叹的新超级南瓜芝士蛋糕味道鲜美并且授予您现在15%的折扣当物物交换.”
+foodSuperPumpkinCheesecakeSchematic,items,Food,New,"Super Pumpkin Cheesecake Recipe",,,,,,“超级南瓜芝士蛋糕食谱”
+foodSuperPumpkinBread,items,Food,New,"Super Pumpkin Bread",,,,,,“超级南瓜面包”
+foodSuperPumpkinBreadDesc,items,Food,New,"Super Pumpkin bread is more filling than regular pumpkin bread and worth baking now.",,,,,,“超级南瓜面包比常规灌装南瓜面包，值得现在烤.”
+foodSuperPumpkinBreadSchematic,items,Food,New,"Super Pumpkin Bread Recipe",,,,,,“超级南瓜面包食谱”
+foodSuperVegetableStew,items,Food,New,"Super Vegetable Stew",,,,,,“超级蔬菜炖肉”
+foodSuperVegetableStewDesc,items,Food,New,"Your mom always said to eat your vegetables. Now's your chance to make her happy and guess what? I added some super corn in there and it brings out so much more flavors, better than what you think?.",,,,,,“你妈妈总是说吃你的蔬菜.现在是你的机会让她快乐，你猜怎么着?我添加了一些超级玉米带出更多口味，比你认为什么?.”
+foodSuperVegetableStewSchematic,items,Food,New,"Super Vegetable Stew Recipe",,,,,,“超级蔬菜炖食谱”
+foodPumpkinVegetableStew,items,Food,New,"Pumpkin Vegetable Stew",,,,,,“南瓜蔬菜炖肉”
+foodPumpkinVegetableStewDesc,items,Food,New,"Who would've thought to make this? Yep, that smart guy Dragon knows his way around the kitchen. Wished my momma was around to try this stuff. R.I.P. Mom, Damn Zombies.",,,,,,“谁会认为做这个?是的，聪明的家伙龙知道他在厨房里.希望我的妈妈在尝试这些东西.《安息吧妈妈，该死的僵尸.”
+foodPumpkinVegetableStewSchematic,items,Food,New,"Pumpkin Vegetable Stew Recipe",,,,,,“南瓜蔬菜炖食谱”
+foodSuperPumpkinVegetableStew,items,Food,New,"Super Pumpkin Vegetable Stew",,,,,,“超级南瓜蔬菜炖肉”
+foodSuperPumpkinVegetableStewDesc,items,Food,New,"Get your hands on some super corn and you can make some amazing brand new super pumpkin vegetable stew.",,,,,,“得到一些超级玉米，你可以做一些惊人的全新超级南瓜炖蔬菜.”
+foodSuperPumpkinVegetableStewSchematic,items,Food,New,"Super Pumpkin Vegetable Stew Recipe",,,,,,“超级南瓜蔬菜炖食谱”
+foodPumpkinChickenStew,items,Food,New,"Pumpkin Chicken Stew",,,,,,“南瓜炖鸡”
+foodPumpkinChickenStewDesc,items,Food,New,"How come when I kill a chicken I get raw meat but no poultry meat??? Well, make use of those poultry cans of chicken because that feathery creature roaming the desert is something not of the old world!",,,,,,“为什么当我杀死一只鸡生肉但没有禽肉? ? ?利用这些家禽罐鸡肉，因为羽毛动物漫游沙漠是没有旧世界的!”
+foodPumpkinChickenStewSchematic,items,Food,New,"Pumpkin Chicken Stew Recipe",,,,,,“南瓜炖鸡食谱”
+foodSuperPumpkinChickenStew,items,Food,New,"Super Pumpkin Chicken Stew",,,,,,“超级南瓜炖鸡”
+foodSuperPumpkinChickenStewDesc,items,Food,New,"Get your hands on some super corn and add it to the pumpkin chicken stew.",,,,,,“把你的手放在一些超级玉米上，加入南瓜鸡炖肉.“
+foodSuperPumpkinChickenStewSchematic,items,Food,New,"Super Pumpkin Chicken Stew Recipe",,,,,,“超级南瓜鸡炖食谱”
+foodPumpkinLambStew,items,Food,New,"Pumpkin Lamb Stew",,,,,,“南瓜炖羊肉”
+foodPumpkinLambStewDesc,items,Food,New,"Those poor sheep no longer roam our lands. Save up those cans of Lamb and you got your self some pumpkin lamb stew.",,,,,,“那些可怜的羊不再在我们的土地.存钱罐的羔羊，你有你自己一些南瓜炖羊肉.”
+foodPumpkinLambStewSchematic,items,Food,New,"Pumpkin Lamb Stew Recipe",,,,,,“南瓜羊肉炖食谱”
+foodSuperPumpkinLambStew,items,Food,New,"Super Pumpkin Lamb Stew",,,,,,“超级南瓜炖羊肉”
+foodSuperPumpkinLambStewDesc,items,Food,New,"Can of lamb and some super corn along with the remaining pumpkin ingredients, what could go wrong?.",,,,,,“羊肉和一些超级玉米和剩下的南瓜成分，会出现什么问题呢?.”
+foodSuperPumpkinLambStewSchematic,items,Food,New,"Super Pumpkin Lamb Stew Recipe",,,,,,“超级南瓜羊肉炖食谱”
+foodPumpkinBeefStew,items,Food,New,"Pumpkin Beef Stew",,,,,,“南瓜炖牛肉”
+foodPumpkinBeefStewDesc,items,Food,New,"Another animal wiped from existence and cannot be found in this post apocalyptic new world. Just like the lamb, save all your cans of beef if you want some pumpkin beef stew.",,,,,,”，不能存在的另一种动物被发现在这篇文章中世界末日的新世界.就像羔羊一样，保存所有罐牛肉的如果你想要一些南瓜炖牛肉.”
+foodPumpkinBeefStewSchematic,items,Food,New,"Pumpkin Beef Stew Recipe",,,,,,“南瓜炖牛肉食谱”
+foodSuperPumpkinBeefStew,items,Food,New,"Super Pumpkin Beef Stew",,,,,,“超级南瓜炖牛肉”
+foodSuperPumpkinBeefStewDesc,items,Food,New,"Hell, why not use some super corn along with the pumpkin beef stew?.",,,,,,“地狱，为什么不使用一些超级玉米和南瓜炖牛肉?.”
+foodSuperPumpkinBeefStewSchematic,items,Food,New,"Super Pumpkin Beef Stew Recipe",,,,,,“超级南瓜炖牛肉食谱”
+foodPumpkinChili,items,Food,New,"Pumpkin Chili",,,,,,“南瓜辣椒”
+foodPumpkinChiliDesc,items,Food,New,"Tired of just only eating chili dogs? Well, here is a new recipe for your dimwits that can't put two plus two together. Chili and Pumpkin... Pumpkin Chili, oh boy!",,,,,,“厌倦了只是吃辣椒狗吗?好吧，这是你的傻瓜，不能把新配方2 + 2.辣椒和南瓜…南瓜辣椒，哦男孩!”
+foodPumpkinChiliSchematic,items,Food,New,"Pumpkin Chili Recipe",,,,,,“南瓜辣椒食谱”
+foodSuperPumpkinChili,items,Food,New,"Super Pumpkin Chili",,,,,,“超级南瓜辣椒”
+foodSuperPumpkinChiliDesc,items,Food,New,"Of course you got to throw in some super corn with your pumpkin chili. Did you find any super corn crops on your RWG? Hurry up before they're all taken from another player.",,,,,,“当然你要加入一些超级玉米南瓜辣椒.你找到任何超级玉米作物RWG ?快点之前他们都是来自另一个球员.”
+foodSuperPumpkinChiliSchematic,items,Food,New,"Super Pumpkin Chili Recipe",,,,,,“超级南瓜辣椒食谱”
+buffDragonsBottledSuperPumpkinAwesomeSauceName,buffs,Buff,New,"Dragon's Super Pumpkin Awesome Sauce",,,,,,“龙的超级南瓜的酱”
+buffDragonsBottledSuperPumpkinAwesomeSauceDesc,buffs,Buff,New,"It tastes like Honey Pumpkins though your hagglin' ability is greatly better. \n:> +40% Better Deals On Stuff.",,,,,,“它尝起来像蜂蜜南瓜虽然你hagglin的能力非常好.\n:> + 40%更好的交易.”
+buffDragonsBottledSuperPumpkinMoonshineName,buffs,Buff,New,"Dragon's Super Pumpkin Moonshine",,,,,,“龙的超级南瓜月亮”
+buffDragonsBottledSuperPumpkinMoonshineDesc,buffs,Buff,New,"This stuff makes you almost God-like especially if you can recall the PC game Doom before the apocalypse. \n:> Entity Damage is 600%. \n:> Stamina Regeneration is 80%. \n:> Health loss taken at -30% from enemies. \n:> Boosts health 30%.",,,,,,“这个东西让你神一般的如果你能回忆起之前的PC游戏末日天启.\n:>实体损害是600%.\n:>耐力再生是80%.\n:>健康损失在-30%的敌人.\n:>促进健康30%.”
+buffSuperNitroPumpkinSpiceLatteName,buffs,Buff,New,"Super Nitro Pumpkin Spice Latte",,,,,,“超级硝基南瓜香料车床”
+buffSuperNitroPumpkinSpiceLatteDesc,buffs,Buff,New,"Can you say Loony Toons Roadrunner? Yeah this drink boosts your run speed 90% and can be stacked with other enery drinks. Might blow your heart out so becareful. \n:> Runspeed increase 90%. \n:> Though will burn water and food at 25% when drinking this Super Nitro Latte.",,,,,,“你能说疯子宝宝走鹃吗?对这种饮料能提高跑步速度90%，可以堆叠和其他饮料晨练.因此要小心可能会打击你的心.\n:> Runspeed增加90%.\n:>虽然会消耗水和食物在25%当喝这个超级硝基的拿铁咖啡.”
+buffNitroPumpkinSpiceLatteName,buffs,Buff,New,"Nitro Pumpkin Spice Latte",,,,,,“硝基南瓜拿铁”
+buffNitroPumpkinSpiceLatteDesc,buffs,Buff,New,"This Drink Is Better than a Mega Crush. \n:> Increase Runspeed at 75%. \n:> Will Burn Food and Dehydrate Water at 15%.",,,,,,“这饮料是比大型粉碎.\n:>增加Runspeed为75%.\n:>将燃烧食物和脱水水为15%.”
+buffDragonsBottledSuperPumpkinBeerName,buffs,Buff,New,"Dragon's Bottle Super Pumpkin Beer",,,,,,“龙超级南瓜瓶啤酒”
+buffDragonsBottledSuperPumpkinBeerDesc,buffs,Buff,New,"That Cheap Regular Beer Sucks, but If You Drink this Super Pumpkin Beer that Dragon made, I Tell You, It's Worth It! \n:> Entity Damaged Increased 500%. \n:> Stamina Regeneration at 50%.",,,,,,“廉价的普通啤酒糟透了，但如果你喝这个超级南瓜啤酒龙了，我告诉你，它是值得的!\n:>实体损坏增加了500%.\n:>耐力再生为50%.”
+buffCupPumpkinCoffeeName,buffs,Buff,New,"Pumpkin Coffee",,,,,,“南瓜咖啡”
+buffCupPumpkinCoffeeDesc,buffs,Buff,New,"Smells and Tastes Better than Regular Black Coffee. \n:> Stamina Regeneration Increased 25%. \n:> Hypothermal Resistance Is Increased 20%. \n:> Does NOT Stack with Other Coffee Types.",,,,,,“气味和味道比普通的黑咖啡.\n:>耐力再生增加了25%.\n:>不冷不热的阻力增加了20%.\n:>不堆栈与其他咖啡类型.”
+buffCupBlackStrapPumpkinCoffeeName,buffs,Buff,New,"Black Strap Pumpkin Coffee",,,,,,“黑带南瓜咖啡”
+buffCupBlackStrapPumpkinCoffeeDesc,buffs,Buff,New,"Smells and Tastes Better than Regular Black Strap Coffee. \n:> Stamina Regeneration Increased 30%. \n:> Hypothermal Resistance Is Increased 25%. \n:> Does NOT Stack with Other Coffee Types.",,,,,,“气味和味道比普通黑带咖啡.\n:>耐力再生增加了30%.\n:>不冷不热的阻力增加了25%.\n:>不堆栈与其他咖啡类型.”
+buffCupPumpkinSpiceLatteName,buffs,Buff,New,"Pumpkin Spice Latte",,,,,,“南瓜拿铁”
+buffCupPumpkinSpiceLatteDesc,buffs,Buff,New,"Smells and Tastes Better than Any Coffee or Pumpkin Coffees. \n:> Stamina Regeneration Increased 35%. \n:> Hypothermal Resistance Is Increased 30%. \n:> Does NOT Stack with Other Coffee Types.",,,,,,“气味和味道比任何咖啡或南瓜咖啡.\n:>耐力再生增加了35%.\n:>不冷不热的阻力增加了30%.\n:>不堆栈与其他咖啡类型.”
+buffCupPumpkinRedTeaName,buffs,Buff,New,"Pumpkin Red Tea",,,,,,“南瓜红茶”
+buffCupPumpkinRedTeaDesc,buffs,Buff,New,"Pumpkin Teas Tastes Much Better than Those Bland Boring Flavored Teas. \n:> Hypothermal Resistance Is Increased 15%. \n:> Efficient Digestion Is Active At 25%.",,,,,,“南瓜茶尝起来比那些平淡乏味的调味茶.\n:>不冷不热的阻力增加了15%.\n:>有效的消化是积极为25%.”
+buffCupPumpkinGoldenRodTeaName,buffs,Buff,New,"Pumpkin GoldenRod Tea",,,,,,“南瓜秋麒麟草茶”
+buffCupPumpkinGoldenRodTeaDesc,buffs,Buff,New,"Pumpkin Teas Tastes Much Better than Those Bland Boring Flavored Teas. \n:> Hypothermal Resistance Is Increased 15%. \n:> Cures Dysentery At 40%.",,,,,,“南瓜茶尝起来比那些平淡乏味的调味茶.\n:>不冷不热的阻力增加了15%.\n:>治疗痢疾为40%.”
+buffBottledPumpkinJuiceName,buffs,Buff,New,"Pumpkin Juice",,,,,,“南瓜汁”
+buffBottledPumpkinJuiceDesc,buffs,Buff,New,"This Pumpkin Juice Tastes Better than Orange Juice. \n:> Hyperthermal Resistance Is Increased 25%. \n:> Efficient Digestion Is Active At 35%.",,,,,,“这南瓜汁味道比橙汁.\n:>过高热的阻力增加了25%.\n:>有效的消化是积极为35%.”
+buffGlassBlueberryJuiceName,buffs,Buff,New,"Blueberry Juice",,,,,,“蓝莓汁”
+buffGlassBlueberryJuiceDesc,buffs,Buff,New,"Squeeze Those Blueberries and Lets Make Some Blueberry Juice. \n:> Hyperthermal Resistance Is Increased 20%. \n:> Cures Dysentery At 30%.",,,,,,“挤压那些蓝莓和允许做一些蓝莓汁.\n:>过高热的阻力增加了20%.\n:>治疗痢疾为30%.”
+buffGlassPumpkinJuiceSmoothieName,buffs,Buff,New,"Pumpkin Juice Smoothie",,,,,,“南瓜汁”
+buffGlassPumpkinJuiceSmoothieDesc,buffs,Buff,New,"Blend Up Some Yucca Fruit Juice and Pumpkin Juice and Place Into a Freezer. This Will Get You the Amazing Pumpkin Juice Smoothie. \n:> Hyperthermal Resistance Is Increased 50%.",,,,,,”混合一些尤卡果汁和南瓜汁，并放置在冰箱.这会给你带来神奇的南瓜汁.\n：>高热阻力增加50%.“
+buffGlassBlueberryJuiceSmoothieName,buffs,Buff,New,"Blueberry Juice Smoothie",,,,,,”“蓝莓果汁奶昔
+buffGlassBlueberryJuiceSmoothieDesc,buffs,Buff,New,"Squeeze Those Blueberries and Yucca Fruit Juice To Make A Blueberry Juice Smoothie After Placed In A Freezer First of Course. \n:> Hyperthermal Resistance Is Increased 40%.",,,,,,“挤压那些蓝莓和丝兰果汁制作蓝莓果汁奶昔后放在冰箱当然第一.\n:>过高热的阻力增加40%.”
+buffSuperShamChowderName,buffs,Buff,New,"Super Sham Chowder",,,,,,“超级假杂烩”
+buffSuperShamChowderDesc,buffs,Buff,New,"Add Some Super Corn In Your Sham Chowder and It'll Increase Your Fortitude. \n:> Fortitude Attribute Level Is Increase By 2 Instead of One.",,,,,,“添加一些超级玉米在你虚假的杂烩，它会增加你的勇气.\n:>坚韧属性水平是增加2而不是一个.”
+buffSuperPumpkinCheesecakeName,buffs,Buff,New,"Super Pumpkin Cheesecake",,,,,,“超级南瓜芝士蛋糕”
+buffSuperPumpkinCheesecakeDesc,buffs,Buff,New,"Super Pumpkin Cheesecake Is So Much Better Not Only By Taste but By It's Special Abilities When You Consume It. \n:> Increases Barting Skill Value To 15%.",,,,,,“超级南瓜芝士蛋糕不仅更好味道，而是特殊能力当你吃了.\n:>增加巴特技能价值15%.”
+buffWaterStaminaRegen20Name,buffs,Buff,New,"Stamina Regen 20",,,,,,“耐力回复20”
+buffWaterStaminaRegen20Desc,buffs,Buff,New,"Your stamina is regenerating slightly faster after drinking.\n:> Stamina Regeneration +20%.",,,,,,“你的耐力是再生酒后稍快.\n:>耐力+ 20%再生.”
+buffWaterStaminaRegen25Name,buffs,Buff,New,"Stamina Regen 25",,,,,,“耐力回复25”
+buffWaterStaminaRegen25Desc,buffs,Buff,New,"Your stamina is regenerating decently faster after drinking.\n:> Stamina Regeneration +25%.",,,,,,“你的耐力是再生体面酒后更快.\n:>耐力+ 25%再生.”
+buffWaterStaminaRegen30Name,buffs,Buff,New,"Stamina Regen 30",,,,,,“耐力回复30”
+buffWaterStaminaRegen30Desc,buffs,Buff,New,"Your stamina is regenerating increasingly faster after drinking.\n:> Stamina Regeneration +30%.",,,,,,“你耐力酒后再生越来越快.\n:>耐力+ 30%再生.”
+buffWaterStaminaRegen35Name,buffs,Buff,New,"Stamina Regen 35",,,,,,“耐力回复35”
+buffWaterStaminaRegen35Desc,buffs,Buff,New,"Your stamina is regenerating largely faster after drinking.\n:> Stamina Regeneration +35%.",,,,,,“你的耐力是再生很大程度上酒后更快.\n:>耐力+ 35%再生.”
+buffWaterStaminaRegen40Name,buffs,Buff,New,"Stamina Regen 40",,,,,,“耐力回复40”
+buffWaterStaminaRegen40Desc,buffs,Buff,New,"Your stamina is regenerating hugely faster after drinking.\n:> Stamina Regeneration +40%.",,,,,,“你耐力酒后再生非常快.\n:>耐力+ 40%再生.”
+buffWaterStaminaRegen45Name,buffs,Buff,New,"Stamina Regen 45",,,,,,“耐力回复45”
+buffWaterStaminaRegen45Desc,buffs,Buff,New,"Your stamina is regenerating greatly faster after drinking.\n:> Stamina Regeneration +45%.",,,,,,“你耐力酒后再生大大快.\n:>耐力+ 45%再生.”
+buffWaterStaminaRegen50Name,buffs,Buff,New,"Stamina Regen 50",,,,,,“耐力回复50”
+buffWaterStaminaRegen50Desc,buffs,Buff,New,"Your stamina is regenerating majorly faster after drinking.\n:> Stamina Regeneration +50%.",,,,,,“你的耐力是再生多半酒后更快.\n:>耐力+ 50%再生.”
+buffWaterStaminaRegen80Name,buffs,Buff,New,"Stamina Regen 80",,,,,,“耐力回复80”
+buffWaterStaminaRegen80Desc,buffs,Buff,New,"Your stamina is regenerating exponentially faster after drinking.\n:> Stamina Regeneration +80%.",,,,,,“你耐力酒后再生指数级的速度.\n:>耐力+ 80%再生.”
+buffOopsWastedPotionName,buffs,Buff,New,"You Just Wasted A Potion",,,,,,“你只是浪费了一个药水”
+buffOopsWastedPotionDesc,buffs,Buff,New,"You cannot stack with original potions. \n Wait until your original potion expires before consuming surperior potions and vice versa. \n Duh, did you think I will let you exploit this ability, Dumbass? NO!",,,,,,“你不能和原来的药水叠加.\n在你的原药过期后再食用劣药，反之亦然.你以为我会让你利用这个能力吗，笨蛋？ 不！ “

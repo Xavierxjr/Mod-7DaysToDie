@@ -1,0 +1,14 @@
+<Mc_fans>
+
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT1']">
+		<item name="modFlame"/>
+		<item name="modShock"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralCommon']">
+		<item name="modFlameSchematic"/>
+		<item name="modShockSchematic"/>
+	</append>
+
+
+</Mc_fans>

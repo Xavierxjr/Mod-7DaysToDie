@@ -1,0 +1,34 @@
+<configs>
+	<append xpath="/items">
+		
+		<item name="vehicleJurassicParkJeepchassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="JurassicParkJeepchassis"/>
+			<property name="DescriptionKey" value="vehicleJurassicParkJeepchassisDesc"/>
+			<property name="EconomicValue" value="10000"/>
+		</item>
+		
+		<item name="vehicleJurassicParkJeepaccessories">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="JurassicParkJeepaccessories"/>
+			<property name="DescriptionKey" value="vehicleJurassicParkJeepaccessoriesDesc"/>
+			<property name="EconomicValue" value="10000"/>
+		</item>
+		
+		<item name="vehicleJurassicParkJeepplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="JurassicParkJeep"/>
+			<property name="DescriptionKey" value="vehicleJurassicParkJeepplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/JurassicParkJeepPrefab.unity3d?JurassicParkJeepPrefab.prefab"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleJurassicParkJeep"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="15000"/>
+			</effect_group>
+		</item>
+			
+	 </append>
+ </configs>

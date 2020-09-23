@@ -1,0 +1,142 @@
+<configs>	
+
+<append xpath="/recipes">
+
+
+	<recipe name="foodKFC" count="1" craft_area="campfire" craft_tool="toolCookingGrill" >
+		<ingredient name="foodCanChicken" count="1" />
+		<ingredient name="foodCropPotato" count="2" />
+		<ingredient name="resourcePaperplate" count="1" />
+		<ingredient name="resourceSalt" count="1" />
+	</recipe>
+	
+	<recipe name="foodPotatosalad" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+		<ingredient name="foodCropPotato" count="3" />
+		<ingredient name="resourceOil" count="1" />
+		<ingredient name="drinkCanEmpty" count="1" />
+		<ingredient name="drinkJarRiverWater" count="1" />
+	</recipe>
+	
+	<recipe name="drinkBlueberrySmoothie" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+		<ingredient name="foodCropBlueberries" count="2" />
+		<ingredient name="drinkJarBoiledWater" count="1" />
+	</recipe>
+	
+	<recipe name="foodSandwich" count="1" craft_area="campfire" craft_tool="toolCookingGrill" >
+		<ingredient name="foodRawMeat" count="2" />
+		<ingredient name="foodRottingFlesh" count="2" />
+		<ingredient name="foodCornBread" count="1" />
+	</recipe>
+
+<recipe name="foodFries" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+		<ingredient name="foodCropPotato" count="3" />
+		<ingredient name="drinkJarRiverWater" count="1" />
+		<ingredient name="drinkCanEmpty" count="1" />
+		<ingredient name="resourceSalt" count="1" />
+	</recipe>
+
+<recipe name="foodCanChicken" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+		<ingredient name="foodRawMeat" count="5" />
+		<ingredient name="drinkJarRiverWater" count="1" />
+		<ingredient name="drinkCanEmpty" count="1" />
+	</recipe>
+
+<recipe name="foodCanChili" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+		<ingredient name="foodRawMeat" count="5" />
+		<ingredient name="drinkJarRiverWater" count="1" />
+		<ingredient name="drinkCanEmpty" count="1" />
+		<ingredient name="resourceCropCoffeeBeans" count="1" />
+	</recipe>
+
+<recipe name="foodItalianricotta" count="1" craft_area="campfire" craft_tool="toolCookingGrill" >
+		<ingredient name="foodEgg" count="2" />
+		<ingredient name="drinkCanEmpty" count="1" />
+		<ingredient name="drinkJarRiverWater" count="1" />
+		<ingredient name="resourceYuccaFibers" count="25" />
+	</recipe>
+
+<recipe name="foodHamburger" count="1" craft_area="campfire" craft_tool="toolCookingGrill" >
+		<ingredient name="foodBaconAndEggs" count="1" />
+		<ingredient name="foodRawMeat" count="5" />
+		<ingredient name="foodCornBread" count="1" />
+		<ingredient name="resourcePaperplate" count="1" />
+	</recipe>
+
+<recipe name="resourcePaperplate" count="1">
+		<ingredient name="resourcePaper" count="2" />
+	</recipe>
+
+	<recipe name="foodCroissant" count="1" craft_area="campfire" craft_tool="toolCookingGrill" >
+		<ingredient name="foodCornMeal" count="2" />
+		<ingredient name="drinkJarRiverWater" count="1" />
+		<ingredient name="resourcePaperplate" count="1" />
+	</recipe>
+
+	<recipe name="foodNuggets" count="1" craft_area="campfire" craft_tool="toolCookingGrill" >
+		<ingredient name="foodRawMeat" count="5" />
+		<ingredient name="foodCornMeal" count="1" />
+		<ingredient name="resourcePaperplate" count="1" />
+		<ingredient name="resourceSalt" count="1" />
+	</recipe>
+
+	<recipe name="resourceRefinedchoco" count="1" craft_area="campfire">
+		<ingredient name="resourceChocoextract" count="5" />
+	</recipe>
+
+	<recipe name="foodCookie" count="1" craft_area="campfire">
+		<ingredient name="resourceRefinedchoco" count="2" />
+		<ingredient name="foodCornMeal" count="2" />
+		<ingredient name="resourcePaperplate" count="1" />
+	</recipe>
+
+	<recipe name="foodCupcake" count="1" craft_area="campfire">
+		<ingredient name="resourceRefinedchoco" count="2" />
+		<ingredient name="foodCornMeal" count="2" />
+		<ingredient name="resourcePaperplate" count="1" />
+		</recipe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</append>
+
+
+
+
+
+</configs>

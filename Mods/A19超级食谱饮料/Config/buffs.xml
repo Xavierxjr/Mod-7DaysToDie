@@ -1,0 +1,1119 @@
+				<configs>
+<set xpath="/buffs/buff[@name='buffYuccaJuiceSmoothie']">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffYuccaJuiceSmoothieDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffYuccaJuiceSmoothieDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffYuccaJuiceSmoothieDisplay" operation="set" value="@$buffYuccaJuiceSmoothieDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffYuccaJuiceSmoothieDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$buffYuccaJuiceSmoothieDuration" operation="LTE" value="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffYuccaJuiceSmoothieDisplay" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffYuccaJuiceSmoothieDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffYuccaJuiceSmoothie"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="30"/>
+		</effect_group>
+	</set>
+<append xpath="/buffs">
+	
+	<buff name="buffDragonsBottledSuperPumpkinAwesomeSauce" name_key="buffDragonsBottledSuperPumpkinAwesomeSauceName" description_key="buffDragonsBottledSuperPumpkinAwesomeSauceDesc" tooltip_key="buffDrunkGrandpasAwesomeSauceTooltip" icon="ui_game_symbol_beer">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffDragonsBottledSuperPumpkinAwesomeSauceDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffDragonsBottledSuperPumpkinAwesomeSauceDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinAwesomeSauceDisplay" operation="set" value="@$buffDragonsBottledSuperPumpkinAwesomeSauceDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinAwesomeSauceDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffDragonsBottledSuperPumpkinAwesomeSauce">
+				<requirement name="CVarCompare" cvar="$buffDragonsBottledSuperPumpkinAwesomeSauceDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinAwesomeSauceDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffDragonsBottledSuperPumpkinAwesomeSauceDuration" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="BarteringBuying" operation="base_add" value=".4"/>
+			<passive_effect name="BarteringSelling" operation="base_add" value=".4"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffDragonsBottledSuperPumpkinMoonshine" name_key="buffDragonsBottledSuperPumpkinMoonshineName" description_key="buffDragonsBottledSuperPumpkinMoonshineDesc" tooltip_key="buffDrunkGrandpasMoonshineTooltip" icon="ui_game_symbol_beer">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffDragonsBottledSuperPumpkinMoonshineDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffDragonsBottledSuperPumpkinMoonshineDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinMoonshineDisplay" operation="set" value="@$buffDragonsBottledSuperPumpkinMoonshineDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinMoonshineDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffDragonsBottledSuperPumpkinMoonshine">
+				<requirement name="CVarCompare" cvar="$buffDragonsBottledSuperPumpkinMoonshineDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinMoonshineDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffDragonsBottledSuperPumpkinMoonshineDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" value="6">
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.8"/>
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned00,buffInjuryStunned01,buffInjuryStunned01Shotgun,buffInjuryStunned02,buffInjuryStunned02Shotgun,buffInjuryStunned03,buffInjuryStunned03Shotgun"/>
+			<passive_effect name="HealthLoss" operation="perc_add" value="-.50"/>
+			<passive_effect name="HealthChangeOT" operation="base_add" value="30"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="4" effect_name="Drunk"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="4" effect_name="Drunk"/>
+
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffDragonsBottledSuperPumpkinMoonshineDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinMoonshineDisplay" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffSuperNitroPumpkinSpiceLatte" name_key="buffSuperNitroPumpkinSpiceLatteName" description_key="buffSuperNitroPumpkinSpiceLatteDesc" tooltip_key="buffMegaCrushTooltip" icon="ui_game_symbol_pills">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffSuperNitroPumpkinSpiceLatteDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSuperNitroPumpkinSpiceLatteDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSuperNitroPumpkinSpiceLatteDisplay" operation="set" value="@$buffSuperNitroPumpkinSpiceLatteDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSuperNitroPumpkinSpiceLatteDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffSuperNitroPumpkinSpiceLatte">
+				<requirement name="CVarCompare" cvar="$buffSuperNitroPumpkinSpiceLatteDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffSuperNitroPumpkinSpiceLatteDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffSuperNitroPumpkinSpiceLatteDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".9"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".25"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".25"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffNitroPumpkinSpiceLatte" name_key="buffNitroPumpkinSpiceLatteName" description_key="buffNitroPumpkinSpiceLatteDesc" tooltip_key="buffMegaCrushTooltip" icon="ui_game_symbol_pills">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffNitroPumpkinSpiceLatteDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffNitroPumpkinSpiceLatteDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffNitroPumpkinSpiceLatteDisplay" operation="set" value="@$buffNitroPumpkinSpiceLatteDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffNitroPumpkinSpiceLatteDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffNitroPumpkinSpiceLatte">
+				<requirement name="CVarCompare" cvar="$buffNitroPumpkinSpiceLatteDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffNitroPumpkinSpiceLatteDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffNitroPumpkinSpiceLatteDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".75"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".15"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".15"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffDragonsBottledSuperPumpkinBeer" name_key="buffDragonsBottledSuperPumpkinBeerName" description_key="buffDragonsBottledSuperPumpkinBeerDesc" tooltip_key="buffDrunk01Tooltip" icon="ui_game_symbol_beer">
+		<damage_type value="disease"/>
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffDragonsBottledSuperPumpkinBeerDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".dummy" operation="set" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".dummy" operation="divide" value="2">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling7BoozedUp" operation="Equals" value="1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffDragonsBottledSuperPumpkinBeerDuration" operation="subtract" value="@.dummy"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinBeerDisplay" operation="set" value="@$buffDragonsBottledSuperPumpkinBeerDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinBeerDisplay" operation="divide" value="@.dummy"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffDragonsBottledSuperPumpkinBeer">
+				<requirement name="CVarCompare" cvar="$buffDragonsBottledSuperPumpkinBeerDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffDragonsBottledSuperPumpkinBeerDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffDragonsBottledSuperPumpkinBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".dummy" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" value="5">
+				<requirement name="HoldingItemHasTags" tags="perkBrawler"/>
+			</passive_effect>
+
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.5">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.25">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.3" effect_name="Drunk">
+				<requirement name="ProgressionLevel" progression_name="perkBarBrawling7BoozedUp" operation="Equals" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/>
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned00,buffInjuryStunned01,buffInjuryStunned01Shotgun,buffInjuryStunned02,buffInjuryStunned02Shotgun,buffInjuryStunned03,buffInjuryStunned03Shotgun"/>
+
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffCupPumpkinCoffee" name_key="buffCupPumpkinCoffeeName" description_key="buffCupPumpkinCoffeeDesc" icon="ui_game_symbol_coffee">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffCupPumpkinCoffeeDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffCupPumpkinCoffeeDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupPumpkinCoffeeDisplay" operation="set" value="@$buffCupPumpkinCoffeeDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupPumpkinCoffeeDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffCupPumpkinCoffee">
+				<requirement name="CVarCompare" cvar="$buffCupPumpkinCoffeeDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffCupPumpkinCoffeeDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffCupPumpkinCoffeeDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCupPumpkinCoffeeDuration" operation="add" value="@$buffCupBlackStrapPumpkinCoffeeDuration"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCupPumpkinCoffeeDuration" operation="set" value="543">
+				<requirement name="CVarCompare" cvar="$buffCupPumpkinCoffeeDuration" operation="GT" value="543"/></triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffCupBlackStrapPumpkinCoffee,buffBlackStrapCoffee,buffCoffee,buffCupPumpkinSpiceLatte"/>
+
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.25">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.1">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="HypothermalResist" operation="base_add" value="20"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffCupBlackStrapPumpkinCoffee" name_key="buffCupBlackStrapPumpkinCoffee" description_key="buffCupBlackStrapPumpkinCoffeeDesc" icon="ui_game_symbol_coffee">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffCupBlackStrapPumpkinCoffeeDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffCupBlackStrapPumpkinCoffeeDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupBlackStrapPumpkinCoffeeDisplay" operation="set" value="@$buffCupBlackStrapPumpkinCoffeeDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupBlackStrapPumpkinCoffeeDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffCupBlackStrapPumpkinCoffee">
+				<requirement name="CVarCompare" cvar="$buffCupBlackStrapPumpkinCoffeeDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffCupBlackStrapPumpkinCoffeeDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffCupBlackStrapPumpkinCoffeeDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".dummy" operation="set" value="@$buffCupBlackStrapPumpkinCoffeeDuration"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".dummy" operation="multiply" value=".66"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCupBlackStrapPumpkinCoffeeDuration" operation="add" value="@.dummy"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".dummy" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffCupPumpkinCoffee,buffCoffee,buffBlackStrapCoffee,buffCupPumpkinSpiceLatte"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.30">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.15">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="HypothermalResist" operation="base_add" value="25"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffCupPumpkinSpiceLatte" name_key="buffCupPumpkinSpiceLatteName" description_key="buffCupPumpkinSpiceLatteDesc" icon="ui_game_symbol_coffee">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffCupPumpkinSpiceLatteDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffCupPumpkinSpiceLatteDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupPumpkinSpiceLatteDisplay" operation="set" value="@$buffCupPumpkinSpiceLatteDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupPumpkinSpiceLatteDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffCupPumpkinSpiceLatte">
+				<requirement name="CVarCompare" cvar="$buffCupPumpkinSpiceLatteDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffCupPumpkinSpiceLatteDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffCupPumpkinSpiceLatteDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCupPumpkinSpiceLatteDuration" operation="add" value="@$buffCupPumpkinCoffeeDuration"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCupPumpkinSpiceLatteDuration" operation="set" value="543">
+				<requirement name="CVarCompare" cvar="$buffCupPumpkinSpiceLatteDuration" operation="GT" value="543"/></triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffBlackStrapCoffee,buffCoffee,buffCupBlackStrapPumpkinCoffee,buffCupPumpkinCoffee"/>
+
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.35">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.2">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="HypothermalResist" operation="base_add" value="30"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffCupPumpkinRedTea" name_key="buffCupPumpkinRedTeaName" description_key="buffCupPumpkinRedTeaDesc" icon="ui_game_symbol_stomach">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffCupPumpkinRedTeaDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffCupPumpkinRedTeaDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupPumpkinRedTeaDisplay" operation="set" value="@$buffCupPumpkinRedTeaDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupPumpkinRedTeaDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffCupPumpkinRedTea">
+				<requirement name="CVarCompare" cvar="$buffCupPumpkinRedTeaDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffCupPumpkinRedTeaDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffCupPumpkinRedTeaDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCupPumpkinRedTeaEffectDisplay" operation="set" value="-15"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffCupPumpkinRedTeaEffectDisplay" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="HypothermalResist" operation="base_add" value="15"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.25"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-.25"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffCupPumpkinGoldenRodTea" name_key="buffCupPumpkinGoldenRodTeaName" description_key="buffCupPumpkinGoldenRodTeaDesc" icon="ui_game_symbol_stomach">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffCupPumpkinGoldenRodTeaDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffCupPumpkinGoldenRodTeaDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupPumpkinGoldenRodTeaDisplay" operation="set" value="@$buffCupPumpkinGoldenRodTeaDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffCupPumpkinGoldenRodTeaDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffCupPumpkinGoldenRodTea">
+				<requirement name="CVarCompare" cvar="$buffCupPumpkinGoldenRodTeaDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffCupPumpkinGoldenRodTeaDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffCupPumpkinGoldenRodTeaDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffCupPumpkinGoldenRodTeaEffectDisplay" operation="set" value="-15"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffCupPumpkinGoldenRodTeaEffectDisplay" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="HypothermalResist" operation="base_add" value="15"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffBottledPumpkinJuice" name_key="buffBottledPumpkinJuiceName" description_key="buffBottledPumpkinJuiceDesc" icon="ui_game_symbol_stomach">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffBottledPumpkinJuiceDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBottledPumpkinJuiceDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBottledPumpkinJuiceDisplay" operation="set" value="@$buffBottledPumpkinJuiceDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBottledPumpkinJuiceDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBottledPumpkinJuice">
+				<requirement name="CVarCompare" cvar="$buffBottledPumpkinJuiceDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBottledPumpkinJuiceDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBottledPumpkinJuiceDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBottledPumpkinJuiceEffectDisplay" operation="set" value="-15"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBottledPumpkinJuiceEffectDisplay" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="25"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.30"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-.30"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffGlassBlueberryJuice" name_key="buffGlassBlueberryJuiceName" description_key="buffGlassBlueberryJuiceDesc" icon="ui_game_symbol_stomach">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffGlassBlueberryJuiceDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffGlassBlueberryJuiceDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffGlassBlueberryJuiceDisplay" operation="set" value="@$buffGlassBlueberryJuiceDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffGlassBlueberryJuiceDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffGlassBlueberryJuice">
+				<requirement name="CVarCompare" cvar="$buffGlassBlueberryJuiceDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffGlassBlueberryJuiceDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffGlassBlueberryJuiceDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffGlassBlueberryJuiceEffectDisplay" operation="set" value="-15"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffGlassBlueberryJuiceEffectDisplay" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="20"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffGlassPumpkinJuiceSmoothie" name_key="buffGlassPumpkinJuiceSmoothieName" description_key="buffGlassPumpkinJuiceSmoothieDesc" icon="ui_game_symbol_coffee">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffGlassPumpkinJuiceSmoothieDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffGlassPumpkinJuiceSmoothieDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffGlassPumpkinJuiceSmoothieDisplay" operation="set" value="@$buffGlassPumpkinJuiceSmoothieDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffGlassPumpkinJuiceSmoothieDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffGlassPumpkinJuiceSmoothie">
+				<requirement name="CVarCompare" cvar="$buffGlassPumpkinJuiceSmoothieDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffGlassPumpkinJuiceSmoothieDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffGlassPumpkinJuiceSmoothieDuration" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="50"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffGlassBlueberryJuiceSmoothie" name_key="buffGlassBlueberryJuiceSmoothieName" description_key="buffGlassBlueberryJuiceSmoothieDesc" icon="ui_game_symbol_coffee">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffGlassBlueberryJuiceSmoothieDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffGlassBlueberryJuiceSmoothieDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffGlassBlueberryJuiceSmoothieDisplay" operation="set" value="@$buffGlassBlueberryJuiceSmoothieDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffGlassBlueberryJuiceSmoothieDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffGlassBlueberryJuiceSmoothie">
+				<requirement name="CVarCompare" cvar="$buffGlassBlueberryJuiceSmoothieDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffGlassBlueberryJuiceSmoothieDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffGlassBlueberryJuiceSmoothieDuration" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="40"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffSuperShamChowder" name_key="foodSuperShamChowderName" description_key="foodSuperShamChowderDesc" icon="ui_game_symbol_fork">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffSuperShamChowderDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSuperShamChowderDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSuperShamChowderDisplay" operation="set" value="@$buffSuperShamChowderDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSuperShamChowderDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffSuperShamChowder">
+				<requirement name="CVarCompare" cvar="$buffSuperShamChowderDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffSuperShamChowderDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffSuperShamChowderDuration" operation="set" value="0"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="2"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffSuperPumpkinCheesecake" name_key="foodSuperPumpkinCheesecakeName" description_key="foodSuperPumpkinCheesecakeDesc" icon="ui_game_symbol_fork">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".buffSuperPumpkinCheesecakeDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<passive_effect name="BarteringBuying" operation="base_add" value=".15"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSuperPumpkinCheesecakeDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSuperPumpkinCheesecakeDisplay" operation="set" value="@$buffSuperPumpkinCheesecakeDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSuperPumpkinCheesecakeDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPumpkinCheesecake">
+				<requirement name="CVarCompare" cvar="$buffSuperPumpkinCheesecakeDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffSuperPumpkinCheesecakeDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffSuperPumpkinCheesecakeDuration" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+<!-- ****************** Healing Item Buffs: Food, Drink ****************** -->
+
+	<buff name="buffDragonsProcessConsumables20" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".7"/>
+		<effect_group>
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="GT" value=".985"/><!-- max food healing reached -->
+			<requirement name="StatComparePercModMaxToMax" stat="health" operation="LT" value=".985"/><!-- medical healing needed -->
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/><!-- item is adding food healing -->
+			<requirement name="StatComparePercCurrentToModMax" stat="Food" operation="GTE" value=".985"/><!-- you are not trying to heal max stamina, a valid use of food -->
+			<requirement name="NotHasBuff" buff="buffDoingHealingWrongCooldown"/>
+			<requirement name="CVarCompare" cvar="$doingHealingWrong" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDoingHealingWrong"/><!-- display "Dude, you are doing it wrong!" message -->
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealFood">
+				<requirement name="CVarCompare" cvar="$foodAmountAdd" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealWaterMax20">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="0"/></triggered_effect>
+
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+
+		</effect_group>
+		<effect_group name="apply equal or higher buff">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GTE" value="@$foodStaminaBonus"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+		<effect_group name="apply lower buff if higher buff duration is low">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="@$foodStaminaBonus"/>
+			<requirement name="CVarCompare" cvar="$buffFoodStaminaBonusDuration" operation="LT" value="211"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffDragonsProcessConsumables25" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".7"/>
+		<effect_group>
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="GT" value=".985"/><!-- max food healing reached -->
+			<requirement name="StatComparePercModMaxToMax" stat="health" operation="LT" value=".985"/><!-- medical healing needed -->
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/><!-- item is adding food healing -->
+			<requirement name="StatComparePercCurrentToModMax" stat="Food" operation="GTE" value=".985"/><!-- you are not trying to heal max stamina, a valid use of food -->
+			<requirement name="NotHasBuff" buff="buffDoingHealingWrongCooldown"/>
+			<requirement name="CVarCompare" cvar="$doingHealingWrong" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDoingHealingWrong"/><!-- display "Dude, you are doing it wrong!" message -->
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealFood">
+				<requirement name="CVarCompare" cvar="$foodAmountAdd" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealWaterMax25">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="0"/></triggered_effect>
+
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+
+		</effect_group>
+		<effect_group name="apply equal or higher buff">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GTE" value="@$foodStaminaBonus"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+		<effect_group name="apply lower buff if higher buff duration is low">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="@$foodStaminaBonus"/>
+			<requirement name="CVarCompare" cvar="$buffFoodStaminaBonusDuration" operation="LT" value="211"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffDragonsProcessConsumables30" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".7"/>
+		<effect_group>
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="GT" value=".985"/><!-- max food healing reached -->
+			<requirement name="StatComparePercModMaxToMax" stat="health" operation="LT" value=".985"/><!-- medical healing needed -->
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/><!-- item is adding food healing -->
+			<requirement name="StatComparePercCurrentToModMax" stat="Food" operation="GTE" value=".985"/><!-- you are not trying to heal max stamina, a valid use of food -->
+			<requirement name="NotHasBuff" buff="buffDoingHealingWrongCooldown"/>
+			<requirement name="CVarCompare" cvar="$doingHealingWrong" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDoingHealingWrong"/><!-- display "Dude, you are doing it wrong!" message -->
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealFood">
+				<requirement name="CVarCompare" cvar="$foodAmountAdd" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealWaterMax30">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="0"/></triggered_effect>
+
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+
+		</effect_group>
+		<effect_group name="apply equal or higher buff">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GTE" value="@$foodStaminaBonus"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+		<effect_group name="apply lower buff if higher buff duration is low">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="@$foodStaminaBonus"/>
+			<requirement name="CVarCompare" cvar="$buffFoodStaminaBonusDuration" operation="LT" value="211"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffDragonsProcessConsumables35" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".7"/>
+		<effect_group>
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="GT" value=".985"/><!-- max food healing reached -->
+			<requirement name="StatComparePercModMaxToMax" stat="health" operation="LT" value=".985"/><!-- medical healing needed -->
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/><!-- item is adding food healing -->
+			<requirement name="StatComparePercCurrentToModMax" stat="Food" operation="GTE" value=".985"/><!-- you are not trying to heal max stamina, a valid use of food -->
+			<requirement name="NotHasBuff" buff="buffDoingHealingWrongCooldown"/>
+			<requirement name="CVarCompare" cvar="$doingHealingWrong" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDoingHealingWrong"/><!-- display "Dude, you are doing it wrong!" message -->
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealFood">
+				<requirement name="CVarCompare" cvar="$foodAmountAdd" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealWaterMax35">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="0"/></triggered_effect>
+
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+
+		</effect_group>
+		<effect_group name="apply equal or higher buff">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GTE" value="@$foodStaminaBonus"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+		<effect_group name="apply lower buff if higher buff duration is low">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="@$foodStaminaBonus"/>
+			<requirement name="CVarCompare" cvar="$buffFoodStaminaBonusDuration" operation="LT" value="211"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffDragonsProcessConsumables40" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".7"/>
+		<effect_group>
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="GT" value=".985"/><!-- max food healing reached -->
+			<requirement name="StatComparePercModMaxToMax" stat="health" operation="LT" value=".985"/><!-- medical healing needed -->
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/><!-- item is adding food healing -->
+			<requirement name="StatComparePercCurrentToModMax" stat="Food" operation="GTE" value=".985"/><!-- you are not trying to heal max stamina, a valid use of food -->
+			<requirement name="NotHasBuff" buff="buffDoingHealingWrongCooldown"/>
+			<requirement name="CVarCompare" cvar="$doingHealingWrong" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDoingHealingWrong"/><!-- display "Dude, you are doing it wrong!" message -->
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealFood">
+				<requirement name="CVarCompare" cvar="$foodAmountAdd" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealWaterMax40">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="0"/></triggered_effect>
+
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+
+		</effect_group>
+		<effect_group name="apply equal or higher buff">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GTE" value="@$foodStaminaBonus"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+		<effect_group name="apply lower buff if higher buff duration is low">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="@$foodStaminaBonus"/>
+			<requirement name="CVarCompare" cvar="$buffFoodStaminaBonusDuration" operation="LT" value="211"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffDragonsProcessConsumables45" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".7"/>
+		<effect_group>
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="GT" value=".985"/><!-- max food healing reached -->
+			<requirement name="StatComparePercModMaxToMax" stat="health" operation="LT" value=".985"/><!-- medical healing needed -->
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/><!-- item is adding food healing -->
+			<requirement name="StatComparePercCurrentToModMax" stat="Food" operation="GTE" value=".985"/><!-- you are not trying to heal max stamina, a valid use of food -->
+			<requirement name="NotHasBuff" buff="buffDoingHealingWrongCooldown"/>
+			<requirement name="CVarCompare" cvar="$doingHealingWrong" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDoingHealingWrong"/><!-- display "Dude, you are doing it wrong!" message -->
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealFood">
+				<requirement name="CVarCompare" cvar="$foodAmountAdd" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealWaterMax45">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="0"/></triggered_effect>
+
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+
+		</effect_group>
+		<effect_group name="apply equal or higher buff">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GTE" value="@$foodStaminaBonus"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+		<effect_group name="apply lower buff if higher buff duration is low">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="@$foodStaminaBonus"/>
+			<requirement name="CVarCompare" cvar="$buffFoodStaminaBonusDuration" operation="LT" value="211"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffDragonsProcessConsumables50" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".7"/>
+		<effect_group>
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="GT" value=".985"/><!-- max food healing reached -->
+			<requirement name="StatComparePercModMaxToMax" stat="health" operation="LT" value=".985"/><!-- medical healing needed -->
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/><!-- item is adding food healing -->
+			<requirement name="StatComparePercCurrentToModMax" stat="Food" operation="GTE" value=".985"/><!-- you are not trying to heal max stamina, a valid use of food -->
+			<requirement name="NotHasBuff" buff="buffDoingHealingWrongCooldown"/>
+			<requirement name="CVarCompare" cvar="$doingHealingWrong" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDoingHealingWrong"/><!-- display "Dude, you are doing it wrong!" message -->
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealFood">
+				<requirement name="CVarCompare" cvar="$foodAmountAdd" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealWaterMax50">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="0"/></triggered_effect>
+
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+
+		</effect_group>
+		<effect_group name="apply equal or higher buff">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GTE" value="@$foodStaminaBonus"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+		<effect_group name="apply lower buff if higher buff duration is low">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="@$foodStaminaBonus"/>
+			<requirement name="CVarCompare" cvar="$buffFoodStaminaBonusDuration" operation="LT" value="211"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffDragonsProcessConsumables80" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".7"/>
+		<effect_group>
+			<requirement name="StatComparePercCurrentToModMax" stat="health" operation="GT" value=".985"/><!-- max food healing reached -->
+			<requirement name="StatComparePercModMaxToMax" stat="health" operation="LT" value=".985"/><!-- medical healing needed -->
+			<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/><!-- item is adding food healing -->
+			<requirement name="StatComparePercCurrentToModMax" stat="Food" operation="GTE" value=".985"/><!-- you are not trying to heal max stamina, a valid use of food -->
+			<requirement name="NotHasBuff" buff="buffDoingHealingWrongCooldown"/>
+			<requirement name="CVarCompare" cvar="$doingHealingWrong" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDoingHealingWrong"/><!-- display "Dude, you are doing it wrong!" message -->
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="medicalRegHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealHealth">
+				<requirement name="CVarCompare" cvar="foodHealthAmount" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealFood">
+				<requirement name="CVarCompare" cvar="$foodAmountAdd" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffHealWaterMax80">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="0"/></triggered_effect>
+
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffFoodStaminaBonus">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0">
+				<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+
+		</effect_group>
+		<effect_group name="apply equal or higher buff">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GTE" value="@$foodStaminaBonus"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+		<effect_group name="apply lower buff if higher buff duration is low">
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="GT" value="0"/>
+			<requirement name="CVarCompare" cvar=".foodStaminaBonusAdd" operation="LT" value="@$foodStaminaBonus"/>
+			<requirement name="CVarCompare" cvar="$buffFoodStaminaBonusDuration" operation="LT" value="211"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFoodStaminaBonus"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHealWaterMax20" name_key="buffWaterStaminaRegen20Name" description_key="buffWaterStaminaRegen20Desc" icon="ui_game_symbol_thirst" hidden="false">
+		<stack_type value="ignore"/>
+		<update_rate value=".1"/>
+		<display_value value="$waterAmountAdd"/>
+		<effect_group name="heal Water from $waterAmountAdd that was added by an item">
+			<requirement name="!IsStatAtMax" stat="water"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max but stuffed, convert normally">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max, convert more slowly">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LTE" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".01"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".20"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="multiply" value=".2"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealWaterMax20">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LT" value=".1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffHealWaterMax25" name_key="buffWaterStaminaRegen25Name" description_key="buffWaterStaminaRegen25Desc" icon="ui_game_symbol_thirst" hidden="false">
+		<stack_type value="ignore"/>
+		<update_rate value=".1"/>
+		<display_value value="$waterAmountAdd"/>
+		<effect_group name="heal Water from $waterAmountAdd that was added by an item">
+			<requirement name="!IsStatAtMax" stat="water"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max but stuffed, convert normally">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max, convert more slowly">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LTE" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".01"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".25"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="multiply" value=".2"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealWaterMax25">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LT" value=".1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffHealWaterMax30" name_key="buffWaterStaminaRegen30Name" description_key="buffWaterStaminaRegen30Desc" icon="ui_game_symbol_thirst" hidden="false">
+		<stack_type value="ignore"/>
+		<update_rate value=".1"/>
+		<display_value value="$waterAmountAdd"/>
+		<effect_group name="heal Water from $waterAmountAdd that was added by an item">
+			<requirement name="!IsStatAtMax" stat="water"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max but stuffed, convert normally">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max, convert more slowly">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LTE" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".01"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".30"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="multiply" value=".2"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealWaterMax30">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LT" value=".1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffHealWaterMax35" name_key="buffWaterStaminaRegen35Name" description_key="buffWaterStaminaRegen35Desc" icon="ui_game_symbol_thirst" hidden="false">
+		<stack_type value="ignore"/>
+		<update_rate value=".1"/>
+		<display_value value="$waterAmountAdd"/>
+		<effect_group name="heal Water from $waterAmountAdd that was added by an item">
+			<requirement name="!IsStatAtMax" stat="water"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max but stuffed, convert normally">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max, convert more slowly">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LTE" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".01"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".35"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="multiply" value=".2"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealWaterMax35">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LT" value=".1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffHealWaterMax40" name_key="buffWaterStaminaRegen40Name" description_key="buffWaterStaminaRegen40Desc" icon="ui_game_symbol_thirst" hidden="false">
+		<stack_type value="ignore"/>
+		<update_rate value=".1"/>
+		<display_value value="$waterAmountAdd"/>
+		<effect_group name="heal Water from $waterAmountAdd that was added by an item">
+			<requirement name="!IsStatAtMax" stat="water"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max but stuffed, convert normally">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max, convert more slowly">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LTE" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".01"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".40"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="multiply" value=".2"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealWaterMax40">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LT" value=".1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffHealWaterMax45" name_key="buffWaterStaminaRegen45Name" description_key="buffWaterStaminaRegen45Desc" icon="ui_game_symbol_thirst" hidden="false">
+		<stack_type value="ignore"/>
+		<update_rate value=".1"/>
+		<display_value value="$waterAmountAdd"/>
+		<effect_group name="heal Water from $waterAmountAdd that was added by an item">
+			<requirement name="!IsStatAtMax" stat="water"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max but stuffed, convert normally">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max, convert more slowly">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LTE" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".01"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".45"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="multiply" value=".2"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealWaterMax45">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LT" value=".1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffHealWaterMax50" name_key="buffWaterStaminaRegen50Name" description_key="buffWaterStaminaRegen50Desc" icon="ui_game_symbol_thirst" hidden="false">
+		<stack_type value="ignore"/>
+		<update_rate value=".1"/>
+		<display_value value="$waterAmountAdd"/>
+		<effect_group name="heal Water from $waterAmountAdd that was added by an item">
+			<requirement name="!IsStatAtMax" stat="water"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max but stuffed, convert normally">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max, convert more slowly">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LTE" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".01"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".50"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="multiply" value=".2"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealWaterMax50">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LT" value=".1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffHealWaterMax80" name_key="buffWaterStaminaRegen80Name" description_key="buffWaterStaminaRegen80Desc" icon="ui_game_symbol_thirst" hidden="false">
+		<stack_type value="ignore"/>
+		<update_rate value=".1"/>
+		<display_value value="$waterAmountAdd"/>
+		<effect_group name="heal Water from $waterAmountAdd that was added by an item">
+			<requirement name="!IsStatAtMax" stat="water"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max but stuffed, convert normally">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="GT" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".1"/>
+		</effect_group>
+		<effect_group name="stat is at max, convert more slowly">
+			<requirement name="IsStatAtMax" stat="water"/>
+			<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LTE" value="@$waterOverEatAmount"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="water" operation="add" value=".01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$waterAmountAdd" operation="subtract" value=".01"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".80"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$waterOverEatAmount" operation="multiply" value=".2"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffHealWaterMax80">
+				<requirement name="CVarCompare" cvar="$waterAmountAdd" operation="LT" value=".1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterAmountAdd" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$waterOverEatAmount" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+	<buff name="buffOopsWastedPotion" name_key="buffOopsWastedPotionName" description_key="buffOopsWastedPotionDesc" tooltip_key="buffDoingHealingWrongTooltip" icon="ui_game_symbol_dysentery" icon_color="117,161,129" icon_blink="true">
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffWastedPotionCooldown"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$doingHealingWrong" operation="add" value="1"/>
+		</effect_group>
+	</buff>
+	<buff name="buffWastedPotionCooldown" name_key="Wasted Potion Cooldown" icon="ui_game_symbol_add" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+	</buff>
+		
+</append>
+
+</configs>

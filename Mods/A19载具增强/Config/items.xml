@@ -1,0 +1,7 @@
+<tty>
+	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group[@name='vehicleBicyclePlaceable']/passive_effect[@name='DegradationMax']/@value">15000</set>
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group[@name='vehicleMinibikePlaceable']/passive_effect[@name='DegradationMax']/@value">30000</set>
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group[@name='vehicleMotorcyclePlaceable']/passive_effect[@name='DegradationMax']/@value">60000</set>
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group[@name='vehicle4x4TruckPlaceable']/passive_effect[@name='DegradationMax']/@value">75000</set>
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group[@name='vehicleGyrocopterPlaceable']/passive_effect[@name='DegradationMax']/@value">30000</set>
+</tty>

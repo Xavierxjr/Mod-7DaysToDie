@@ -1,0 +1,24 @@
+<qualityinfo>
+
+    <!-- Broken -->
+    <set xpath="/qualityinfo/quality[@key='0']/@color">FFFFFF</set>
+
+    <!-- Junk -->
+    <set xpath="/qualityinfo/quality[@key='1']/@color">3DD20D</set>
+
+    <!-- Common -->
+    <set xpath="/qualityinfo/quality[@key='2']/@color">2F78FF</set>
+
+    <!-- Uncommon -->
+    <set xpath="/qualityinfo/quality[@key='3']/@color">9132C8</set>
+
+    <!-- Rare -->
+    <set xpath="/qualityinfo/quality[@key='4']/@color">FF9600</set>
+
+    <!-- Epic -->
+    <set xpath="/qualityinfo/quality[@key='5']/@color">FF69B4</set>
+
+    <!-- Legendary -->
+    <set xpath="/qualityinfo/quality[@key='6']/@color">00FFFF</set>
+
+</qualityinfo>

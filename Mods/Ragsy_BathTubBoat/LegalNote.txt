@@ -1,0 +1,27 @@
+Required Legal Notice
+
+BathTub Boat Modlet for 7 Days To Die Game.
+
+All Models in this modlet are subject to creative commons licence.
+https://creativecommons.org/licenses/by/4.0/
+
+Model Credits :
+
+Model: Bath Tub
+Creator : ntj199393
+
+Model: Green frog
+Creator : jarofcarrot
+
+Model: LUSH Soap
+Creator : fabelar
+
+Model: Rubber Duck
+Creator: emilsvfx
+
+Model: Turtle
+Creator : 3DAnvil
+
+
+No Models have been altered from the 'original creator' they are set up with appropriate lighting shader in unity for 7 Days to Die game.
+

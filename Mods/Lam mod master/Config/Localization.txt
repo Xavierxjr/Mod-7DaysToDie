@@ -1,0 +1,7 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,Chinese,German,Klingon,Spanish,Polish
+
+attPerceptionName,progression,Attribute,,,Attribute: [00EBFF]Perception,,Attribut: Wahrnehmung,Atributo: Percepción,Attribut : Perception,Attributo: Percezione,特性:知覚,속성: 인지력,Atrybut: Percepcja,Atributo: Percepção,Атрибут: Восприятие,Nitelik: Algı,属性：感知,屬性：感知,Atributo: Percepción
+attStrengthName,progression,Attribute,,,Attribute: [F8FD43]Strength,,Attribut: Stärke,Atributo: Fuerza,Attribut : Force,Attributo: Forza,特性:強さ,속성: 힘,Atrybut: Siła,Atributo: Força,Атрибут: Сила,Nitelik: Kuvvet,属性：力量,屬性：力量,Atributo: Fuerza
+attFortitudeName,progression,Attribute,,,Attribute: [FF0000]Fortitude,,Attribut: Standhaftigkeit,Atributo: Fortaleza,Attribut : Courage,Attributo: Resilienza,特性:忍耐,속성: 불굴의 정신,Atrybut: Hart,Atributo: Robustez,Атрибут: Стойкость,Nitelik: Dayanma,属性：强健,屬性：堅韌,Atributo: Fortaleza
+attAgilityName,progression,Attribute,,,Attribute: [21C700]Agility,,Attribut: Beweglichkeit,Atributo: Agilidad,Attribut : Agilité,Attributo: Agilità,特性:素早さ,속성: 민첩성,Atrybut: Zwinność,Atributo: Agilidade,Атрибут: Ловкость,Nitelik: Atiklik,属性：敏捷,屬性：敏捷性,Atributo: Agilidad
+attIntellectName,progression,Attribute,,,Attribute: [FF00E7]Intellect,,Attribut: Intelligenz,Atributo: Intelecto,Attribut : Intelligence,Attributo: Intelletto,特性:知能,속성: 지능,Atrybut: Intelekt,Atributo: Intelecto,Атрибут: Интеллект,Nitelik: Zekâ,属性：智慧,屬性：智力,Atributo: Intelecto

@@ -1,0 +1,29 @@
+<configs>
+	<append xpath="/items">
+
+		<item name="grindeddiamond">
+			<property name="Extends" value="resourceSilverNugget"/>
+	        <property name="Tags" value="gems"/>
+	        <property name="EconomicValue" value="3000"/>
+	        <property name="CraftingIngredientTime" value="60"/>
+			<property name="DescriptionKey" value="BetterGemsDiamondDesc"/>
+		</item>
+
+		<item name="GoldIngot">
+			<property name="Extends" value="resourceSilverNugget"/>
+			<property name="Tags" value="gems"/>
+			<property name="EconomicValue" value="40000"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="DescriptionKey" value="BetterGemsGoldIngotDesc"/>
+		</item>
+
+		<item name="SilverIngot">
+			<property name="Extends" value="resourceSilverNugget"/>
+			<property name="Tags" value="gems"/>
+			<property name="EconomicValue" value="15000"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="DescriptionKey" value="BetterGemsSilverIngotDesc"/>
+		</item>
+				
+	 </append>
+ </configs>

@@ -1,0 +1,12 @@
+<tty>
+	<!-- 自行车 原版 5 10 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">7,12</set>  
+	<!-- 小摩托 原版 7 10 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">12,16</set>  
+	<!-- 大摩托 原版 9 14 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">16,22</set> 
+	<!-- 卡车 原版 9 14 -->
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">18,24</set> 
+	<!-- 旋翼机 原版 9 15 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">20,26</set>  
+</tty>

@@ -1,0 +1,380 @@
+<FRK>
+	<set xpath="/recipes/recipe[@name='plantedAloe1']/ingredient[@name='resourceCropAloeLeaf']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedBlueberry1']/ingredient[@name='foodCropBlueberries']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedChrysanthemum1']/ingredient[@name='resourceCropChrysanthemumPlant']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedCoffee1']/ingredient[@name='resourceCropCoffeeBeans']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedCorn1']/ingredient[@name='foodCropCorn']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedCotton1']/ingredient[@name='resourceCropCottonPlant']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedGoldenrod1']/ingredient[@name='resourceCropGoldenrodPlant']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedGraceCorn1']/ingredient[@name='foodCropGraceCorn']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedHop1']/ingredient[@name='resourceCropHopsFlower']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedMushroom1']/ingredient[@name='foodCropMushrooms']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedMushroom1']/ingredient[@name='resourceClayLump']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='plantedPotato1']/ingredient[@name='foodCropPotato']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedYucca1']/ingredient[@name='foodCropYuccaFruit']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='plantedPumpkin1']/ingredient[@name='foodCropPumpkin']/@count">3</set>
+
+	<append xpath="/recipes/recipe[@name='foodPumpkinPie']">
+		<ingredient name="foodPumpkinSpice" count="2"/>
+	</append>
+
+	<append xpath="/recipes/recipe[@name='foodPumpkinCheesecake']">
+		<ingredient name="foodPumpkinSpice" count="3"/>
+	</append>
+
+	<append xpath="/recipes/recipe[@name='foodPumpkinBread']">
+		<ingredient name="foodPumpkinSpice" count="2"/>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="drinkDragonsBottledSuperPumpkinAwesomeSauce" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="drinkJarGrandpasAwesomeSauce" count="1"/>
+			<ingredient name="foodHoney" count="10"/>
+			<ingredient name="foodCropPumpkin" count="15"/>
+			<ingredient name="foodPumpkinSpice" count="15"/>
+			<ingredient name="foodSuperCornMeal" count="6"/>
+		</recipe>
+
+		<recipe name="drinkDragonsBottledSuperPumpkinMoonshine" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSuperCornMeal" count="5"/>
+			<ingredient name="drinkJarSuperGrainAlcohol" count="2"/>
+			<ingredient name="foodCropPumpkin" count="5"/>
+			<ingredient name="foodPumpkinSpice" count="10"/>
+			<ingredient name="drinkJarGrandpasMoonshine" count="1"/>
+		</recipe>
+
+		<recipe name="drinkSuperNitroPumpkinSpiceLatte" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="10"/>
+			<ingredient name="foodCropPumpkin" count="5"/>
+			<ingredient name="foodPumpkinSpice" count="10"/>
+			<ingredient name="drinkDragonsBottledSuperPumpkinBeer" count="1"/>
+			<ingredient name="drinkCanMegaCrush" count="2"/>
+		</recipe>
+
+		<recipe name="drinkNitroPumpkinSpiceLatte" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="5"/>
+			<ingredient name="foodCropPumpkin" count="3"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="drinkJarBeer" count="2"/>
+			<ingredient name="drinkCanMegaCrush" count="1"/>
+		</recipe>
+
+		<recipe name="drinkDragonsBottledSuperPumpkinBeer" count="1" craft_area="chemistryStation" tags="perkMasterChef,learnable,chemStationCrafting">
+			<ingredient name="resourceCropHopsFlower" count="7"/>
+			<ingredient name="drinkJarSuperGrainAlcohol" count="1"/>
+			<ingredient name="foodCropPumpkin" count="1"/>
+			<ingredient name="foodPumpkinSpice" count="7"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkCupPumpkinCoffee" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="3"/>
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkCupBlackStrapPumpkinCoffee" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="6"/>
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="4"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+			<ingredient name="resourceGunPowder" count="50"/>
+		</recipe>
+
+		<recipe name="drinkCupPumpkinSpiceLatte" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="10"/>
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="2"/>
+			<ingredient name="drinkCupBlackStrapPumpkinCoffee" count="1"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkCupPumpkinRedTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkCupPumpkinGoldenRodTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropGoldenrodPlant" count="2"/>
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkBottledPumpkinJuice" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropYuccaFruit" count="2"/>
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkGlassBlueberryJuice" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropYuccaFruit" count="3"/>
+			<ingredient name="foodCropBlueberries" count="25"/>
+			<ingredient name="resourceCropSnowberryPlant" count="3"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkGlassPumpkinJuiceSmoothie" count="1" tags="perkMasterChef,learnable">
+			<ingredient name="drinkJarYuccaJuice" count="1"/>
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="3"/>
+			<ingredient name="resourceSnowBall" count="5"/>
+			<ingredient name="drinkBottledPumpkinJuice" count="1"/>
+		</recipe>
+
+		<recipe name="drinkGlassBlueberryJuiceSmoothie" count="1" tags="perkMasterChef,learnable">
+			<ingredient name="drinkJarYuccaJuice" count="1"/>
+			<ingredient name="foodCropBlueberries" count="50"/>
+			<ingredient name="resourceCropSnowberryPlant" count="5"/>
+			<ingredient name="resourceSnowBall" count="5"/>
+			<ingredient name="drinkGlassBlueberryJuice" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarSuperGrainAlcohol" count="1" craft_area="chemistryStation" tags="perkMasterChef,learnable">
+			<ingredient name="foodSuperCornMeal" count="5"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodPumpkinSpice" count="3" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperCornMeal" count="3" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropGraceCorn" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperCornOnTheCob" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropGraceCorn" count="1"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperCornBread" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSuperCornMeal" count="4"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodPumpkinMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="2"/>
+			<ingredient name="foodCropPumpkin" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodRawMeat" count="10"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="foodSuperMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodRawMeat" count="10"/>
+			<ingredient name="foodCropPotato" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="foodSuperShamChowder" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanSham" count="2"/>
+			<ingredient name="foodCropPotato" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperHoboStew" count="1"  craft_time="65" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodRottingFlesh" count="10"/>
+			<ingredient name="foodCropPotato" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-2" tags="foodRottingFlesh"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="foodSuperFishTacos" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanSalmon" count="2"/>
+			<ingredient name="foodSuperCornMeal" count="4"/>
+		</recipe>
+
+		<recipe name="foodSuperChiliDog" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanChili" count="2"/>
+			<ingredient name="foodRawMeat" count="10"/>
+			<ingredient name="foodSuperCornBread" count="2"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="foodSuperBlueberryPie" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropBlueberries" count="20"/>
+			<ingredient name="foodEgg" count="2"/>
+			<ingredient name="foodSuperCornMeal" count="2"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinPie" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="3"/>
+			<ingredient name="foodEgg" count="2"/>
+			<ingredient name="foodSuperCornMeal" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinCheesecake" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="3"/>
+			<ingredient name="foodEgg" count="2"/>
+			<ingredient name="foodSuperCornMeal" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="drinkJarSuperGrainAlcohol" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinBread" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="foodSuperCornMeal" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperVegetableStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPotato" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodCropMushrooms" count="4"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodPumpkinVegetableStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodCropPotato" count="3"/>
+			<ingredient name="foodCropCorn" count="3"/>
+			<ingredient name="foodPumpkinSpice" count="3"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinVegetableStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="4"/>
+			<ingredient name="foodCropPotato" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodPumpkinChickenStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodCropPotato" count="3"/>
+			<ingredient name="foodPumpkinSpice" count="3"/>
+			<ingredient name="foodCanChicken" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinChickenStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="foodCanChicken" count="4"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodPumpkinLambStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodCropPotato" count="3"/>
+			<ingredient name="foodPumpkinSpice" count="3"/>
+			<ingredient name="foodCanLamb" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinLambStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="foodCanLamb" count="4"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodPumpkinBeefStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodCropPotato" count="3"/>
+			<ingredient name="foodPumpkinSpice" count="3"/>
+			<ingredient name="foodCanBeef" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinBeefStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="foodCanBeef" count="4"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodPumpkinChili" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodCropPotato" count="3"/>
+			<ingredient name="foodPumpkinSpice" count="3"/>
+			<ingredient name="foodCanChili" count="2"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodSuperPumpkinChili" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="4"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodPumpkinSpice" count="5"/>
+			<ingredient name="foodCanChili" count="4"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+<!-- ****************** Random Recipes Borrowed From Other Mods ****************** -->
+
+		<recipe name="resourceAcid" count="1" craft_area="chemistryStation">
+			<ingredient name="drinkJarGrainAlcohol" count="3"/>
+			<ingredient name="foodRottingFlesh" count="10"/>
+			<ingredient name="drinkJarEmpty" count="1"/>
+		</recipe>
+
+		<recipe name="foodHoney" count="1" craft_area="chemistryStation">
+			<ingredient name="resourceCropGoldenrodPlant" count="15"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="15"/>
+			<ingredient name="resourceCropHopsFlower" count="5"/>
+			<ingredient name="foodCornMeal" count="5"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkCanMegaCrush" count="1" craft_area="chemistryStation">
+			<ingredient name="resourceAnimalFat" count="2"/>
+			<ingredient name="resourceCropAloeLeaf" count="5"/>
+               		<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+
+		<recipe name="toolBeaker" count="1" craft_area="forge" material_based="true">
+			<ingredient name="unit_glass" count="20"/>
+			<ingredient name="unit_clay" count="5"/>
+		</recipe>
+
+		<recipe name="foodCanDogfood" count="2" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCornMeal" count="2"/>
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="foodCropPotato" count="1"/>
+               		<ingredient name="foodGrilledMeat" count="3"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>		
+	</append>
+</FRK>

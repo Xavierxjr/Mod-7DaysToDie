@@ -1,0 +1,15 @@
+?Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish,schinese
+Chaingun,items,Gun,New,M134 Minigun,,,,,,M134加特林
+ChaingunDesc,items,Gun,New,This thing that uses 7.62mm Ammo doesn't need a description.\n\n Can be found only in military munitions ammo box.\n Repair with a Repair Kit.\nScrap to Machine Gun Parts.,,,,,,这东西，使用7.62毫米弹药不需要描述.\n\n可以发现，只有在军事武器弹药盒.\n修理维修工具.\n取消机枪零件.
+Flamethrower,items,Gun,New,Flamethrower,,,,,,火焰喷射器
+FlamethrowerDesc,items,Gun,New,This is an anti-horde weapon that uses Gas Can as ammo\n Located under Advanced Engineering.\n\nRepair with a Repair Kit.\nScrap to Motor Tool Parts.,,,,,,这是一种反部落武器，使用煤气罐作为弹药\n位于先进工程.\n用维修工具修理.\n报废汽车工具零件.
+M98,items,Gun,New,M98 Sniper Rifle,,,,,,M98狙击步枪
+M98Desc,items,Gun,New,Very Powerful SemiAutomatic rifle that uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Hunting Rifle Parts.,,,,,,非常强大的半自动步枪，使用7.62毫米弹药.\n\n修理维修工具.\n取消猎枪部分.
+Mac10,items,Gun,New,Mac 10,,,,,,Mac10
+Mac10Desc,items,Gun,New,Weak but fast Automatic Submachine Gun that uses 9mm Ammo.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.,,,,,,弱但快速的自动冲锋枪，使用9毫米Ammo.\n用维修工具修理.\n刮到手枪零件.
+Glock40,items,Gun,New,Glock 40,,,,,,格洛克40
+Glock40Desc,items,Gun,New,Automatic Glock that uses 9mm ammo.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.,,,,,,自动手枪使用9毫米弹药.\n\n修理维修工具.\n取消手枪部分.
+SCAR,items,Gun,New,SCAR,,,,,,SCAR突击步枪
+SCARDesc,items,Gun,New,Powerful Automatic Rifle that uses 7.62mm Ammo.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts.,,,,,,强大的自动步枪，使用7.62毫米弹药.\n\n修理维修工具.\n取消机枪零件.
+KSG12,items,Gun,New,KSG12,,,,,, KSG12
+KSG12Desc,items,Gun,New,Powerful SemiAutomatic Shotgun that uses all Shell Types.\n\nRepair with a Repair Kit.\nScrap to Shotgun Parts.,,,,,,强大的半自动霰弹枪，使用所有外壳类型.\n\n修理维修工具.\n取消猎枪部分.

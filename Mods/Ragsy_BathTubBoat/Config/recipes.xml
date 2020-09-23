@@ -1,0 +1,36 @@
+<configs>
+
+<!-- BathTub boat by Ragsy2145 -->
+	<append xpath="/recipes">
+
+<recipe name="BathTub" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceOil" count="4"/>
+	<ingredient name="resourceGlue" count="10"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="PropellerSmall" count="1" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceOil" count="2"/>
+</recipe>
+<recipe name="PropellerShaft" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceSpring" count="4"/>
+</recipe>
+<recipe name="vehicleBathTubBoatPropellerAssy" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="PropellerSmall" count="1"/>
+	<ingredient name="PropellerShaft" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+</recipe>
+<recipe name="vehicleBathTubBoatPlaceable" count="1" craft_time="300" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="BathTub" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="vehicleBathTubBoatPropellerAssy" count="1"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceMechanicalParts" count="12"/>
+</recipe>
+</append>
+</configs>

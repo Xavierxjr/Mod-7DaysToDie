@@ -1,0 +1,28 @@
+<config>	
+	<append xpath="/progression/perks">
+
+<perk name="MaxStamina" parent="LamsBonus" name_key="Maximum Stamina" desc_key="Increase your maximum stamina." icon="ui_game_symbol_maxsta">
+
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="2" desc_key="Agility lvl 2"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="Agility lvl 4"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="Agility lvl 6"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="8" desc_key="Agility lvl 8"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="Agility lvl 10"/></level_requirements>
+
+	<effect_group>
+
+		<passive_effect name="StaminaMax" operation="base_add" value="20,100" level="1,5"/>
+
+		<effect_description level="1" desc_base="+ 20 Maximum Stamina" long_desc_key="Increase your maximum Stamina by 20"/>
+		<effect_description level="2" desc_base="+ 40 Maximum Stamina" long_desc_key="Increase your maximum Stamina by 40"/>
+		<effect_description level="3" desc_base="+ 60 Maximum Stamina" long_desc_key="Increase your maximum Stamina by 60"/>
+		<effect_description level="4" desc_base="+ 80 Maximum Stamina" long_desc_key="Increase your maximum Stamina by 80"/>
+		<effect_description level="5" desc_base="+ 100 Maximum Stamina" long_desc_key="Increase your maximum Stamina by 100"/>
+
+</effect_group>
+
+</perk>
+
+</append>
+	
+</config>

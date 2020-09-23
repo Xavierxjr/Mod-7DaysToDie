@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Lam's Treasure Hunter mod" />
+        <Description value="Changed the max perk lvl from 3 to 5
+							each lvl increases the amount of digging from 7,5,3 to 20,30,40,50,60
+							in order to reduce the search radius 
+							Loot quantity changed from 10,20,30% to 50,100,150,200,250%." />
+        <Author value="Lam" />
+        <Version value="19" />
+    </ModInfo>
+</xml>

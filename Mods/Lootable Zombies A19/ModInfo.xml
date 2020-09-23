@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="Lootable Zombies A19" />
+		<Description value="Allows zombie corpse looting in Alpha 19." />
+		<Author value="Kodiak420" />
+		<Version value="1.0" />
+
+	</ModInfo>
+</xml>

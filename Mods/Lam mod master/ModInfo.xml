@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lam Mod Master" />
+		<Description value="Lam's mod master, on it's own it does nothing except open up a new skills tab
+							But it is needed to let all the other Lam mods function."/>
+		<Author value="Lam" />
+		<Version value="19.0" />
+		<Website value="https://www.nexusmods.com/7daystodie/mods/1064" />
+	</ModInfo>
+</xml>

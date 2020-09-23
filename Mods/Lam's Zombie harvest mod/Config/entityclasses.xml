@@ -1,0 +1,16 @@
+<configs>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">900</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">250</set>
+
+<append xpath="/entity_classes/entity_class[contains(@name, 'zombie')]">
+
+		<drop event="Harvest" name="foodRottingFlesh" tag="ZombieHarvest" count="2"/>
+		<drop event="Harvest" name="resourceAnimalFat" tag="ZombieHarvest" count="2"/>
+		<drop event="Harvest" name="resourceBone" tag="ZombieHarvest" count="2"/>
+		<drop event="Harvest" name="foodRawMeat" tag="HarvestZombie" count="3" />
+		<drop event="Harvest" name="resourceLeather" tag="HarvestZombie" count="3"/>
+		<drop event="Harvest" name="oldCash" prob=".1" tag="HarvestZombie" count="250,500"/>
+
+</append>
+
+</configs>

@@ -1,0 +1,37 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,schinese
+foodKFC,items,food,,,"KFC",肯德基
+foodKFCDesc,items,food,,,"Who says we can't enjoy a cheap family meal during the apocalypse?",谁说我们在世界末日不能享受便宜的家庭餐
+foodPotatosalad,item,food,,,"Potato salad",土豆沙拉
+foodPotatosaladDesc,item,food,,,"Gas station quality potato salad, what could go wrong?",优质土豆沙拉，会出什么问题
+drinkBlueberrySmoothie,item,drink,,,"Blueberry Smoothie",蓝莓奶昔
+drinkBlueberrySmoothieDesc,item,drink,,,"This blueberry Smoothie will cool you down, provide a boost to hunger AND cool you down some, talk about effective!",这蓝莓奶昔将你降温，提供一个促进饥饿和让你感到凉爽一些
+foodSandwich,item,food,,,"Sandwich",三明治
+foodSandwichDesc,item,food,,,"Just like Momma used to make, I think.",我想就像妈妈以前做的那样
+foodTunalarge,item,food,,,"Large can of Tuna",大罐金枪鱼
+foodTunalargeDesc,item,food,,,"Its a large can of Tuna, what more is there to say?",它是一大罐金枪鱼，还有什么可说的
+foodFries,item,food,,,"French fries",薯条
+foodFriesDesc,item,food,,,"its french fries, NOT chips.",它的炸薯条，而不是薯条
+foodItalianricotta,item,food,,,"Italian Ricotta",意大利乳清干酪
+foodItalianricottaDesc,item,food,,,"This is tasty to some people!",这对有些人来说很好吃
+foodGum,item,food,,,"Gum",口香糖
+foodGumDesc,item,food,,,"While it wont satisfy hunger, it will give you some nice healing",虽然它不能满足饥饿，但它会给你一些好的治疗
+foodHamburger,item,food,,,"Hamburger",汉堡
+foodHamburgerDesc,item,food,,,"If the zombies won't kill you, this will!",如果僵尸不杀你，这会的
+resourcePaperplate,item,resource,,,"Paper plate",纸盘
+resourcePaperplateDesc,item,resource,,,"You havn't already forgot what this is for right?",你还没忘记这是做什么的，对吧
+foodCroissant,item,food,,,"Croissant",牛角面包
+foodCroissantDesc,item,food,,,"Because who dosn't love bread?",因为谁不喜欢面包
+foodNuggets,item,food,,,"Chicken Nuggets",鸡块
+foodNuggetsDesc,item,food,,,"NUGGETS!!!!!!",炸鸡块
+resourceChocoextract,item,resource,,,"Coco Extract",可可提取物
+resourceChocoextractDesc,item,resource,,,"This can be used to craft pure Chocolate which can be used as a ingredient.",这可用于工艺纯巧克力可以用作原料
+foodCookie,item,food,,,"Cookie",饼干
+foodCookieDesc,item,food,,,"Oh! A Cookie!",哦!一个饼干
+resourceRefinedchoco,item,resource,,,"Refined Coco",精制可可
+resourceRefinedchocoDesc,item,resource,,,"You can use this to craft foods that require it.",你可以使用这个工艺的食品需要它
+foodCupcake,item,food,,,"Cupcake",蛋糕
+foodCupcakeDesc,item,food,,,"A cupcake in the apocalypse, Better eat it now!",一个蛋糕在世界末日，最好现在吃
+resourceSalt,item,resource,,,"Salt",盐
+resourceSaltDesc,item,resource,,,"Its salt! Use it on your food, duh!",它的盐！ 把它用在你的食物上，啊
+drinkCoke,item,drink,,,"Coca-Cola",可口可乐
+drinkCokeDesc,item,drink,,,"Refreshing!",爽

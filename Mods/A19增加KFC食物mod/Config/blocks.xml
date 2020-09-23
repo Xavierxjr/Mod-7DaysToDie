@@ -1,0 +1,35 @@
+<configs>
+
+<insertAfter xpath="/blocks/block[@name='orePotassiumNitrateBoulder']/drop[@name='resourcePotassiumNitratePowder']">
+        <drop event="Harvest" name="resourceSalt" count="15" tag="oreWoodHarvest"/>
+        </insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='treeOakMed01']/drop[@name='resourceWood']">
+        <drop event="Harvest" name="resourceChocoextract" count="5" tag="oreWoodHarvest"/>
+        </insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='treeOakMed02']/drop[@name='resourceWood']">
+        <drop event="Harvest" name="resourceChocoextract" count="10" tag="oreWoodHarvest"/>
+        </insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='treeOakLrg01']/drop[@name='resourceWood']">
+        <drop event="Harvest" name="resourceChocoextract" count="15" tag="oreWoodHarvest"/>
+        </insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='treePlantedOak08m']/drop[@name='resourceWood']">
+        <drop event="Harvest" name="resourceChocoextract" count="5" tag="oreWoodHarvest"/>
+        </insertAfter>
+		
+<insertAfter xpath="/blocks/block[@name='treePlantedOak16m']/drop[@name='resourceWood']">
+        <drop event="Harvest" name="resourceChocoextract" count="10" tag="oreWoodHarvest"/>
+        </insertAfter>
+		
+<insertAfter xpath="/blocks/block[@name='treePlantedOak27m']/drop[@name='resourceWood']">
+        <drop event="Harvest" name="resourceChocoextract" count="15" tag="oreWoodHarvest"/>
+        </insertAfter>
+	
+<insertAfter xpath="/blocks/block[@name='treePlantedOak41m']/drop[@name='resourceWood']">
+        <drop event="Harvest" name="resourceChocoextract" count="20" tag="oreWoodHarvest"/>
+        </insertAfter>
+
+</configs>

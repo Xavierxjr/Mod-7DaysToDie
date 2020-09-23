@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>	
+	<ModInfo>
+		<Name value="套装效果，添加布甲，轻甲，重甲三种套装效果" />	
+		<Description value="套装效果，添加布甲，轻甲，重甲三种套装效果" />	
+		<Author value="tty" />
+		<Version value="a19" />
+	</ModInfo>
+</xml>

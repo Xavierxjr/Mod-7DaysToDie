@@ -1,0 +1,11 @@
+<configs>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='stashOnlyItemsLow']">
+		<item name="Electric Eel Trap" count="1,2" prob="2.5"/>
+	</append>
+	 
+	 <append xpath="/traders/trader_item_groups/trader_item_group[@name='stashOnlyItemsHigh']">
+		<item name="Electric Eel Trap" count="1,2" prob="2.5"/>
+	</append>
+	
+</configs>

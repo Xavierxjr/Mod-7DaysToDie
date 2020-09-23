@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<muchen>
+
+	<set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='JunkTurretActiveCount']/@value">5</set>
+	<set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='JunkTurretActiveRange']/@value">10,100,200,300,400,500</set>
+	
+</muchen>

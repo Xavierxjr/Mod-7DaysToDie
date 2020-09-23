@@ -1,0 +1,18 @@
+ <configs>
+<!--    <set xpath="//buff[@name='buffFoodStaminaBonus']/effect_group[last()]">
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$foodStaminaBonus" operation="set" value="@.foodStaminaBonusAdd">
+            <requirement name="CVarCompare" cvar="$foodStaminaBonus" operation="LT" value="@.foodStaminaBonusAdd" />
+        </triggered_effect>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+        <triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$foodStaminaBonus" operation="set" value="@.foodStaminaBonusAdd">
+            <requirement name="CVarCompare" cvar="$foodStaminaBonus" operation="LT" value="@.foodStaminaBonusAdd" />
+        </triggered_effect>
+        <triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="set" value="0"/>
+        <passive_effect name="StaminaMax" operation="base_add" value="@$foodStaminaBonus"/>
+    </set>-->
+    
+    
+    <append xpath="//buff[@name='buffFoodStaminaBonus']/effect_group[last()]/triggered_effect[@action='ModifyCVar' and @cvar='$foodStaminaBonus']">
+        <requirement name="CVarCompare" cvar="$foodStaminaBonus" operation="LT" value="@.foodStaminaBonusAdd" />
+    </append>    
+</configs>

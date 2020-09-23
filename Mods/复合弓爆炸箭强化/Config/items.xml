@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- 爆炸箭 -->
+	<set xpath="/items/item[@name='ammoArrowExploding']/effect_group[@name='ammoArrowExploding']/passive_effect[@name='BlockDamage']/@value">0</set>
+	<set xpath="/items/item[@name='ammoArrowExploding']/effect_group[@name='ammoArrowExploding']/display_value[@name='dExDamageBlock']/@value">0</set>
+
+	<set xpath="/items/item[@name='ammoArrowExploding']/effect_group[@name='ammoArrowExploding']/passive_effect[@name='EntityDamage']/@value">120</set>
+	<set xpath="/items/item[@name='ammoArrowExploding']/effect_group[@name='ammoArrowExploding']/display_value[@name='dExDamageEntity']/@value">300</set>
+
+	<set xpath="/items/item[@name='ammoArrowExploding']/effect_group[@name='ammoArrowExploding']/display_value[@name='dExRadius']/@value">10</set>
+
+	<set xpath="/items/item[@name='ammoArrowExploding']/property[@class='Action1']/property[@name='Explosion.RadiusBlocks']/@value">7</set>
+	<set xpath="/items/item[@name='ammoArrowExploding']/property[@class='Action1']/property[@name='Explosion.RadiusEntities']/@value">10</set>
+
+<!-- 复合弓 -->
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='ProjectileVelocity']/@value">.3</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='MaxRange']/@value">150</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='MagazineSize']/@value">1.3</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='EntityDamage']/@value">.05,1</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='ModPowerBonus']/@value">.7</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='DamageBonus']/@value">6</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='sneak damage bonus']/passive_effect[@name='EntityDamage']/@value">6</set>
+</configs>

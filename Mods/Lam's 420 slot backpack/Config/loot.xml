@@ -1,0 +1,8 @@
+<configs>
+
+<!--	test container for the dropped backpack	-->
+<!--	<set xpath="/lootcontainers/lootcontainer[@id='1']/@size">16,28</set>	-->
+
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">16,28</set>
+
+</configs>

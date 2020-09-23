@@ -1,0 +1,140 @@
+<tty>
+	<!-- 棉甲套装效果 -->
+	<!-- 帽子 -->
+	<append xpath="/items/item[@name='armorClothHat']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorClothHatVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorClothHatVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorClothSuitBuff"/>
+	        </effect_group>
+	</append>		
+
+	<!-- 胸甲 -->
+	<append xpath="/items/item[@name='armorClothJacket']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorClothJacketVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorClothJacketVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorClothSuitBuff"/>
+	        </effect_group>
+	</append>		
+			
+	<!-- 腿甲 -->
+	<append xpath="/items/item[@name='armorClothPants']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorClothPantsVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorClothPantsVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorClothSuitBuff"/>
+	        </effect_group>
+	</append>	
+
+	<!-- 手套 -->
+	<append xpath="/items/item[@name='armorClothGloves']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorClothGlovesVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorClothGlovesVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorClothSuitBuff"/>
+	        </effect_group>
+	</append>		
+		
+	<!-- 鞋子 -->
+	<append xpath="/items/item[@name='armorClothBoots']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorClothBootsVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorClothBootsVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorClothSuitBuff"/>
+	        </effect_group>	
+	</append>		
+
+
+	<!-- 轻甲套装效果 -->
+	<!-- 头盔 -->
+	<append xpath="/items/item[@name='armorMilitaryHelmet' or @name='armorLeatherHood']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorMilitaryHelmetVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorMilitaryHelmetVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorMilitarySuitBuff"/>
+	        </effect_group>
+	</append>		
+
+	<!-- 胸甲 -->
+	<append xpath="/items/item[@name='armorMilitaryVest' or @name='armorLeatherChest']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorMilitaryVestVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorMilitaryVestVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorMilitarySuitBuff"/>
+	        </effect_group>
+	</append>		
+			
+	<!-- 腿甲 -->
+	<append xpath="/items/item[@name='armorMilitaryLegs' or @name='armorLeatherPants']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorMilitaryLegsVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorMilitaryLegsVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorMilitarySuitBuff"/>
+	        </effect_group>
+	</append>	
+
+	<!-- 手套 -->
+	<append xpath="/items/item[@name='armorMilitaryGloves' or @name='armorLeatherGloves']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorMilitaryGlovesVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorMilitaryGlovesVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorMilitarySuitBuff"/>
+	        </effect_group>
+	</append>		
+		
+	<!-- 鞋子 潜行鞋子-->
+	<append xpath="/items/item[@name='armorMilitaryBoots' or @name='armorMilitaryStealthBoots' or @name='armorLeatherBoots']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorMilitaryBootsVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorMilitaryBootsVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorMilitarySuitBuff"/>
+	        </effect_group>	
+	</append>		
+
+	<!-- 重甲套装效果 -->
+	<!-- 头盔 -->
+	<append xpath="/items/item[@name='armorSteelHelmet' or @name='armorScrapHelmet' or @name='armorIronHelmet']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorSteelHelmetVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorSteelHelmetVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorSteelSuitBuff"/>
+	        </effect_group>
+	</append>		
+
+	<!-- 胸甲 -->
+	<append xpath="/items/item[@name='armorSteelChest' or @name='armorScrapChest' or @name='armorIronChest']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorSteelChestVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorSteelChestVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorSteelSuitBuff"/>
+	        </effect_group>
+	</append>		
+			
+	<!-- 腿甲 -->
+	<append xpath="/items/item[@name='armorSteelLegs' or @name='armorScrapLegs' or @name='armorIronLegs']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorSteelLegsVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorSteelLegsVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorSteelSuitBuff"/>
+	        </effect_group>
+	</append>	
+
+	<!-- 手套 -->
+	<append xpath="/items/item[@name='armorSteelGloves' or @name='armorScrapGloves' or @name='armorIronGloves']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorSteelGlovesVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorSteelGlovesVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorSteelSuitBuff"/>
+	        </effect_group>
+	</append>		
+		
+	<!-- 鞋子 -->
+	<append xpath="/items/item[@name='armorSteelBoots' or @name='armorScrapBoots' or @name='armorIronBoots']">
+	        <effect_group>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$armorSteelBootsVar" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$armorSteelBootsVar" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="armorSteelSuitBuff"/>
+	        </effect_group>	
+	</append>		
+</tty>

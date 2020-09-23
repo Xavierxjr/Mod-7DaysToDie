@@ -1,0 +1,27 @@
+<Mc_fans>
+	<append xpath="/items">
+		<item name="modFlameSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modFlameIcon"/>
+			<property name="Unlocks" value="modFlame"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modFlame" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+		<item name="modShockSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modShockIcon"/>
+			<property name="Unlocks" value="modShock"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modShock" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	</append>
+	
+	
+</Mc_fans>

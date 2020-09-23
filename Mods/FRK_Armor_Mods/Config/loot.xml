@@ -1,0 +1,63 @@
+<FRK>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']">
+		<item name="modArmorBackPackSchematic"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+		<item name="modArmorSprungBootsSchematic"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='modArmorT2']">
+		<item name="modArmorBackPack"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='modArmorT3']">
+		<item name="modArmorSprungBoots"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupApparelFaceCover']">
+		<item name="apparelUltimateGoggles" prob=".1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='labEquipment']">
+		<item name="apparelUltimateGoggles" prob=".1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorRare']">
+		<item name="apparelUltimateGogglesSchematic"/>
+	</append>
+	<append xpath="/lootcontainers/lootcontainer[@id='71']">
+		<item name="apparelUltimateGoggles" prob=".1"/>
+		<item name="modArmorBackPack" prob=".1"/>
+		<item name="modArmorSprungBoots" prob=".1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='dyes']">
+		<item name="modDyeTurquoise"/>
+		<item name="modDyeRoyalPurple"/>
+		<item name="modDyeGold"/>
+		<item name="modDyeSilver"/>
+		<item name="modDyeBronze"/>
+		<item name="modDyeLime"/>
+		<item name="modDyeCandyPink"/>
+		<item name="modDyeOrange"/>
+		<item name="modDyeBeige"/>
+		<item name="modDyeTan"/>
+		<item name="modDyeGray"/>
+		<item name="modDyeCharcoal"/>
+		<item name="modDyeNavyBlue"/>
+		<item name="modDyeRoyalBlue"/>
+		<item name="modDyeAzure"/>
+		<item name="modDyeCyan"/>
+		<item name="modDyeAquamarine"/>
+		<item name="modDyeTeal"/>
+		<item name="modDyeForestGreen"/>
+		<item name="modDyeOlive"/>
+		<item name="modDyeChartreuse"/>
+		<item name="modDyeCoral"/>
+		<item name="modDyeSalmon"/>
+		<item name="modDyeFuchsia"/>
+		<item name="modDyePuce"/>
+		<item name="modDyeMauve"/>
+		<item name="modDyeLavender"/>
+		<item name="modDyePlum"/>
+		<item name="modDyeIndigo"/>
+		<item name="modDyeMaroon"/>
+		<item name="modDyeCrimson"/>
+	</append>
+	
+</FRK>
+

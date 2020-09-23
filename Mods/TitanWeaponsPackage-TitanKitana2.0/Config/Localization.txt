@@ -1,0 +1,5 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+TitanKitana,items,Melee,,,Titan Kitana (Elite)
+TitanKitanaDesc,items,Melee,,,"***Electrcial Sword***\nBuilds Up Charges (max:10)\nOnce you reach maximum charge you will shock zombies on attack.\n However this sword gives off heat the more you use it the more it builds.\nRelease Heat/Charges for AOE damage.\nPress F to discharge the built up energy before it explodes in your hand."
+TitanKitanaSchematic,items,Melee,,,Titan Kitana (Elite) Schematic

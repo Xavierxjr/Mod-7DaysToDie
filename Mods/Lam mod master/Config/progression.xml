@@ -1,0 +1,50 @@
+<config>
+
+	<set xpath="/progression/attributes/attribute[@name='attPerception']/@icon">ui_game_symbol_per</set>
+	<set xpath="/progression/attributes/attribute[@name='attStrength']/@icon">ui_game_symbol_str</set>
+	<set xpath="/progression/attributes/attribute[@name='attFortitude']/@icon">ui_game_symbol_For</set>
+	<set xpath="/progression/attributes/attribute[@name='attAgility']/@icon">ui_game_symbol_agi</set>
+	<set xpath="/progression/attributes/attribute[@name='attIntellect']/@icon">ui_game_symbol_int</set>
+	
+	<set xpath="/progression/level/@max_level">1500</set>	<!-- original value 300 	-->
+<!--	<set xpath="/progression/level/@exp_to_level">5000</set>			-->		<!-- original value 10000 	-->
+<!--	<set xpath="/progression/level/@experience_multiplier">1.025</set>	-->		<!-- original value 1.05 	-->
+<!--	<set xpath="/progression/level/@skill_points_per_level">2</set>		-->		<!-- original value 1 	-->
+
+<!--	@ max lvl 300 you will get 303 points including Q's		-->
+<!--	original perks need 279 points my mods need 65 points = 344		-->
+<!--	you are missing 41 points		-->
+<!--	@ max lvl 350 you will have 9 points spare		-->
+
+<append xpath="/progression/attributes">
+
+<attribute name="LamsBonus"  name_key="[FFA500]Lam's Bonus Perks" desc_key="Specialize yourself in boosting your skills even further.\n Unlock by getting 1 to 10 points in the 5 mayor skills .\n[00EBFF]Perception         [F8FD43]Strenght\n[FF0056]Fortitude            [21C700]Agility          [c800ff]Intellect" icon="ui_game_symbol_lamb" min_level="1" max_level="1">
+
+						<!-- the following has no effect it's just there as a place holder to avoid errors -->
+	<effect_group>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.00" level="1"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.10" level="2"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.20" level="3"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.30" level="4"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.40" level="5"/>	
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.50" level="6"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.60" level="7"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.70" level="8"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.80" level="9"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="1.0" level="10"/>	
+
+		<effect_description level="1" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="2" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="3" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="4" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="5" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="6" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="7" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="8" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="9" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+		<effect_description level="10" desc_base="Hover your mouse here for tips." long_desc_key="You will see a lot of different colored symbols here.\nthose colors correspond with the colored attributes wich you will see on top.\nMeaning that in order to unlock your prefered perk\nyou will have to dump skills in the corresponding color attribute tree.\nFor those who are color blind\njust hover your mouse over the lock to see what is needed to unlock your skills."/>
+	</effect_group>
+						<!-- end of the place holder -->
+</attribute>
+</append>
+</config>

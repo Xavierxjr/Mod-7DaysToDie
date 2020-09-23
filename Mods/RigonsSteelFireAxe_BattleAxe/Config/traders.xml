@@ -1,0 +1,17 @@
+<configs>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsMeleeT2']">
+	<item name="meleeBattlelAxe" quality="1,3"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+	<item name="meleeBattlelAxe" quality="1,3"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsToolsRare']">
+	<item name="meleeBattlelAxeSchematic" />
+</append>
+
+
+
+</configs>

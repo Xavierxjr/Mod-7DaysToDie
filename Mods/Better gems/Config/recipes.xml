@@ -1,0 +1,17 @@
+<configs>
+	<append xpath="/recipes">
+	
+		<recipe name="grindeddiamond" count="1" craft_area="workbench" craft_time="300" tags="workbenchCrafting">
+			<ingredient name="resourceRawDiamond" count="1"/>
+		</recipe>
+
+		<recipe name="GoldIngot" count="1" craft_area="workbench" craft_time="600" tags="workbenchCrafting">
+			<ingredient name="resourceGoldNugget" count="50"/>
+		</recipe>
+
+		<recipe name="SilverIngot" count="1" craft_area="workbench" craft_time="420" tags="workbenchCrafting">
+			<ingredient name="resourceSilverNugget" count="50"/>
+		</recipe>
+								
+	</append>
+ </configs>

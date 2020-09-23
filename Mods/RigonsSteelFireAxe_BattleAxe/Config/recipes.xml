@@ -1,0 +1,14 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="meleeBattlelAxe" count="1"  craft_area="workbench" tags="learnable,perkSkullCrusher">
+			<ingredient name="meleeToolAllSteelParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceLeather" count="12"/>
+			<ingredient name="resourceDuctTape" count="9"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape"/>
+			</effect_group>
+		</recipe>
+	</append>
+</configs>

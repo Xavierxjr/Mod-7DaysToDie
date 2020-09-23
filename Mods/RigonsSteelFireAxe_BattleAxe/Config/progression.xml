@@ -1,0 +1,11 @@
+<configs>
+
+	<!--  -->
+	<append xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group[1]">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="meleeBattlelAxe"/>
+	</append>
+
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group/effect_description[@long_desc_key='perkSkullCrusherRank5LongDesc']/@long_desc_key">Skull Crusher. If anyone pisses you off you have the means to crush their skull. Deal 50% more damage. Power attacks have a 75% chance to knock down enemies and a 50% chance to knock down nearby foes.\nUnlocks battleaxe crafting.</set>
+
+	
+</configs>

@@ -1,0 +1,11 @@
+<config>
+	<append xpath="/recipes">
+		<recipe name="AK47Chimera" count="1" tags="perkMachineGunner">
+			<ingredient name="resourceScrapIron" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,3" tags="resourceScrapIron,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+	</append>
+</config>

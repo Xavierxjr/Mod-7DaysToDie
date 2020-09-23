@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+ 
+
+   
+   <append xpath="/items">		
+		<item name="超级玉米汤">
+		<property name="CustomIcon" value="1"/>
+		<property name="Extends" value="foodShamChowder"/>
+		<property name="DisplayType" value="foodShamChowder"/>
+		<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+		<property name="UnlockedBy" value="perkMasterChef"/>
+		<effect_group tiered="false" name="Food Tier 3">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
+
+		<display_value name="dFortitude" value="1"/>
+		<display_value name="dDuration" value="600"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffShamChowderDuration" operation="add" value="603"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffShamChowderDuration" operation="set" value="1803">
+			<requirement name="CVarCompare" cvar="$buffShamChowderDuration" operation="GT" value="1803"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffShamChowder"/>
+	</effect_group>
+</item>
+		
+	</append>
+</configs>

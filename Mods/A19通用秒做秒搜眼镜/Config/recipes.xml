@@ -1,0 +1,9 @@
+<configs>
+<append xpath="/recipes">	
+
+<recipe name="[00FFFF]秒做秒搜眼镜" count="1" craft_time = "1">
+	<ingredient name="resourceForgedSteel" count="100"/>
+</recipe>
+
+</append>
+</configs>

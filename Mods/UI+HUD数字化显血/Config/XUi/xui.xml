@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<anan>
+
+	<insertAfter xpath="/xui/ruleset/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']">
+		<window name="AnAnBuffLeft" anchor="LeftBottom" />
+	</insertAfter>
+
+</anan>

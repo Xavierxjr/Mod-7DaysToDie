@@ -1,0 +1,4 @@
+<config>
+	<!-- Change the Tree Growth Rate to be a third of it's original --> 
+	<set xpath="/blocks/block[@name='treeMasterGrowing']/property[@name='PlantGrowing.GrowthRate']/@value">21</set>
+</config>

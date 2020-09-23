@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lam's zombie harvest." />
+		<Description value="adding a perk that will let you skin zombie corpses for leather meat and some other stuff."/>
+		<Author value="lam" />
+		<Version value="19.0" />
+	</ModInfo>
+</xml>

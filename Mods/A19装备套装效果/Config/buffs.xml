@@ -1,0 +1,80 @@
+<tty>
+	<append xpath="/buffs">	
+		<!-- 棉布套装 -->
+		<buff name="armorClothSuitBuff" name_key="[EEB422]布甲套装" description_key="[EEB422]头盔/胸甲/护腿/护手/鞋\n  穿戴5件附加效果:\n\n  [00EE00]+%10耐力\n  [00EE00]+%10耐力恢复\n  [00EE00]+%10跑步速度\n" tooltip_key="套装" icon="ui_game_symbol_light_armor"  icon_color="0,205,205" >
+		    <stack_type value="ignore"/>
+			<display_value_key value=" "/> <display_value value=" "/>
+			<effect_group>
+			<!-- 耐力 -->
+			<passive_effect name="StaminaMax" operation="perc_add" value=".2"/>
+			<!-- 耐力恢复 -->
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value=".2"/>
+			<!-- 跑步速度 -->
+			<passive_effect name="RunSpeed" operation="perc_add" value=".2"/>
+			</effect_group>                      
+		</buff>    
+
+		<!-- 轻甲套装 -->
+		<buff name="armorMilitarySuitBuff" name_key="[EEB422]轻甲套装" description_key="[EEB422]头盔/胸甲/护腿/护手/鞋\n  穿戴5件附加效果:\n\n  [00EE00]+%15体力\n  [00EE00]+%10潜行\n  [00EE00]+%50潜行伤害\n" tooltip_key="套装" icon="ui_game_symbol_light_armor"  icon_color="0,205,205" >
+		    <stack_type value="ignore"/>
+			<display_value_key value=" "/> <display_value value=" "/>
+			<effect_group>
+				<!-- 体力 -->
+				<passive_effect name="HealthMax" operation="perc_add" value=".25" />
+				<!-- 潜行+10% -->
+				<passive_effect name="LightMultiplier" operation="perc_add" value="-.2"/>
+			</effect_group>          
+			<effect_group>
+				<!-- 潜行伤害+50% -->
+				<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+				<passive_effect name="DamageBonus" operation="base_add" value=".5"/> <!--For UI-->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".5"/>
+			</effect_group>
+		</buff> 
+
+		<!-- 重甲套装 -->
+		<buff name="armorSteelSuitBuff" name_key="[EEB422]重甲套装" description_key="[EEB422]头盔/胸甲/护腿/护手/鞋\n  穿戴5件附加效果:\n\n  [00EE00]+5护甲\n  [00EE00]+%20体力\n  [00EE00]+%20耐力\n" tooltip_key="套装" icon="ui_game_symbol_light_armor"  icon_color="0,205,205" >
+		    <stack_type value="ignore"/>
+			<display_value_key value=" "/> <display_value value=" "/>
+			<effect_group>
+				<!-- 护甲+5 -->
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15"/>
+				<!-- 体力 -->
+				<passive_effect name="HealthMax" operation="perc_add" value=".30" />
+				<!-- 耐力 -->
+				<passive_effect name="StaminaMax" operation="perc_add" value=".15"/>
+			</effect_group>          
+		</buff>		
+	</append>
+	
+    <append xpath="/buffs/buff[@name='buffStatusCheck01']">
+		 <effect_group>
+		     <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="armorClothSuitBuff">
+				<requirement name="CVarCompare" cvar="$armorClothHatVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorClothJacketVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorClothPantsVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorClothGlovesVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorClothBootsVar" operation="Equals" value="1"/>
+			 </triggered_effect>                  
+		  </effect_group>
+		  <effect_group>
+		     <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="armorMilitarySuitBuff">
+				<requirement name="CVarCompare" cvar="$armorMilitaryHelmetVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorMilitaryVestVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorMilitaryLegsVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorMilitaryGlovesVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorMilitaryBootsVar" operation="Equals" value="1"/>
+			 </triggered_effect>                  
+		 </effect_group>
+		 <effect_group>
+		     <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="armorSteelSuitBuff">
+				<requirement name="CVarCompare" cvar="$armorSteelHelmetVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorSteelChestVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorSteelLegsVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorSteelGlovesVar" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$armorSteelBootsVar" operation="Equals" value="1"/>
+			 </triggered_effect>                  
+		 </effect_group>
+    </append>	
+</tty>

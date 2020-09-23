@@ -1,0 +1,20 @@
+<Mc_fans>
+
+	<append xpath="/recipes">
+		<recipe name="modFlame" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceGlue" count="10"/>
+			<ingredient name="resourceOil" count="5"/>
+			<ingredient name="ammoGasCan" count="50"/>
+		</recipe>
+		
+		<recipe name="modShock" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceElectricParts" count="20"/>
+			<ingredient name="resourceGlue" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+		</recipe>
+	</append>
+
+
+</Mc_fans>

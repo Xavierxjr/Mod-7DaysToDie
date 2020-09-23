@@ -1,0 +1,15 @@
+<FRK>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='modArmorT2']">
+		<item name="modArmorBackPack" />
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='modArmorT3']">
+		<item name="modArmorSprungBoots" />
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT2SecretStash']">
+		<item name="modArmorBackPack" />
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modArmorBackPackSchematic" />
+		<item name="modArmorSprungBootsSchematic" />
+	</append>
+</FRK>

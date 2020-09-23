@@ -1,0 +1,8 @@
+<configs>
+
+	<append xpath="/ui_display_info/crafting_category_display">
+		<crafting_category_list display_type="ACGarageWorkBench">
+			<crafting_category name="ACGarageWorkBench" icon="ui_game_symbol_AC_Motors" display_name="AC_Vehicles" /> 
+		</crafting_category_list>
+	</append>	
+</configs>

@@ -1,0 +1,91 @@
+手套：
+点金手 制作品质+1
+灵巧手 开锁成功率+35%
+统御之戒 控制炮塔+1 炮塔弹药+50
+暗影之戒 潜行伤害+50%
+尖刺臂环 徒手伤害+10%
+铜匠 获取铜+100%
+火药罐 爆炸物伤害+10%
+
+
+靴子：
+绿林 移动速度+10%
+跳崖者 跳跃高度+0.5m
+华丽鞋子 交易价格改善10%
+坚守者 移动速度-30% 攻击速度+20% 护甲+3
+
+
+胸部：
+流浪披风 减缓饥饿+15%
+隐秘披风 潜行+10%
+执法者肩垫 马格南伤害+5%
+种子袋 增加10%收货量
+白虎胸针 增加10%近战武器攻击速度
+熊皮 护甲+4 耐寒+15
+
+头盔：
+夜视镜 夜视效果
+绿帽子 每30秒治愈伤口
+红宝石项链 生命值低于20%每秒回1
+好运项链 搜刮品质+8
+五属性宝石 +1 +2
+捕梦网 经验获取+15%
+
+腿部：
+轻量化 体力回复+15% 护甲-2
+重量化 体力回复-10% 护甲+4
+强化腰带 负重+8格
+口袋蓝图 制作速度+20%
+口袋金币 代币获取+10%
+尾巴挂件 寻宝距离-20%
+随身工具 搜刮速度+30%
+备用钥匙 开锁器不会损坏
+
+弓弩：
+箭袋 +25%弓弩装填速度
+强力弓片 +40%破甲 -15%射速
+
+近战武器：
+锐刺 +25%破甲 -10%耐久
+
+火器：
+骨钉 +25%破甲 -15%射速
+解限器 +30%射速 -20%准确度
+
+武器通用：
+头骨碾碎者 对头部伤害+200% 其他部位伤害-50%
+延长杆 攻击距离+15% 攻击速度-10%
+庖丁 截肢几率+25% 武器耐久-20%
+
+
+
+
+17modGunHeadShot
+17modShotgunAddRange
+17modWeaponDecapitizer
+17modGunMeleeBlessed
+17modBowFast
+17modBowArmor
+17modRecoryHPneck
+17modLuckyneck
+17modExpneck
+17modNight
+17modAttribute11
+17modAttribute12
+17modAttribute13
+17modAttribute14
+17modAttribute15
+17modAttribute21
+17modAttribute22
+17modAttribute23
+17modAttribute24
+17modAttribute25
+17modLockhand
+17modBrasshand
+17modRichring
+17modSneakring
+17modToolBlockDam
+17modBear
+17modBag
+17modRunfoot
+17modJumpfoot

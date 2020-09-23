@@ -1,0 +1,13 @@
+<configs>
+	<append xpath="/Sounds">
+		<SoundDataNode name="open_ACGarageWorkBench"> <AudioSource name="Sounds/AudioSource_Interact"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="Sounds/UseActions/open_workBench"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+		<SoundDataNode name="close_ACGarageWorkBench"> <AudioSource name="Sounds/AudioSource_Interact"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="Sounds/UseActions/close_workBench"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	</append>
+</configs>

@@ -1,0 +1,19 @@
+<configs>
+	
+	 <append xpath="/recipes">
+		 
+<recipe name="无限弹药的垃圾炮台" count="1" craft_area="workbench" craft_time="30">
+	<ingredient name="resourceForgedSteel" count="3"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunBotRoboticsParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+	</effect_group>
+
+</recipe>	
+		
+		
+		
+</append>
+</configs>

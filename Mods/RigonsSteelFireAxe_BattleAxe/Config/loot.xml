@@ -1,0 +1,16 @@
+<configs>
+
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
+	<item name="meleeBattlelAxe" prob="0.8" />
+</append> 
+
+<append xpath="lootcontainers/lootgroup[@name='groupToolsT2']">
+	<item name="meleeBattlelAxe" prob="0.25" />
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='schematicsToolsT2']">
+	<item name="meleeBattlelAxeSchematic" />
+</append>
+
+</configs>

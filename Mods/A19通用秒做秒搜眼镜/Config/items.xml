@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+<append xpath="/items">	
+
+
+<item name="[00FFFF]秒做秒搜眼镜">
+	<property name="CustomIcon" value="apparelNerdGlasses"/>     
+	<property name="Extends" value="apparelShades"/>
+	<property name="DisplayType" value="clothingNerdGlasses"/>
+	<property class="UMA">
+		<property name="Mesh" value="specs"/>
+		<property name="Overlay0" value="specs"/>
+	</property>
+	<property name="DescriptionKey" value="apparelNerdGlassesDesc"/>
+	<property name="EconomicValue" value="1"/>                              
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>                                 
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.99"/>                   
+		<passive_effect name="LootGamestage" operation="base_add" value="700"/>          
+		<passive_effect name="ScavengingTime" operation="perc_subtract" value="1"/>  	
+		<display_value name="dCraftingTime" value="-.99"/>
+	</effect_group>
+</item>
+
+
+</append>
+
+</configs>

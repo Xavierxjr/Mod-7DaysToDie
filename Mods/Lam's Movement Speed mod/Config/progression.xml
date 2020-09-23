@@ -1,0 +1,29 @@
+<config>	
+	<append xpath="/progression/perks">
+
+<perk name="Run forest run" parent="LamsBonus" name_key="Run Forest run" desc_key="Train your body into moving faster.\nRun forest run. " icon="ui_game_symbol_runforest">
+
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="2" desc_key="Agility lvl 2"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="4" desc_key="Agility lvl 4"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="6" desc_key="Agility lvl 6"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="8" desc_key="Agility lvl 8"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="Agility lvl 10"/></level_requirements>
+
+	<effect_group>
+			<effect_description level="1"  desc_base="Hiker" long_desc_key="Increases movement speed by 10% while :\nCrouching \nWalking \nRunning"/>
+			<effect_description level="2"  desc_base="Jogger" long_desc_key="Increases movement speed by 15% while :\nCrouching \nWalking \nRunning"/>
+			<effect_description level="3"  desc_base="Running Man" long_desc_key="Increases movement speed by 20% while :\nCrouching \nWalking \nRunning"/>
+			<effect_description level="4"  desc_base="Marathon Man" long_desc_key="Increases movement speed by 25% while :\nCrouching \nWalking \nRunning"/>
+			<effect_description level="5"  desc_base="triathlete" long_desc_key="Increases movement speed by 30% while :\nCrouching \nWalking \nRunning"/>
+		
+<!--		<passive_effect name="SwimSpeed" operation="perc_add" value="0.1,0.3" level="1,5"/>	not working atm -->
+			<passive_effect name="CrouchSpeed" operation="perc_add" value="0.1,0.35" level="1,5"/>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.1,0.35" level="1,5"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="0.1,0.5" level="1,5"/>
+	</effect_group>
+	
+</perk>
+
+</append>
+	
+</config>

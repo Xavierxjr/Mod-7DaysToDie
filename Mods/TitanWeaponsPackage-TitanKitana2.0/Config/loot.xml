@@ -1,0 +1,54 @@
+<configs>
+
+<!--Schematic Loot-->
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT2']">
+		<item name="TitanKitanaSchematic" prob="0.85"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='perkBooks']">
+		<item name="TitanKitanaSchematic" prob="0.85"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='shamwaySafe']">
+		<item name="TitanKitanaSchematic" prob="0.85"/>
+		<item name="TitanKitana" quality="6" prob="0.01"/>	
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='workingStiffsBox']">	
+			<item name="TitanKitanaSchematic" prob="0.8"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='workingStiffsSub']">
+			<item name="TitanKitanaSchematic" prob="0.8"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorRare']">
+			<item name="TitanKitanaSchematic" prob="0.8"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupSafeLoot']">
+			<item name="TitanKitana" quality="2,3" prob="0.002"/>		
+	</append>
+<!--Weapon Loot-->
+
+	<append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']">	
+			<item name="TitanKitanaSchematic" prob="0.8"/>
+			<item name="TitanKitana" quality="2,3" prob="0.002"/>		
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='electricalDevices']">
+		<item name="TitanKitana" count="1" quality="6" prob="0.0002"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsAllScaled']">
+			<item name="TitanKitana" quality="2,3" prob="0.002"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
+			<item name="TitanKitana" quality="2,3" prob="0.002"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsMeleeScaledTPlus']">
+			<item name="TitanKitana" quality="2,3" prob="0.002" loot_prob_template="ProbT3"/>
+	</append>
+
+
+
+
+	
+</configs>

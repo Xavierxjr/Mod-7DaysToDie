@@ -1,0 +1,84 @@
+<configs>
+    <!-- Up from 4 to 6 -->
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='122']" name="value">160</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='112']" name="value">140</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='104']" name="value">125</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='90']" name="value">115</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='64']" name="value">80</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='53']" name="value">70</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='50']" name="value">65</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='46']" name="value">55</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='45']" name="value">55</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='42']" name="value">50</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='36']" name="value">45</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='31']" name="value">40</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='22']" name="value">35</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='20']" name="value">30</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='15']" name="value">22</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='12']" name="value">20</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='10']" name="value">18</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='8']" name="value">12</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='5']" name="value">8</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='4']" name="value">6</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='3']" name="value">5</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='2']" name="value">4</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='$foodAmountAdd' and @value='1']" name="value">3</setattribute>
+
+
+    <!-- Templates 
+    <setattribute xpath="/items/item[@name='XXXX' or @name='XXXX' or @name='XXXX']/effect_group/triggered_effect[@cvar='$foodHealthAmount']" name="value">20</setattribute>
+    
+    <setattribute xpath="//triggered_effect[@cvar='XXXX' and @value='ZZ']" name="value">QQQQ</setattribute>
+    -->
+          
+    <setattribute xpath="//triggered_effect[@cvar='.foodStaminaBonusAdd' and @value='40']" name="value">55</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='.foodStaminaBonusAdd' and @value='30']" name="value">40</setattribute>    
+    <setattribute xpath="//triggered_effect[@cvar='.foodStaminaBonusAdd' and @value='20']" name="value">30</setattribute>    
+    <setattribute xpath="//triggered_effect[@cvar='.foodStaminaBonusAdd' and @value='10']" name="value">15</setattribute>    
+<!--     <setattribute xpath="//triggered_effect[@cvar='.foodStaminaBonusAdd' and @value='-1']" name="value">0</setattribute> -->
+    
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='80']" name="value">100</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='61']" name="value">80</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='56']" name="value">70</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='45']" name="value">60</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='42']" name="value">55</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='40']" name="value">50</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='32']" name="value">45</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='30']" name="value">40</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='25']" name="value">35</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='22']" name="value">30</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='21']" name="value">30</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='18']" name="value">30</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='15']" name="value">20</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='10']" name="value">12</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='7']" name="value">10</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='6']" name="value">10</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='5']" name="value">8</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='2']" name="value">5</setattribute>
+    <setattribute xpath="//triggered_effect[@cvar='foodHealthAmount' and @value='1']" name="value">5</setattribute>
+
+    <setattribute xpath="//triggered_effect[@stat='Health' and @value='-2']" name="value">-1</setattribute>
+    <setattribute xpath="//display_value[@name='foodHealthAmount' and @value='-2']" name="value">-1</setattribute>
+    
+    <setattribute xpath="//triggered_effect[@stat='Health' and @value='-3']" name="value">-2</setattribute>
+    <setattribute xpath="//display_value[@name='foodHealthAmount' and @value='-3']" name="value">-2</setattribute>
+
+    <setattribute xpath="//triggered_effect[@stat='Health' and @value='-5']" name="value">-3</setattribute>
+    <setattribute xpath="//display_value[@name='foodHealthAmount' and @value='-5']" name="value">-3</setattribute>
+
+    
+    <!--
+    Attributes for Health:
+    cvar: medRegHealthIncSpeed
+    cvar: foodHealthAmount
+    dInstantHealth
+    dHealthLoss
+    dMaxHealthBonus
+    stat: Health
+    
+    Attributes for Stamina
+    .foodStaminaBonusAdd
+    
+    -->
+    
+</configs>

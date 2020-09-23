@@ -1,0 +1,223 @@
+<configs>
+	<append xpath="/entity_classes">	
+     	<!-- ###### AC'S VEHICLE#1 ###### -->
+		<entity_class name="AC'SVEHICLE#1">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#1.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#1_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#1_Ui" />
+		</entity_class>
+
+		<!-- ###### AC'S VEHICLE#2 ###### -->
+		<entity_class name="AC'SVEHICLE#2">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#2.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#2_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#2_Ui" />
+		</entity_class>
+		
+		<!-- ###### AC'S VEHICLE#3 ###### -->			
+        <entity_class name="AC'SVEHICLE#3">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#3.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#3_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#3_Ui" />
+		</entity_class>
+
+		<!-- ###### AC'S VEHICLE#4 ###### -->
+		<entity_class name="AC'SVEHICLE#4">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#4.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#4_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#4_Ui" />
+		</entity_class>
+		
+		<!-- ###### AC'S VEHICLE#5 ###### -->
+		<entity_class name="AC'SVEHICLE#5">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#5.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#5_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#5_Ui" />
+		</entity_class>
+		
+		<!-- ###### AC'S VEHICLE#6 ###### -->
+		<entity_class name="AC'SVEHICLE#6">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#6.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#6_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#6_Ui" />
+		</entity_class>
+		
+		<!-- ###### AC'S VEHICLE#7 ###### -->
+		<entity_class name="AC'SVEHICLE#7">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#7.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#7_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#7_Ui" />
+		</entity_class>
+		
+		<!-- ###### AC'S VEHICLE#8 ###### -->
+		<entity_class name="AC'SVEHICLE#8">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#8.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#8_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#8_Ui" />
+		</entity_class>
+		
+		<!-- ###### AC'S VEHICLE#9 ###### -->
+		<entity_class name="AC'SVEHICLE#9">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#9.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#9_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#9_Ui" />
+		</entity_class>
+		
+		<!-- ###### AC'S VEHICLE#10 ###### -->
+		<entity_class name="AC'SVEHICLE#10">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AC'sAssetWorld#1.unity3d?AC'sVehicle#10.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="AC'sVehicle#10_Ui"/>
+			<property name="NavObject" value="AC'sVehicle#10_Ui" />
+		</entity_class>
+	</append>
+</configs>

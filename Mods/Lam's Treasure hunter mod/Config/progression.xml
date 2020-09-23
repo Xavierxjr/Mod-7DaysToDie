@@ -1,0 +1,28 @@
+<configs>
+
+<remove xpath="/progression/perks/perk[@name='perkTreasureHunter']" />
+
+<append xpath="/progression/perks">
+
+	<perk name="perkTreasureHunter" max_level="5" parent="skillPerceptionScavenging" name_key="perkTreasureHunterName" desc_key="perkTreasureHunterDesc" icon="ui_game_symbol_treasure">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+
+		<effect_group>	
+			<passive_effect name="TreasureBlocksPerReduction" operation="base_add" level="0,1,2,3,4,5" value="0,10,20,30,40,50"/><!-- base value in quests is 10 -->
+			<passive_effect name="LootQuantity" operation="perc_add" level="1,2,3,4,5" value=".5,2.5" tags="buriedTreasure"/>
+
+			<effect_description level="1" desc_base="Plunderer" long_desc_key="For every 20 blocks dug up \nthe treasure search radius is reduced by 1m.\nFind 50% more items in buried treasure."/>
+			<effect_description level="2" desc_base="Marauder" long_desc_key="For every 30 blocks dug up \nthe treasure search radius is reduced by 1m.\nFind 100% more items in buried treasure."/>
+			<effect_description level="3" desc_base="Salvage Hunter" long_desc_key="For every 40 blocks dug up \nthe treasure search radius is reduced by 1m.\nFind 150% more items in buried treasure."/>
+			<effect_description level="4" desc_base="Treasure Hunter" long_desc_key="For every 50 blocks dug up \nthe treasure search radius is reduced by 1m.\nFind 200% more items in buried treasure."/>
+			<effect_description level="5" desc_base="Indiana jones" long_desc_key="For every 60 blocks dug up \nthe treasure search radius is reduced by 1m.\nFind 250% more items in buried treasure."/>
+		</effect_group>
+	</perk>
+
+</append>	
+
+</configs>

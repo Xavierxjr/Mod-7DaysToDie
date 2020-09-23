@@ -1,0 +1,3 @@
+Key,English
+AK47Chimera,"[FFFF00]AK-47 Chimera[-]"
+AK47ChimeraDesc,"AK-47 Chimera multi-effect weapon.\n\nFire Damage\nElectric Damage\nCripple\nKnockdown\nRadiation Removal"
