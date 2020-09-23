@@ -1,0 +1,84 @@
+<configs>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']">
+	<item name="BigIronSword" prob=".5"/>
+	<item name="BrokenBottle" prob=".8"/>
+	<item name="WoodSpear" prob=".8"/>
+	<item name="Fruitchopper" prob=".5"/>
+	<item name="SolarStone" prob=".5"/>
+	<item name="Elegy" prob=".5"/>
+	<item name="BlackStoneSword" prob=".7"/>	
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']">
+	<item name="TheLastSamurai" prob=".5"/>
+	<item name="BlackStoneSword" prob=".5"/>
+	<item name="Shadow" prob=".5"/>
+	<item name="HolyStar" prob=".5"/>
+	<item name="SENZAKI" prob=".5"/>
+	<item name="Bloodlust" prob=".5"/>
+	<item name="Farseer" prob=".5"/>
+	<item name="Naglfar" prob=".3"/>
+	<item name="Tower" prob=".4"/>	
+	<item name="17Rebirth" prob=".3"/>
+	<item name="17MB" prob=".4"/>
+	<item name="17GreenM" prob=".4"/>
+	<item name="17Bat" prob=".3"/>			
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
+	<item name="Darkrise" prob=".5"/>
+	<item name="BleedingSword" prob=".5"/>
+	<item name="Funerals" prob=".5"/>
+	<item name="AncientDestroyer" prob=".5"/>
+	<item name="Crowbar" prob=".5"/>
+	<item name="Longinus" prob=".2"/>
+	<item name="Ironfox" prob=".3"/>
+	<item name="GoldenDarkness" prob=".3"/>
+	<item name="Magikarp" prob=".2"/>
+	<item name="Naglfar" prob=".35"/>
+	<item name="Crucible" prob=".1"/>
+	<item name="Tower" prob=".3"/>	
+	<item name="17GreenM" prob=".1"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT1']">
+	<item name="BigIronSword" prob=".6"/>
+	<item name="BrokenBottle" prob=".6"/>
+	<item name="WoodSpear" prob=".8"/>
+	<item name="Fruitchopper" prob=".6"/>
+	<item name="SolarStone" prob=".5"/>
+	<item name="Elegy" prob=".5"/>
+	<item name="TheLastSamurai" prob=".6"/>
+	<item name="BlackStoneSword" prob=".65"/>
+	<item name="Shadow" prob=".6"/>
+	<item name="HolyStar" prob=".6"/>
+	<item name="SENZAKI" prob=".6"/>
+	<item name="Bloodlust" prob=".6"/>
+	<item name="Farseer" prob=".6"/>
+	<item name="Naglfar" prob=".15"/>	
+	<item name="17Rebirth" prob=".2"/>
+	<item name="17MB" prob=".2"/>
+	<item name="17GreenM" prob=".3"/>
+	<item name="17Bat" prob=".2"/>			
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
+	<item name="Darkrise" prob=".6"/>
+	<item name="BleedingSword" prob=".6"/>
+	<item name="Funerals" prob=".6"/>
+	<item name="AncientDestroyer" prob=".6"/>
+	<item name="Crowbar" prob=".6"/>
+	<item name="Longinus" prob=".3"/>
+	<item name="Ironfox" prob=".4"/>
+	<item name="GoldenDarkness" prob=".4"/>
+	<item name="Magikarp" prob=".3"/>
+	<item name="Naglfar" prob=".4"/>
+	<item name="Crucible" prob=".2"/>
+	<item name="Tower" prob=".4"/>	
+	<item name="17Rebirth" prob=".3"/>
+	<item name="17MB" prob=".5"/>
+	<item name="17GreenM" prob=".5"/>
+	<item name="17Bat" prob=".45"/>		
+</append>
+
+</configs>

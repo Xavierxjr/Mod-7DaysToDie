@@ -1,0 +1,32 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="BigIronSword" count="1" craft_time="6" tags="perkDeepCuts">
+	<ingredient name="resourceForgedIron" count="12"/>
+	<ingredient name="resourceWood" count="4"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+</recipe>
+<recipe name="Crowbar" count="1" craft_area="workbench" craft_time="6" tags="workbenchCrafting,perkPummelPete">
+	<ingredient name="resourceForgedSteel" count="88"/>
+	<ingredient name="resourceWood" count="4"/>
+	<ingredient name="resourceLeather" count="3"/>
+</recipe>
+<recipe name="WoodSpear" count="1" tags="perkJavelinMaster">
+	<ingredient name="resourceWood" count="5"/>
+	<ingredient name="resourceYuccaFibers" count="2"/>
+</recipe>
+<recipe name="Magikarp" count="1" craft_area="workbench" craft_time="60" tags="workbenchCrafting,perkSkullCrusher">
+	<ingredient name="resourceForgedSteel" count="300"/>
+	<ingredient name="resourceSilverNugget" count="20"/>
+	<ingredient name="oldCash" count="1200"/>
+</recipe>
+<recipe name="Longinus" count="1" craft_area="workbench" craft_time="60" tags="workbenchCrafting,perkJavelinMaster">
+	<ingredient name="resourceForgedSteel" count="420"/>
+	<ingredient name="resourceBone" count="990"/>
+	<ingredient name="resourceTestosteroneExtract" count="200"/>
+	<ingredient name="resourceRawDiamond" count="8"/>	
+</recipe>
+
+</append>
+</configs>
